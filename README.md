@@ -5,7 +5,7 @@
 ## requisites
 * xcompmgr (for transparency)
 * scrot (for printscreen)
-*rofi (for a good menu)
+ *rofi (for a good menu)
 ---
 ## Useful infos
  * Print screen in ~/pictures/screenshots
