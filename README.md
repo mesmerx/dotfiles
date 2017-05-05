@@ -7,7 +7,7 @@
  * scrot (for printscreen)
  * rofi (for a good menu)
  * alsa-utils (for amixer)
- * python-mpd2 (for song control)
+ * python-mpd (for song control)
  * python-iwlib(for wlan)
  * python-keyring (for passwords)
  * khal (for calendar)
