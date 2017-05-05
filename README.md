@@ -6,6 +6,7 @@
  * xcompmgr (for transparency)
  * scrot (for printscreen)
  * rofi (for a good menu)
+ * python-iwlib(for wlan)
 ---
 ## Useful infos
  * Print screen in ~/pictures/screenshots
