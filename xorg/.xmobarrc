@@ -1,0 +1,55 @@
+Config {
+     font =         "xft:Bitstream Vera Sans Mono:size=9:bold:antialias=true"
+   , bgColor =      "black"
+   , fgColor =      "#646464"
+   , position =     Top
+   , border =       BottomB
+   , borderColor =  "#646464"
+
+   , sepChar =  "%"   
+   , alignSep = "}{"  
+   , template = "%StdinReader% | %battery% |%wlp6s0wi% %dynnetwork%  }{  %date%        "
+   , lowerOnStart =     True    
+   , hideOnStart =      False   
+   , allDesktops =      True    
+   , overrideRedirect = True    
+   , pickBroadest =     False   
+   , persistent =       True    
+
+   , commands = [ 
+        Run DynNetwork     [ "--template" , "<dev>: <rx>kB/s <rxbar> <rxvbar> <rxipat>|<tx>kB/s <txbar> <txvbar> <txipat>"
+                             , "--Low"      , "100000"       
+                             , "--High"     , "5000000"       
+                             , "--low"      , "darkgreen"
+                             , "--normal"   , "darkorange"
+                             , "--high"     , "darkred"
+                             ] 10
+        , Run StdinReader
+        , Run Wireless  "wlp6s0"    [ "--template", "ESSID: <essid> <quality> <qualitybar> <qualityvbar> <qualityipat>"
+                                    , "-L", "25"
+                                    , "-H", "50"
+                                    , "-l", "red"
+                                    , "-n", "yellow"
+                                    , "-h", "green"
+                                    ] 10
+                             
+        , Run Battery        [ "--template" , "Batt: <acstatus>"
+                             , "--Low"      , "10"        
+                             , "--High"     , "80"        
+                             , "--low"      , "darkred"
+                             , "--normal"   , "darkorange"
+                             , "--high"     , "darkgreen"
+
+                             , "--" 
+                                       
+                                       , "-o"	, "<left>% (<timeleft>)"
+                                       
+                                       , "-O"	, "<fc=#dAA520>Charging</fc>"
+                                       
+                                       , "-i"	, "<fc=#006000>Charged</fc>"
+                             ] 50
+
+        , Run Date           "<fc=#ABABAB>%F (%a) %T</fc>" "date" 10
+
+        ]
+   }

@@ -63,11 +63,12 @@ keys = [
     Key([mod, "control"], "space", lazy.prev_layout()),
     #b some com a barra de cima e de baixo
     Key([mod], "b", lazy.hide_show_bar("top")),
-    Key([mod], "b", lazy.hide_show_bar("bottom")),
+    Key([mod,"control"], "b", lazy.hide_show_bar("bottom")),
 
     #comandos
     Key([mod], "Return", lazy.spawn("terminator")),
     Key([mod], "f", lazy.spawn("firefox")),
+    Key([mod], "n", lazy.spawn("qutebrowser --backend webengine")),
     
     
     Key([mod], "Print", lazy.spawn("scrot -e 'mv $f ~/pictures/screenshots/'")),
@@ -93,7 +94,7 @@ for i in groups:
     )
 
 layouts = [
-    layout.MonadTall(),
+    layout.MonadTall(border_width=1,single_border_width=1),
     layout.Max(),
     layout.Columns(),
     layout.VerticalTile(),
@@ -110,18 +111,17 @@ widget_defaults = dict(
 screens = [
     Screen(
         top=bar.Bar(
-            [
+            [   
                 widget.CurrentLayout(),
                 widget.Sep(),
                 widget.WindowName(),
                 widget.Sep(),
                 widget.Wlan(interface="wlp6s0"),
                 widget.Sep(),
-                widget.CheckUpdates(),
+                widget.Notify(),
                 widget.Sep(),
                 widget.Battery(format="battery: {char} {percent:2.0%} {hour:d}:{min:02d}"),
 
-                widget.Volume(),
                 widget.Sep(),
                 widget.Systray(),
                 widget.Sep(),
@@ -134,7 +134,7 @@ screens = [
                 widget.GroupBox(),
                 widget.Sep(),
                 widget.CPUGraph(),
-                widget.Memory(),
+                widget.Memory(update_interval=10),
                 widget.MemoryGraph(),
                 widget.Sep(),
                 widget.Backlight(backlight_name="intel_backlight",format="bright: {percent:2.0%}"),

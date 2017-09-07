@@ -1,0 +1,46 @@
+Config { 
+
+     font =         "xft:Bitstream Vera Sans Mono:size=9:bold:antialias=true"
+   , bgColor =      "black"
+   , fgColor =      "#646464"
+   , position =     Bottom
+   , border =       BottomB
+   , borderColor =  "#646464"
+
+   , sepChar =  "%"   
+   , alignSep = "}{"  
+   , template = "%memory% %multicpu% %topmem%  }{  "
+   , lowerOnStart =     True    
+   , hideOnStart =      False   
+   , allDesktops =      True    
+   , overrideRedirect = True    
+   , pickBroadest =     False   
+   , persistent =       True    
+
+   , commands = [ 
+        Run TopMem        [ "--template", "top1:<both1> top2:<both2>"
+                            , "--Low"      , "200"         
+                             , "--High"     , "1000"         
+                             , "--low"      , "darkgreen"
+                             , "--normal"   , "darkorange"
+                             , "--high"     , "darkred"
+                                   ] 10
+                             
+        , Run MultiCpu       [ "--template" , "Cpu:[<total0>% <total1>% <total2>% <total3>%]"
+                             , "--Low"      , "50"         
+                             , "--High"     , "85"         
+                             , "--low"      , "darkgreen"
+                             , "--normal"   , "darkorange"
+                             , "--high"     , "darkred"
+                             ] 10
+
+        , Run Memory         [ "--template" , "Mem [free:<free>MB <freeratio>% <freebar><freevbar><freeipat> buffer:<buffer>MB cache:<cache>MB avaliable:<available>MB <availableratio>% <availablebar><availablevbar><availableipat> used: <used>MB ratio: <usedratio>% <usedbar><usedvbar><usedipat>]"
+                             , "--Low"      , "200"        
+                             , "--High"     , "2000"        
+                             , "--low"      , "darkgreen"
+                             , "--normal"   , "darkorange"
+                             , "--high"     , "darkred"
+                             ] 10
+
+   ]
+   }

@@ -11,266 +11,276 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/w
+~MSle0~/questio
 
 # Last Substitute Search Pattern:
-~MSle0&'{
+~MSle0&cv\.
 
 # Last Substitute String:
-$':{
+$cv2\.
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1498625410,,"q"
 :w
-|2,0,1498339315,,"w"
-:488
-|2,0,1496192243,,"488"
-:W
-|2,0,1496192082,,"W"
-:48
-|2,0,1496191738,,"48"
-:49
-|2,0,1496191716,,"49"
-::
-|2,0,1496191470,,":"
-:<li
-|2,0,1496188107,,"<li"
-:1271
-|2,0,1496188047,,"1271"
-:821
-|2,0,1496188028,,"821"
-:721
-|2,0,1496187463,,"721"
-:81
-|2,0,1496187274,,"81"
-:w ~/sort.py
-|2,0,1496187187,,"w ~/sort.py"
-:buffer 1
-|2,0,1495587137,,"buffer 1"
-:buffer 4
-|2,0,1495587105,,"buffer 4"
-:e ~/.vimrc
-|2,0,1495587088,,"e ~/.vimrc"
-:w questoes6.tex
-|2,0,1495522275,,"w questoes6.tex"
-:w questoes.tex
-|2,0,1495522270,,"w questoes.tex"
-::w
-|2,0,1495517609,,":w"
-:buffer 2
-|2,0,1495514892,,"buffer 2"
+|2,0,1504551173,,"w"
 :buffer 3
-|2,0,1495514781,,"buffer 3"
-:e header.tex
-|2,0,1495514385,,"e header.tex"
-:!pdflatex prova.tex
-|2,0,1495514358,,"!pdflatex prova.tex"
+|2,0,1504550914,,"buffer 3"
+:buffer 1
+|2,0,1504550745,,"buffer 1"
+:e gaussian.txt
+|2,0,1504548864,,"e gaussian.txt"
+:q
+|2,0,1504060950,,"q"
+:w questoes5.tex
+|2,0,1504060947,,"w questoes5.tex"
+:e questoes6.tex 
+|2,0,1504060937,,"e questoes6.tex "
+:buffer 5
+|2,0,1504060926,,"buffer 5"
+:e questoes5.tex
+|2,0,1504060902,,"e questoes5.tex"
+:e questoes6.tex
+|2,0,1504060892,,"e questoes6.tex"
+:w ~/gsg.f90
+|2,0,1503946032,,"w ~/gsg.f90"
+:e questoes8.tex
+|2,0,1503877353,,"e questoes8.tex"
 :e prova.tex
-|2,0,1495514304,,"e prova.tex"
-:w colegio/header.tex
-|2,0,1495514141,,"w colegio/header.tex"
+|2,0,1503877295,,"e prova.tex"
+:buffer 2
+|2,0,1502858303,,"buffer 2"
 :i
-|2,0,1495510706,,"i"
-:2
-|2,0,1495509898,,"2"
-:b test.tex
-|2,0,1495509359,,"b test.tex"
-:set spell spelllang=pt
-|2,0,1495509334,,"set spell spelllang=pt"
-:set spell spelllang=pt-br
-|2,0,1495509294,,"set spell spelllang=pt-br"
-:set spell spelllang=pt-BR
-|2,0,1495508987,,"set spell spelllang=pt-BR"
-:mkspell pt-BR lista_de_palavras.txt
-|2,0,1495508925,,"mkspell pt-BR lista_de_palavras.txt"
-:mkspell pt_BR lista_de_palavras.txt
-|2,0,1495508873,,"mkspell pt_BR lista_de_palavras.txt"
-:mkspell pt pt_BR
-|2,0,1495508798,,"mkspell pt pt_BR"
-:set spelllang=pt-BR
-|2,0,1495508587,,"set spelllang=pt-BR"
-::set spelllang=pt-BR
-|2,0,1495508582,,":set spelllang=pt-BR"
+|2,0,1502857934,,"i"
+:buffer <F12>
+|2,0,1502857678,,"buffer <F12>"
+:w questoesb.tex
+|2,0,1502857612,,"w questoesb.tex"
+:e 
+|2,0,1502857545,,"e "
+:e header.tex
+|2,0,1502856780,,"e header.tex"
+:e questoes7.tex
+|2,0,1502856168,,"e questoes7.tex"
+:e color2.py
+|2,0,1502299310,,"e color2.py"
+:%s/cv\./cv2\./g
+|2,0,1502299210,,"%s/cv\\./cv2\\./g"
+:%s/cv./cv2./g
+|2,0,1502299192,,"%s/cv./cv2./g"
+:ii
+|2,0,1502250336,,"ii"
+:38
+|2,0,1502055706,,"38"
+:buffer 7
+|2,0,1501683252,,"buffer 7"
+:e headerdep.tex
+|2,0,1501683221,,"e headerdep.tex"
+:w headerdep.tex
+|2,0,1501683140,,"w headerdep.tex"
+:W
+|2,0,1501682453,,"W"
+:buffer <F12>2
+|2,0,1501680002,,"buffer <F12>2"
+:SyntasticInfo
+|2,0,1501678864,,"SyntasticInfo"
+:sys
+|2,0,1501678858,,"sys"
+::
+|2,0,1500850004,,":"
+:w PKGBUILD2
+|2,0,1500846930,,"w PKGBUILD2"
+:165
+|2,0,1500846038,,"165"
+:a
+|2,0,1500845904,,"a"
+:145
+|2,0,1500845507,,"145"
+:141
+|2,0,1500845502,,"141"
 :e
-|2,0,1495508539,,"e"
-:w /home/mesmer/test.tx
-|2,0,1495501743,,"w /home/mesmer/test.tx"
-:w pos2.txt
-|2,0,1495252967,,"w pos2.txt"
-:e test3.py
-|2,0,1495167503,,"e test3.py"
-:61
-|2,0,1495154342,,"61"
-:e basic-motion-detection//basic-motion-detection//motion_detector.py
-|2,0,1495154336,,"e basic-motion-detection//basic-motion-detection//motion_detector.py"
-:e test2.py
-|2,0,1495146420,,"e test2.py"
-:i:
-|2,0,1495113748,,"i:"
-:%s/'{/':{/g
-|2,0,1495113429,,"%s/'{/':{/g"
-:%s/'{/':/g
-|2,0,1495113393,,"%s/'{/':/g"
-:13
-|2,0,1495111317,,"13"
-:vsplit package.json
-|2,0,1494987940,,"vsplit package.json"
-:vsplit deezer-desktop-linux.sh
-|2,0,1494984958,,"vsplit deezer-desktop-linux.sh"
-:w ../deezer-desktop-linux-git/PKGBUILD
-|2,0,1494970056,,"w ../deezer-desktop-linux-git/PKGBUILD"
+|2,0,1500610169,,"e"
+::w
+|2,0,1500528396,,":w"
+:w[
+|2,0,1500528053,,"w["
+:e velhamaster.py
+|2,0,1500523766,,"e velhamaster.py"
+:%s/board/velhag/g
+|2,0,1500493936,,"%s/board/velhag/g"
+:e ~/Downloads/environment.py
+|2,0,1500493615,,"e ~/Downloads/environment.py"
+:e ~/.vimrc
+|2,0,1500438752,,"e ~/.vimrc"
+:VimtexTocToggle
+|2,0,1500438346,,"VimtexTocToggle"
+:PluginClean
+|2,0,1500437571,,"PluginClean"
+:PluginUpdate
+|2,0,1500437523,,"PluginUpdate"
+::py3 import sys; print(sys.version)
+|2,0,1500436991,,":py3 import sys; print(sys.version)"
+:lv
+|2,0,1500436566,,"lv"
 
 # Search String History (newest to oldest):
+?/questio
+|2,1,1503877661,47,"questio"
+?/engine
+|2,1,1503029981,47,"engine"
+?/web
+|2,1,1503029956,47,"web"
+?/browse
+|2,1,1503029733,47,"browse"
+?/qut
+|2,1,1503029730,47,"qut"
 ??w
-|2,1,1498026399,63,"w"
-?/\<br
-|2,1,1496192315,47,"\\<br"
-?/<br
-|2,1,1496192310,47,"<br"
-?/<li
-|2,1,1496192114,47,"<li"
-?/open
-|2,1,1496191966,47,"open"
-?/hold d
-|2,1,1496191742,47,"hold d"
-?/all_
-|2,1,1496189004,47,"all_"
-?/alls
-|2,1,1496189000,47,"alls"
-?/li
-|2,1,1496188111,47,"li"
-?/1271
-|2,1,1496188041,47,"1271"
-?/name
-|2,1,1496187624,47,"name"
-?/opend
-|2,1,1495830156,47,"opend"
-?/mini
-|2,1,1495829451,47,"mini"
-?/api
-|2,1,1495826224,47,"api"
-?/log
-|2,1,1495822669,47,"log"
-?/for
-|2,1,1495822515,47,"for"
-?/python
-|2,1,1495822505,47,"python"
-?/req
-|2,1,1495802677,47,"req"
-?/reque
-|2,1,1495802674,47,"reque"
-?/ke
-|2,1,1495802671,47,"ke"
-?/$
-|2,1,1495599043,47,"$"
-?/ques
-|2,1,1495515338,47,"ques"
-?/i
-|2,1,1495512575,47,"i"
+|2,1,1502856652,63,"w"
+?/r
+|2,1,1502856620,47,"r"
+?/racionai
+|2,1,1502856605,47,"racionai"
+?/avc:
+|2,1,1502429074,47,"avc:"
+?/sysc
+|2,1,1502429050,47,"sysc"
+?/99sw
+|2,1,1502429033,47,"99sw"
+?/99
+|2,1,1502429030,47,"99"
+?/init.d
+|2,1,1502429024,47,"init.d"
+?/type
+|2,1,1502381723,47,"type"
+? \<for\>
+|2,1,1502381391,,"\\<for\\>"
+? \<if\>
+|2,1,1502317703,,"\\<if\\>"
+? \<break\>
+|2,1,1502306864,,"\\<break\\>"
+? cv\.
+|2,1,1502299210,,"cv\\."
+? cv.
+|2,1,1502299192,,"cv."
+? \<cap\>
+|2,1,1502255732,,"\\<cap\\>"
+? \<img\>
+|2,1,1502252263,,"\\<img\\>"
 ? ^
-|2,1,1495509328,,"^"
-?/plus
-|2,1,1495504524,47,"plus"
-? '{
-|2,1,1495113429,,"'{"
-?/draw
-|2,1,1495050271,47,"draw"
-?/method
-|2,1,1495048116,47,"method"
-?/arch
-|2,1,1494988764,47,"arch"
-?/save
-|2,1,1494984908,47,"save"
-?/tar
-|2,1,1494984811,47,"tar"
-?/deezer-des
-|2,1,1494984518,47,"deezer-des"
-?/version
-|2,1,1494981485,47,"version"
-?/expec
-|2,1,1494972384,47,"expec"
-?/abi
-|2,1,1494972382,47,"abi"
-?/50
-|2,1,1494972375,47,"50"
-?/gvim
-|2,1,1494386804,47,"gvim"
-?/status
-|2,1,1494303330,47,"status"
-?/png
-|2,1,1494303205,47,"png"
-?/mp4
-|2,1,1494302449,47,"mp4"
-?//
-|2,1,1494302373,47,"/"
-?/filety
-|2,1,1494302363,47,"filety"
-?/indices2
-|2,1,1493008266,47,"indices2"
-?/ev
-|2,1,1493007880,47,"ev"
-?/sig
-|2,1,1493007878,47,"sig"
-? 1000
-|2,1,1493007043,,"1000"
-?/print
-|2,1,1492372393,47,"print"
-?/fore
-|2,1,1492192269,47,"fore"
-?/default
-|2,1,1492102195,47,"default"
-??q
-|2,1,1492058266,63,"q"
+|2,1,1501679904,,"^"
+? \<a\>
+|2,1,1501010404,,"\\<a\\>"
+?/sza
+|2,1,1500856175,47,"sza"
+? \<self\>
+|2,1,1500851959,,"\\<self\\>"
+?/base
+|2,1,1500845293,47,"base"
+?/vimrc
+|2,1,1500843930,47,"vimrc"
+?/doc
+|2,1,1500843859,47,"doc"
+?/stre
+|2,1,1500606038,47,"stre"
+?/winin
+|2,1,1500600067,47,"winin"
+?/win
+|2,1,1500600062,47,"win"
+? board
+|2,1,1500493936,,"board"
+?/zathura
+|2,1,1500437961,47,"zathura"
+?/lv:q
+|2,1,1500435829,47,"lv:q"
+?/grep
+|2,1,1500428303,47,"grep"
+?/vimgrep
+|2,1,1500428301,47,"vimgrep"
+?/f9
+|2,1,1500428297,47,"f9"
+?/ignore
+|2,1,1500427290,47,"ignore"
+?/f10
+|2,1,1500426054,47,"f10"
+?/f5
+|2,1,1500423047,47,"f5"
+?/syntax on
+|2,1,1500422492,47,"syntax on"
+?/plugin
+|2,1,1500422470,47,"plugin"
+?/indent on
+|2,1,1500422455,47,"indent on"
+?/latex
+|2,1,1500422431,47,"latex"
+?/mini
+|2,1,1499995104,47,"mini"
+?/abcd
+|2,1,1499540178,47,"abcd"
+?/klm
+|2,1,1499539881,47,"klm"
+?/mod
+|2,1,1499539708,47,"mod"
+?/f
+|2,1,1499539701,47,"f"
+?/{
+|2,1,1499539656,47,"{"
 
 # Expression History (newest to oldest):
 
 # Input Line History (newest to oldest):
+@1
+|2,3,1500436489,,"1"
+@2
+|2,3,1500435938,,"2"
+@y
+|2,3,1500435905,,"y"
+@algebra.tex
+|2,3,1500435901,,"algebra.tex"
+@m
+|2,3,1500425465,,"m"
 @<F7><F7>
 |2,3,1495509031,,"<F7><F7>"
 
 # Debug Line History (newest to oldest):
 
 # Registers:
-""0	LINE	0
-	# Maintainer: Emmanuel Gil Peyrot <linkmauve@linkmauve.fr>
-|3,1,0,1,1,0,1498027889,"# Maintainer: Emmanuel Gil Peyrot <linkmauve@linkmauve.fr>"
-"1	LINE	0
-	         'SKIP'
-|3,0,1,1,1,0,1498027642,"         'SKIP'"
+"0	CHAR	0
+	((z- eo)*
+|3,0,0,0,1,0,1503945800,"((z- eo)*"
+""1	LINE	0
+	cv2.waitKey(0)
+|3,1,1,1,1,0,1504552641,"cv2.waitKey(0)"
 "2	LINE	0
-	         'SKIP'
-|3,0,2,1,1,0,1498027642,"         'SKIP'"
+	cv2.imshow("Image", image)
+|3,0,2,1,1,0,1504552640,"cv2.imshow(\"Image\", image)"
 "3	LINE	0
-	         'SKIP'
-|3,0,3,1,1,0,1498027641,"         'SKIP'"
+	# display the output image
+|3,0,3,1,1,0,1504552640,"# display the output image"
 "4	LINE	0
-	         'SKIP'
-|3,0,4,1,1,0,1498027641,"         'SKIP'"
+	
+|3,0,4,1,1,0,1504552639,""
 "5	LINE	0
-	         'SKIP'
-|3,0,5,1,1,0,1498027640,"         'SKIP'"
+			classes[idx], preds[0][idx]))
+|3,0,5,1,1,0,1504552639,"		classes[idx], preds[0][idx]))"
 "6	LINE	0
-	         'SKIP'
-|3,0,6,1,1,0,1498027640,"         'SKIP'"
+		print("[INFO] {}. label: {}, probability: {:.5}".format(i + 1,
+|3,0,6,1,1,0,1504552638,"	print(\"[INFO] {}. label: {}, probability: {:.5}\".format(i + 1,"
 "7	LINE	0
-	         'SKIP'
-|3,0,7,1,1,0,1498027640,"         'SKIP'"
+		# console
+|3,0,7,1,1,0,1504552638,"	# console"
 "8	LINE	0
-	         'SKIP'
-|3,0,8,1,1,0,1498027639,"         'SKIP'"
+		# display the predicted label + associated probability to the
+|3,0,8,1,1,0,1504552638,"	# display the predicted label + associated probability to the"
 "9	LINE	0
-	         'SKIP'
-|3,0,9,1,1,0,1498027639,"         'SKIP'"
+	
+|3,0,9,1,1,0,1504552638,""
 "a@	CHAR	0
-	yt}pu€klp€kr€kl
-|3,2,10,0,1,0,1495111506,"yt}pu€klp€kr€kl"
+	€kd^wwc^\coic€kb€kb€kbhoice 
+|3,2,10,0,1,0,1503878270,"€kd^wwc^\\coic€kb€kb€kbhoice "
 "d	CHAR	0
 	f\i€kr
 |3,0,13,0,1,0,1491219066,"f\\i€kr"
 "q	CHAR	0
-	;
-|3,0,26,0,1,0,1495733288,";"
+	^xx€kd
+|3,0,26,0,1,0,1502299687,"^xx€kd"
 "s	CHAR	0
 	method
 |3,0,28,0,1,0,1495048115,"method"
@@ -278,337 +288,1075 @@ $':{
 	t}pu
 |3,0,34,0,1,0,1495111483,"t}pu"
 "-	CHAR	0
-	  'SKIP'
-|3,0,36,0,1,0,1498027650,"  'SKIP'"
+	 
+|3,0,36,0,1,0,1504550720," "
 
 # File marks:
-'0  100  32  /etc/pacman.conf
-|4,48,100,32,1498625410,"/etc/pacman.conf"
-'1  63  13  ~/zoneminder/PKGBUILD
-|4,49,63,13,1498339316,"~/zoneminder/PKGBUILD"
-'2  1  263  ~/exercicios.tex
-|4,50,1,263,1498188871,"~/exercicios.tex"
-'3  37  22  ~/decaf-emu-git/PKGBUILD
-|4,51,37,22,1498063445,"~/decaf-emu-git/PKGBUILD"
-'4  32  37  ~/decaf-emu-git/PKGBUILD
-|4,52,32,37,1498063405,"~/decaf-emu-git/PKGBUILD"
-'5  32  37  ~/decaf-emu-git/PKGBUILD
-|4,53,32,37,1498063405,"~/decaf-emu-git/PKGBUILD"
-'6  35  0  ~/decaf-emu-git/PKGBUILD
-|4,54,35,0,1498063339,"~/decaf-emu-git/PKGBUILD"
-'7  35  0  ~/decaf-emu-git/PKGBUILD
-|4,55,35,0,1498063339,"~/decaf-emu-git/PKGBUILD"
-'8  35  0  ~/decaf-emu-git/PKGBUILD
-|4,56,35,0,1498063339,"~/decaf-emu-git/PKGBUILD"
-'9  35  0  ~/decaf-emu-git/PKGBUILD
-|4,57,35,0,1498063339,"~/decaf-emu-git/PKGBUILD"
+'0  5  0  ~/mono/depplearn.py
+|4,48,5,0,1504616632,"~/mono/depplearn.py"
+'1  6  0  ~/Downloads/gaussian.txt
+|4,49,6,0,1504551923,"~/Downloads/gaussian.txt"
+'2  128  0  ~/colegio/questoes6.tex
+|4,50,128,0,1504060950,"~/colegio/questoes6.tex"
+'3  1  0  ~/colegio/questoes5.tex
+|4,51,1,0,1504060928,"~/colegio/questoes5.tex"
+'4  1  0  ~/colegio/questoes5.tex
+|4,52,1,0,1504060928,"~/colegio/questoes5.tex"
+'5  1  0  ~/gsg.f90
+|4,53,1,0,1503946257,"~/gsg.f90"
+'6  21  5  /run/media/mesmer/BRU/programas/gsg.f90
+|4,54,21,5,1503946233,"/run/media/mesmer/BRU/programas/gsg.f90"
+'7  96  16  ~/colegio/questoes8.tex
+|4,55,96,16,1503885531,"~/colegio/questoes8.tex"
+'8  8  0  /usr/bin/qutebrowser
+|4,56,8,0,1503030084,"/usr/bin/qutebrowser"
+'9  1  0  /qutebrowser/
+|4,57,1,0,1503030047,"/qutebrowser/"
 
 # Jumplist (newest first):
--'  100  32  /etc/pacman.conf
-|4,39,100,32,1498625410,"/etc/pacman.conf"
--'  11  68  /etc/pacman.conf
-|4,39,11,68,1498625385,"/etc/pacman.conf"
--'  36  0  /etc/pacman.conf
-|4,39,36,0,1498625384,"/etc/pacman.conf"
--'  1  0  /etc/pacman.conf
-|4,39,1,0,1498625381,"/etc/pacman.conf"
--'  63  13  ~/zoneminder/PKGBUILD
-|4,39,63,13,1498339316,"~/zoneminder/PKGBUILD"
--'  63  13  ~/zoneminder/PKGBUILD
-|4,39,63,13,1498339316,"~/zoneminder/PKGBUILD"
--'  35  4  ~/zoneminder/PKGBUILD
-|4,39,35,4,1498339303,"~/zoneminder/PKGBUILD"
--'  35  4  ~/zoneminder/PKGBUILD
-|4,39,35,4,1498339303,"~/zoneminder/PKGBUILD"
--'  1  263  ~/exercicios.tex
-|4,39,1,263,1498188871,"~/exercicios.tex"
--'  1  263  ~/exercicios.tex
-|4,39,1,263,1498188871,"~/exercicios.tex"
--'  1  263  ~/exercicios.tex
-|4,39,1,263,1498188871,"~/exercicios.tex"
--'  1  263  ~/exercicios.tex
-|4,39,1,263,1498188871,"~/exercicios.tex"
--'  37  22  ~/decaf-emu-git/PKGBUILD
-|4,39,37,22,1498063445,"~/decaf-emu-git/PKGBUILD"
--'  37  22  ~/decaf-emu-git/PKGBUILD
-|4,39,37,22,1498063445,"~/decaf-emu-git/PKGBUILD"
--'  37  22  ~/decaf-emu-git/PKGBUILD
-|4,39,37,22,1498063445,"~/decaf-emu-git/PKGBUILD"
--'  37  22  ~/decaf-emu-git/PKGBUILD
-|4,39,37,22,1498063445,"~/decaf-emu-git/PKGBUILD"
--'  37  22  ~/decaf-emu-git/PKGBUILD
-|4,39,37,22,1498063445,"~/decaf-emu-git/PKGBUILD"
--'  37  22  ~/decaf-emu-git/PKGBUILD
-|4,39,37,22,1498063445,"~/decaf-emu-git/PKGBUILD"
--'  37  22  ~/decaf-emu-git/PKGBUILD
-|4,39,37,22,1498063445,"~/decaf-emu-git/PKGBUILD"
--'  37  22  ~/decaf-emu-git/PKGBUILD
-|4,39,37,22,1498063445,"~/decaf-emu-git/PKGBUILD"
--'  32  37  ~/decaf-emu-git/PKGBUILD
-|4,39,32,37,1498063418,"~/decaf-emu-git/PKGBUILD"
--'  32  37  ~/decaf-emu-git/PKGBUILD
-|4,39,32,37,1498063418,"~/decaf-emu-git/PKGBUILD"
--'  32  37  ~/decaf-emu-git/PKGBUILD
-|4,39,32,37,1498063418,"~/decaf-emu-git/PKGBUILD"
--'  32  37  ~/decaf-emu-git/PKGBUILD
-|4,39,32,37,1498063418,"~/decaf-emu-git/PKGBUILD"
--'  32  37  ~/decaf-emu-git/PKGBUILD
-|4,39,32,37,1498063418,"~/decaf-emu-git/PKGBUILD"
--'  32  37  ~/decaf-emu-git/PKGBUILD
-|4,39,32,37,1498063418,"~/decaf-emu-git/PKGBUILD"
--'  32  37  ~/decaf-emu-git/PKGBUILD
-|4,39,32,37,1498063418,"~/decaf-emu-git/PKGBUILD"
--'  32  37  ~/decaf-emu-git/PKGBUILD
-|4,39,32,37,1498063418,"~/decaf-emu-git/PKGBUILD"
--'  32  37  ~/decaf-emu-git/PKGBUILD
-|4,39,32,37,1498063405,"~/decaf-emu-git/PKGBUILD"
--'  32  37  ~/decaf-emu-git/PKGBUILD
-|4,39,32,37,1498063405,"~/decaf-emu-git/PKGBUILD"
--'  32  37  ~/decaf-emu-git/PKGBUILD
-|4,39,32,37,1498063405,"~/decaf-emu-git/PKGBUILD"
--'  32  37  ~/decaf-emu-git/PKGBUILD
-|4,39,32,37,1498063405,"~/decaf-emu-git/PKGBUILD"
--'  32  37  ~/decaf-emu-git/PKGBUILD
-|4,39,32,37,1498063405,"~/decaf-emu-git/PKGBUILD"
--'  32  37  ~/decaf-emu-git/PKGBUILD
-|4,39,32,37,1498063405,"~/decaf-emu-git/PKGBUILD"
--'  32  37  ~/decaf-emu-git/PKGBUILD
-|4,39,32,37,1498063405,"~/decaf-emu-git/PKGBUILD"
--'  32  37  ~/decaf-emu-git/PKGBUILD
-|4,39,32,37,1498063405,"~/decaf-emu-git/PKGBUILD"
--'  35  0  ~/decaf-emu-git/PKGBUILD
-|4,39,35,0,1498063374,"~/decaf-emu-git/PKGBUILD"
--'  35  0  ~/decaf-emu-git/PKGBUILD
-|4,39,35,0,1498063374,"~/decaf-emu-git/PKGBUILD"
--'  35  0  ~/decaf-emu-git/PKGBUILD
-|4,39,35,0,1498063374,"~/decaf-emu-git/PKGBUILD"
--'  35  0  ~/decaf-emu-git/PKGBUILD
-|4,39,35,0,1498063374,"~/decaf-emu-git/PKGBUILD"
--'  35  0  ~/decaf-emu-git/PKGBUILD
-|4,39,35,0,1498063374,"~/decaf-emu-git/PKGBUILD"
--'  35  0  ~/decaf-emu-git/PKGBUILD
-|4,39,35,0,1498063374,"~/decaf-emu-git/PKGBUILD"
--'  35  0  ~/decaf-emu-git/PKGBUILD
-|4,39,35,0,1498063374,"~/decaf-emu-git/PKGBUILD"
--'  35  0  ~/decaf-emu-git/PKGBUILD
-|4,39,35,0,1498063374,"~/decaf-emu-git/PKGBUILD"
--'  35  0  ~/decaf-emu-git/PKGBUILD
-|4,39,35,0,1498063374,"~/decaf-emu-git/PKGBUILD"
--'  35  0  ~/decaf-emu-git/PKGBUILD
-|4,39,35,0,1498063374,"~/decaf-emu-git/PKGBUILD"
--'  35  0  ~/decaf-emu-git/PKGBUILD
-|4,39,35,0,1498063374,"~/decaf-emu-git/PKGBUILD"
--'  35  0  ~/decaf-emu-git/PKGBUILD
-|4,39,35,0,1498063374,"~/decaf-emu-git/PKGBUILD"
--'  35  0  ~/decaf-emu-git/PKGBUILD
-|4,39,35,0,1498063374,"~/decaf-emu-git/PKGBUILD"
--'  35  0  ~/decaf-emu-git/PKGBUILD
-|4,39,35,0,1498063374,"~/decaf-emu-git/PKGBUILD"
--'  35  0  ~/decaf-emu-git/PKGBUILD
-|4,39,35,0,1498063374,"~/decaf-emu-git/PKGBUILD"
--'  35  0  ~/decaf-emu-git/PKGBUILD
-|4,39,35,0,1498063374,"~/decaf-emu-git/PKGBUILD"
--'  35  0  ~/decaf-emu-git/PKGBUILD
-|4,39,35,0,1498063339,"~/decaf-emu-git/PKGBUILD"
--'  35  0  ~/decaf-emu-git/PKGBUILD
-|4,39,35,0,1498063339,"~/decaf-emu-git/PKGBUILD"
--'  35  0  ~/decaf-emu-git/PKGBUILD
-|4,39,35,0,1498063339,"~/decaf-emu-git/PKGBUILD"
--'  35  0  ~/decaf-emu-git/PKGBUILD
-|4,39,35,0,1498063339,"~/decaf-emu-git/PKGBUILD"
--'  35  0  ~/decaf-emu-git/PKGBUILD
-|4,39,35,0,1498063339,"~/decaf-emu-git/PKGBUILD"
--'  35  0  ~/decaf-emu-git/PKGBUILD
-|4,39,35,0,1498063339,"~/decaf-emu-git/PKGBUILD"
--'  35  0  ~/decaf-emu-git/PKGBUILD
-|4,39,35,0,1498063339,"~/decaf-emu-git/PKGBUILD"
--'  35  0  ~/decaf-emu-git/PKGBUILD
-|4,39,35,0,1498063339,"~/decaf-emu-git/PKGBUILD"
--'  38  25  ~/decaf-emu-git/PKGBUILD
-|4,39,38,25,1498063300,"~/decaf-emu-git/PKGBUILD"
--'  38  25  ~/decaf-emu-git/PKGBUILD
-|4,39,38,25,1498063300,"~/decaf-emu-git/PKGBUILD"
--'  38  25  ~/decaf-emu-git/PKGBUILD
-|4,39,38,25,1498063300,"~/decaf-emu-git/PKGBUILD"
--'  38  25  ~/decaf-emu-git/PKGBUILD
-|4,39,38,25,1498063300,"~/decaf-emu-git/PKGBUILD"
--'  38  25  ~/decaf-emu-git/PKGBUILD
-|4,39,38,25,1498063300,"~/decaf-emu-git/PKGBUILD"
--'  38  25  ~/decaf-emu-git/PKGBUILD
-|4,39,38,25,1498063300,"~/decaf-emu-git/PKGBUILD"
--'  38  25  ~/decaf-emu-git/PKGBUILD
-|4,39,38,25,1498063300,"~/decaf-emu-git/PKGBUILD"
--'  38  25  ~/decaf-emu-git/PKGBUILD
-|4,39,38,25,1498063300,"~/decaf-emu-git/PKGBUILD"
--'  38  25  ~/decaf-emu-git/PKGBUILD
-|4,39,38,25,1498063300,"~/decaf-emu-git/PKGBUILD"
--'  38  25  ~/decaf-emu-git/PKGBUILD
-|4,39,38,25,1498063300,"~/decaf-emu-git/PKGBUILD"
--'  38  25  ~/decaf-emu-git/PKGBUILD
-|4,39,38,25,1498063300,"~/decaf-emu-git/PKGBUILD"
--'  38  25  ~/decaf-emu-git/PKGBUILD
-|4,39,38,25,1498063300,"~/decaf-emu-git/PKGBUILD"
--'  38  25  ~/decaf-emu-git/PKGBUILD
-|4,39,38,25,1498063300,"~/decaf-emu-git/PKGBUILD"
--'  38  25  ~/decaf-emu-git/PKGBUILD
-|4,39,38,25,1498063300,"~/decaf-emu-git/PKGBUILD"
--'  38  25  ~/decaf-emu-git/PKGBUILD
-|4,39,38,25,1498063300,"~/decaf-emu-git/PKGBUILD"
--'  38  25  ~/decaf-emu-git/PKGBUILD
-|4,39,38,25,1498063300,"~/decaf-emu-git/PKGBUILD"
--'  38  25  ~/decaf-emu-git/PKGBUILD
-|4,39,38,25,1498063300,"~/decaf-emu-git/PKGBUILD"
--'  38  25  ~/decaf-emu-git/PKGBUILD
-|4,39,38,25,1498063300,"~/decaf-emu-git/PKGBUILD"
--'  38  25  ~/decaf-emu-git/PKGBUILD
-|4,39,38,25,1498063300,"~/decaf-emu-git/PKGBUILD"
--'  38  25  ~/decaf-emu-git/PKGBUILD
-|4,39,38,25,1498063300,"~/decaf-emu-git/PKGBUILD"
--'  38  25  ~/decaf-emu-git/PKGBUILD
-|4,39,38,25,1498063300,"~/decaf-emu-git/PKGBUILD"
--'  38  25  ~/decaf-emu-git/PKGBUILD
-|4,39,38,25,1498063300,"~/decaf-emu-git/PKGBUILD"
--'  38  25  ~/decaf-emu-git/PKGBUILD
-|4,39,38,25,1498063300,"~/decaf-emu-git/PKGBUILD"
--'  38  25  ~/decaf-emu-git/PKGBUILD
-|4,39,38,25,1498063300,"~/decaf-emu-git/PKGBUILD"
--'  38  25  ~/decaf-emu-git/PKGBUILD
-|4,39,38,25,1498063243,"~/decaf-emu-git/PKGBUILD"
--'  38  25  ~/decaf-emu-git/PKGBUILD
-|4,39,38,25,1498063243,"~/decaf-emu-git/PKGBUILD"
--'  38  25  ~/decaf-emu-git/PKGBUILD
-|4,39,38,25,1498063243,"~/decaf-emu-git/PKGBUILD"
--'  38  25  ~/decaf-emu-git/PKGBUILD
-|4,39,38,25,1498063243,"~/decaf-emu-git/PKGBUILD"
--'  38  25  ~/decaf-emu-git/PKGBUILD
-|4,39,38,25,1498063243,"~/decaf-emu-git/PKGBUILD"
--'  38  25  ~/decaf-emu-git/PKGBUILD
-|4,39,38,25,1498063243,"~/decaf-emu-git/PKGBUILD"
--'  38  25  ~/decaf-emu-git/PKGBUILD
-|4,39,38,25,1498063243,"~/decaf-emu-git/PKGBUILD"
--'  38  25  ~/decaf-emu-git/PKGBUILD
-|4,39,38,25,1498063243,"~/decaf-emu-git/PKGBUILD"
--'  39  0  ~/decaf-emu-git/PKGBUILD
-|4,39,39,0,1498063171,"~/decaf-emu-git/PKGBUILD"
--'  40  0  ~/decaf-emu-git/PKGBUILD
-|4,39,40,0,1498063171,"~/decaf-emu-git/PKGBUILD"
--'  39  0  ~/decaf-emu-git/PKGBUILD
-|4,39,39,0,1498063171,"~/decaf-emu-git/PKGBUILD"
--'  40  0  ~/decaf-emu-git/PKGBUILD
-|4,39,40,0,1498063171,"~/decaf-emu-git/PKGBUILD"
--'  39  0  ~/decaf-emu-git/PKGBUILD
-|4,39,39,0,1498063171,"~/decaf-emu-git/PKGBUILD"
--'  40  0  ~/decaf-emu-git/PKGBUILD
-|4,39,40,0,1498063171,"~/decaf-emu-git/PKGBUILD"
--'  39  0  ~/decaf-emu-git/PKGBUILD
-|4,39,39,0,1498063171,"~/decaf-emu-git/PKGBUILD"
--'  40  0  ~/decaf-emu-git/PKGBUILD
-|4,39,40,0,1498063171,"~/decaf-emu-git/PKGBUILD"
+-'  5  0  ~/mono/depplearn.py
+|4,39,5,0,1504616632,"~/mono/depplearn.py"
+-'  1  0  ~/mono/depplearn.py
+|4,39,1,0,1504552020,"~/mono/depplearn.py"
+-'  6  0  ~/Downloads/gaussian.txt
+|4,39,6,0,1504551923,"~/Downloads/gaussian.txt"
+-'  6  0  ~/Downloads/gaussian.txt
+|4,39,6,0,1504551923,"~/Downloads/gaussian.txt"
+-'  44  21  ~/Downloads/ttc.py
+|4,39,44,21,1504550914,"~/Downloads/ttc.py"
+-'  44  21  ~/Downloads/ttc.py
+|4,39,44,21,1504550914,"~/Downloads/ttc.py"
+-'  2  1  ~/Downloads/gaussian.txt
+|4,39,2,1,1504550745,"~/Downloads/gaussian.txt"
+-'  2  1  ~/Downloads/gaussian.txt
+|4,39,2,1,1504550745,"~/Downloads/gaussian.txt"
+-'  28  0  ~/Downloads/ttc.py
+|4,39,28,0,1504550676,"~/Downloads/ttc.py"
+-'  28  0  ~/Downloads/ttc.py
+|4,39,28,0,1504550676,"~/Downloads/ttc.py"
+-'  29  0  ~/Downloads/ttc.py
+|4,39,29,0,1504549999,"~/Downloads/ttc.py"
+-'  29  0  ~/Downloads/ttc.py
+|4,39,29,0,1504549999,"~/Downloads/ttc.py"
+-'  1  25  ~/Downloads/gaussian.txt
+|4,39,1,25,1504549997,"~/Downloads/gaussian.txt"
+-'  1  25  ~/Downloads/gaussian.txt
+|4,39,1,25,1504549997,"~/Downloads/gaussian.txt"
+-'  30  0  ~/Downloads/ttc.py
+|4,39,30,0,1504549934,"~/Downloads/ttc.py"
+-'  30  0  ~/Downloads/ttc.py
+|4,39,30,0,1504549934,"~/Downloads/ttc.py"
+-'  13  25  ~/Downloads/ttc.py
+|4,39,13,25,1504549413,"~/Downloads/ttc.py"
+-'  13  25  ~/Downloads/ttc.py
+|4,39,13,25,1504549413,"~/Downloads/ttc.py"
+-'  39  32  ~/Downloads/ttc.py
+|4,39,39,32,1504549330,"~/Downloads/ttc.py"
+-'  39  32  ~/Downloads/ttc.py
+|4,39,39,32,1504549330,"~/Downloads/ttc.py"
+-'  9  31  ~/Downloads/ttc.py
+|4,39,9,31,1504549230,"~/Downloads/ttc.py"
+-'  9  31  ~/Downloads/ttc.py
+|4,39,9,31,1504549230,"~/Downloads/ttc.py"
+-'  6  0  ~/Downloads/ttc.py
+|4,39,6,0,1504548864,"~/Downloads/ttc.py"
+-'  6  0  ~/Downloads/ttc.py
+|4,39,6,0,1504548864,"~/Downloads/ttc.py"
+-'  1  0  ~/Downloads/ttc.py
+|4,39,1,0,1504545029,"~/Downloads/ttc.py"
+-'  1  0  ~/Downloads/ttc.py
+|4,39,1,0,1504545029,"~/Downloads/ttc.py"
+-'  128  0  ~/colegio/questoes6.tex
+|4,39,128,0,1504060950,"~/colegio/questoes6.tex"
+-'  128  0  ~/colegio/questoes6.tex
+|4,39,128,0,1504060950,"~/colegio/questoes6.tex"
+-'  128  0  ~/colegio/questoes6.tex
+|4,39,128,0,1504060950,"~/colegio/questoes6.tex"
+-'  128  0  ~/colegio/questoes6.tex
+|4,39,128,0,1504060950,"~/colegio/questoes6.tex"
+-'  25  11  ~/colegio/prova.tex
+|4,39,25,11,1504060937,"~/colegio/prova.tex"
+-'  25  11  ~/colegio/prova.tex
+|4,39,25,11,1504060937,"~/colegio/prova.tex"
+-'  25  11  ~/colegio/prova.tex
+|4,39,25,11,1504060937,"~/colegio/prova.tex"
+-'  25  11  ~/colegio/prova.tex
+|4,39,25,11,1504060937,"~/colegio/prova.tex"
+-'  1  0  ~/colegio/questoes5.tex
+|4,39,1,0,1504060928,"~/colegio/questoes5.tex"
+-'  1  0  ~/colegio/questoes5.tex
+|4,39,1,0,1504060928,"~/colegio/questoes5.tex"
+-'  1  0  ~/colegio/questoes5.tex
+|4,39,1,0,1504060928,"~/colegio/questoes5.tex"
+-'  1  0  ~/colegio/questoes5.tex
+|4,39,1,0,1504060928,"~/colegio/questoes5.tex"
+-'  1  0  ~/colegio/questoes5.tex
+|4,39,1,0,1504060928,"~/colegio/questoes5.tex"
+-'  1  0  ~/colegio/questoes5.tex
+|4,39,1,0,1504060928,"~/colegio/questoes5.tex"
+-'  1  0  ~/colegio/questoes5.tex
+|4,39,1,0,1504060928,"~/colegio/questoes5.tex"
+-'  1  0  ~/colegio/questoes5.tex
+|4,39,1,0,1504060928,"~/colegio/questoes5.tex"
+-'  128  0  ~/colegio/questoes6.tex
+|4,39,128,0,1504060926,"~/colegio/questoes6.tex"
+-'  128  0  ~/colegio/questoes6.tex
+|4,39,128,0,1504060926,"~/colegio/questoes6.tex"
+-'  128  0  ~/colegio/questoes6.tex
+|4,39,128,0,1504060926,"~/colegio/questoes6.tex"
+-'  128  0  ~/colegio/questoes6.tex
+|4,39,128,0,1504060926,"~/colegio/questoes6.tex"
+-'  25  11  ~/colegio/prova.tex
+|4,39,25,11,1504060892,"~/colegio/prova.tex"
+-'  25  11  ~/colegio/prova.tex
+|4,39,25,11,1504060892,"~/colegio/prova.tex"
+-'  25  11  ~/colegio/prova.tex
+|4,39,25,11,1504060892,"~/colegio/prova.tex"
+-'  25  11  ~/colegio/prova.tex
+|4,39,25,11,1504060892,"~/colegio/prova.tex"
+-'  1  0  ~/gsg.f90
+|4,39,1,0,1503946257,"~/gsg.f90"
+-'  1  0  ~/gsg.f90
+|4,39,1,0,1503946257,"~/gsg.f90"
+-'  1  0  ~/gsg.f90
+|4,39,1,0,1503946257,"~/gsg.f90"
+-'  1  0  ~/gsg.f90
+|4,39,1,0,1503946257,"~/gsg.f90"
+-'  1  0  ~/gsg.f90
+|4,39,1,0,1503946257,"~/gsg.f90"
+-'  1  0  ~/gsg.f90
+|4,39,1,0,1503946257,"~/gsg.f90"
+-'  1  0  ~/gsg.f90
+|4,39,1,0,1503946257,"~/gsg.f90"
+-'  1  0  ~/gsg.f90
+|4,39,1,0,1503946257,"~/gsg.f90"
+-'  1  0  ~/gsg.f90
+|4,39,1,0,1503946257,"~/gsg.f90"
+-'  1  0  ~/gsg.f90
+|4,39,1,0,1503946257,"~/gsg.f90"
+-'  1  0  ~/gsg.f90
+|4,39,1,0,1503946257,"~/gsg.f90"
+-'  1  0  ~/gsg.f90
+|4,39,1,0,1503946257,"~/gsg.f90"
+-'  1  0  ~/gsg.f90
+|4,39,1,0,1503946257,"~/gsg.f90"
+-'  1  0  ~/gsg.f90
+|4,39,1,0,1503946257,"~/gsg.f90"
+-'  1  0  ~/gsg.f90
+|4,39,1,0,1503946257,"~/gsg.f90"
+-'  1  0  ~/gsg.f90
+|4,39,1,0,1503946257,"~/gsg.f90"
+-'  21  5  /run/media/mesmer/BRU/programas/gsg.f90
+|4,39,21,5,1503946233,"/run/media/mesmer/BRU/programas/gsg.f90"
+-'  21  5  /run/media/mesmer/BRU/programas/gsg.f90
+|4,39,21,5,1503946233,"/run/media/mesmer/BRU/programas/gsg.f90"
+-'  21  5  /run/media/mesmer/BRU/programas/gsg.f90
+|4,39,21,5,1503946233,"/run/media/mesmer/BRU/programas/gsg.f90"
+-'  21  5  /run/media/mesmer/BRU/programas/gsg.f90
+|4,39,21,5,1503946233,"/run/media/mesmer/BRU/programas/gsg.f90"
+-'  21  5  /run/media/mesmer/BRU/programas/gsg.f90
+|4,39,21,5,1503946233,"/run/media/mesmer/BRU/programas/gsg.f90"
+-'  21  5  /run/media/mesmer/BRU/programas/gsg.f90
+|4,39,21,5,1503946233,"/run/media/mesmer/BRU/programas/gsg.f90"
+-'  21  5  /run/media/mesmer/BRU/programas/gsg.f90
+|4,39,21,5,1503946233,"/run/media/mesmer/BRU/programas/gsg.f90"
+-'  21  5  /run/media/mesmer/BRU/programas/gsg.f90
+|4,39,21,5,1503946233,"/run/media/mesmer/BRU/programas/gsg.f90"
+-'  21  5  /run/media/mesmer/BRU/programas/gsg.f90
+|4,39,21,5,1503946233,"/run/media/mesmer/BRU/programas/gsg.f90"
+-'  21  5  /run/media/mesmer/BRU/programas/gsg.f90
+|4,39,21,5,1503946233,"/run/media/mesmer/BRU/programas/gsg.f90"
+-'  21  5  /run/media/mesmer/BRU/programas/gsg.f90
+|4,39,21,5,1503946233,"/run/media/mesmer/BRU/programas/gsg.f90"
+-'  21  5  /run/media/mesmer/BRU/programas/gsg.f90
+|4,39,21,5,1503946233,"/run/media/mesmer/BRU/programas/gsg.f90"
+-'  21  5  /run/media/mesmer/BRU/programas/gsg.f90
+|4,39,21,5,1503946233,"/run/media/mesmer/BRU/programas/gsg.f90"
+-'  21  5  /run/media/mesmer/BRU/programas/gsg.f90
+|4,39,21,5,1503946233,"/run/media/mesmer/BRU/programas/gsg.f90"
+-'  21  5  /run/media/mesmer/BRU/programas/gsg.f90
+|4,39,21,5,1503946233,"/run/media/mesmer/BRU/programas/gsg.f90"
+-'  21  5  /run/media/mesmer/BRU/programas/gsg.f90
+|4,39,21,5,1503946233,"/run/media/mesmer/BRU/programas/gsg.f90"
+-'  21  5  /run/media/mesmer/BRU/programas/gsg.f90
+|4,39,21,5,1503946233,"/run/media/mesmer/BRU/programas/gsg.f90"
+-'  21  5  /run/media/mesmer/BRU/programas/gsg.f90
+|4,39,21,5,1503946233,"/run/media/mesmer/BRU/programas/gsg.f90"
+-'  21  5  /run/media/mesmer/BRU/programas/gsg.f90
+|4,39,21,5,1503946233,"/run/media/mesmer/BRU/programas/gsg.f90"
+-'  21  5  /run/media/mesmer/BRU/programas/gsg.f90
+|4,39,21,5,1503946233,"/run/media/mesmer/BRU/programas/gsg.f90"
+-'  21  5  /run/media/mesmer/BRU/programas/gsg.f90
+|4,39,21,5,1503946233,"/run/media/mesmer/BRU/programas/gsg.f90"
+-'  21  5  /run/media/mesmer/BRU/programas/gsg.f90
+|4,39,21,5,1503946233,"/run/media/mesmer/BRU/programas/gsg.f90"
+-'  21  5  /run/media/mesmer/BRU/programas/gsg.f90
+|4,39,21,5,1503946233,"/run/media/mesmer/BRU/programas/gsg.f90"
+-'  21  5  /run/media/mesmer/BRU/programas/gsg.f90
+|4,39,21,5,1503946233,"/run/media/mesmer/BRU/programas/gsg.f90"
+-'  21  5  /run/media/mesmer/BRU/programas/gsg.f90
+|4,39,21,5,1503946233,"/run/media/mesmer/BRU/programas/gsg.f90"
+-'  21  5  /run/media/mesmer/BRU/programas/gsg.f90
+|4,39,21,5,1503946233,"/run/media/mesmer/BRU/programas/gsg.f90"
+-'  21  5  /run/media/mesmer/BRU/programas/gsg.f90
+|4,39,21,5,1503946233,"/run/media/mesmer/BRU/programas/gsg.f90"
+-'  21  5  /run/media/mesmer/BRU/programas/gsg.f90
+|4,39,21,5,1503946233,"/run/media/mesmer/BRU/programas/gsg.f90"
+-'  21  5  /run/media/mesmer/BRU/programas/gsg.f90
+|4,39,21,5,1503946233,"/run/media/mesmer/BRU/programas/gsg.f90"
+-'  21  5  /run/media/mesmer/BRU/programas/gsg.f90
+|4,39,21,5,1503946233,"/run/media/mesmer/BRU/programas/gsg.f90"
+-'  21  5  /run/media/mesmer/BRU/programas/gsg.f90
+|4,39,21,5,1503946233,"/run/media/mesmer/BRU/programas/gsg.f90"
+-'  21  5  /run/media/mesmer/BRU/programas/gsg.f90
+|4,39,21,5,1503946233,"/run/media/mesmer/BRU/programas/gsg.f90"
+-'  12  2  /run/media/mesmer/BRU/programas/gsg.f90
+|4,39,12,2,1503945911,"/run/media/mesmer/BRU/programas/gsg.f90"
+-'  12  2  /run/media/mesmer/BRU/programas/gsg.f90
+|4,39,12,2,1503945911,"/run/media/mesmer/BRU/programas/gsg.f90"
 
 # History of marks within files (newest to oldest):
 
-> /etc/pacman.conf
-	*	1498625410	0
-	"	100	32
+> ~/mono/depplearn.py
+	*	1504552647	0
+	"	5	0
+	.	50	0
+	+	50	13
+	+	50	0
 
-> ~/zoneminder/PKGBUILD
-	*	1498339316	0
-	"	63	13
-	^	63	14
-	.	63	13
-	+	32	9
-	+	63	17
-	+	35	4
-	+	36	3
-	+	35	4
-	+	63	13
-
-> ~/exercicios.tex
-	*	1498188870	0
-	"	1	263
-	^	2	0
-	.	6	13
-	+	6	13
-
-> ~/decaf-emu-git/PKGBUILD
-	*	1498063445	0
-	"	37	22
-	^	37	23
-	.	38	23
-	+	26	28
-	+	27	0
-	+	26	0
-	+	31	0
-	+	16	0
-	+	15	63
-	+	16	0
-	+	16	15
-	+	17	0
-	+	2	12
-	+	1	44
-	+	33	6
-	+	32	38
-	+	38	32
-	+	38	58
-	+	32	41
-	+	39	0
-	+	38	26
-	+	32	41
-	+	38	23
-
-> ~/decaf-emu-git/src/decaf-emu/PKGBUILD
-	*	1498058964	0
-	"	1	0
-
-> ~/zoneminder-git/PKGBUILD
-	*	1498026905	0
-	"	61	7
-	^	61	8
-	.	16	7
-	+	31	11
-	+	30	3
-	+	31	3
-	+	34	19
-	+	2	12
-	+	1	44
-	+	15	12
-	+	16	7
-
-> ~/gnutls-openssl/PKGBUILD
-	*	1498026504	0
-	"	13	40
-	.	3	0
+> ~/Downloads/gaussian.txt
+	*	1504551178	0
+	"	6	0
+	^	6	1
+	.	6	0
 	+	1	0
+	+	1	1
+	+	2	1
+	+	2	0
+	+	5	0
+	+	2	2
+	+	2	1
+	+	5	1
+	+	6	1
+	+	2	1
+	+	3	0
+	+	3	1
+	+	6	0
 	+	4	0
-	+	2	15
-	+	3	0
-	+	2	15
-	+	1	0
-	+	3	0
+	+	6	0
+	+	5	0
+	+	6	0
 
-> ~/vim-clipboard/patch1.patch
-	*	1497835106	0
+> ~/Downloads/ttc.py
+	*	1504550912	0
+	"	44	21
+	^	26	47
+	.	26	47
+	+	26	47
+
+> ~/colegio/questoes6.tex
+	*	1504060948	0
+	"	128	0
+	^	144	38
+	.	144	38
+	+	149	10
+	+	143	32
+	+	134	30
+	+	152	1
+	+	156	0
+	+	152	0
+	+	152	26
+	+	152	30
+	+	152	43
+	+	152	40
+	+	152	43
+	+	152	44
+	+	152	43
+	+	152	44
+	+	152	71
+	+	152	69
+	+	152	68
+	+	77	0
+	+	76	0
+	+	78	0
+	+	77	0
+	+	78	0
+	+	111	0
+	+	139	0
+	+	138	0
+	+	137	0
+	+	139	0
+	+	148	0
+	+	149	0
+	+	152	0
+	+	152	71
+	+	111	0
+	+	101	26
+	+	102	21
+	+	105	16
+	+	106	16
+	+	107	16
+	+	105	11
+	+	106	11
+	+	107	9
+	+	91	18
+	+	92	15
+	+	95	15
+	+	96	15
+	+	97	15
+	+	81	18
+	+	82	15
+	+	84	14
+	+	88	0
+	+	5	0
+	+	112	0
+	+	124	0
+	+	95	8
+	+	96	8
+	+	97	15
+	+	96	15
+	+	95	15
+	+	85	16
+	+	86	16
+	+	87	8
+	+	86	8
+	+	85	8
+	+	152	0
+	+	112	0
+	+	124	0
+	+	111	0
+	+	112	0
+	+	114	2
+	+	123	0
+	+	111	0
+	+	115	8
+	+	144	38
+
+> ~/colegio/prova.tex
+	*	1504060931	0
+	"	25	11
+	^	25	12
+	.	25	12
+	+	1	0
+	+	25	0
+	+	24	23
+	+	25	12
+	+	27	15
+	+	24	31
+	+	25	11
+	+	24	30
+	+	27	13
+	+	24	22
+	+	25	12
+
+> ~/colegio/questoes5.tex
+	*	1504060927	0
 	"	1	0
-	.	1	0
-	+	1	0
 
-> ~/vim-clipboard/PKGBUILD
-	*	1497678451	0
-	"	22	0
-	.	22	0
-	+	4	14
-	+	6	8
-	+	198	0
-	+	19	0
-	+	21	0
-	+	22	0
-	+	11	0
-	+	12	18
-	+	13	23
-	+	18	53
-	+	15	0
-	+	11	0
-	+	19	0
+> /run/media/mesmer/BRU/programas/gsg.f90
+	*	1503946233	0
+	"	21	5
+	^	18	20
+	.	18	19
+	+	2	0
 	+	20	0
+	+	23	0
+	+	24	0
+	+	2	0
+	+	22	3
+	+	25	24
+	+	38	20
+	+	23	0
+	+	20	0
+	+	2	0
+	+	3	0
+	+	4	0
+	+	3	4
+	+	4	4
+	+	5	3
+	+	6	0
+	+	20	0
+	+	19	0
+	+	37	0
+	+	47	14
+	+	18	19
+
+> ~/colegio/questoes8.tex
+	*	1503880277	0
+	"	96	16
+	^	96	18
+	.	96	16
+	+	80	0
+	+	79	0
+	+	78	49
+	+	79	12
+	+	80	27
+	+	79	27
+	+	78	27
+	+	14	0
+	+	75	7
+	+	81	14
+	+	90	16
+	+	95	14
+	+	97	52
+	+	100	96
+	+	98	15
+	+	100	2
+	+	98	33
+	+	100	94
+	+	100	0
+	+	100	82
+	+	100	20
+	+	100	64
+	+	100	85
+	+	100	8
+	+	100	92
+	+	98	15
+	+	105	0
+	+	98	0
+	+	98	15
+	+	100	25
+	+	100	82
+	+	100	23
+	+	100	82
+	+	105	0
+	+	100	16
+	+	100	63
+	+	100	0
+	+	100	10
+	+	98	30
+	+	105	0
+	+	98	15
+	+	105	0
+	+	106	14
+	+	98	0
+	+	106	0
+	+	100	34
+	+	98	12
+	+	98	0
+	+	100	54
+	+	100	90
+	+	105	0
+	+	101	7
+	+	102	7
+	+	103	7
+	+	103	93
+	+	101	21
+	+	102	23
+	+	103	22
+	+	103	115
+	+	101	51
+	+	100	56
+	+	102	53
+	+	103	53
+	+	103	145
+	+	101	78
+	+	102	79
+	+	103	82
+	+	103	152
+	+	101	76
+	+	101	81
+	+	102	82
+	+	103	85
+	+	101	0
+	+	102	0
+	+	103	0
+	+	103	86
+	+	101	81
+	+	102	83
+	+	103	56
+	+	103	87
+	+	100	25
+	+	101	21
+	+	102	23
+	+	103	22
+	+	104	29
+	+	101	0
+	+	100	49
+	+	101	50
+	+	102	0
+	+	101	20
+	+	102	22
+	+	103	45
+	+	104	39
+	+	100	24
+	+	96	16
+
+> ~/colegio/header.tex
+	*	1503877291	0
+	"	1	0
+	^	23	33
+	.	3	0
+	+	3	0
+	+	62	0
+	+	18	42
+	+	62	0
+	+	62	63
+	+	23	32
+	+	62	0
+	+	3	0
+
+> /usr/bin/qutebrowser
+	*	1503030083	0
+	"	8	0
+
+> ~/.config/qutebrowser/qutebrowser.conf
+	*	1503030021	0
+	"	769	13
+
+> ~/.zshrc
+	*	1503029767	0
+	"	32	0
+
+> ~/colegio/headerdep.tex
+	*	1502858307	0
+	"	41	8
+	^	39	12
+	.	39	11
+	+	21	0
+	+	20	0
+	+	6	386
+	+	6	448
+	+	20	0
+	+	6	429
+	+	6	441
+	+	6	85
+	+	6	441
+	+	20	0
+	+	6	386
+	+	6	277
+	+	6	386
+	+	6	217
+	+	6	189
+	+	6	125
+	+	6	94
+	+	6	79
+	+	6	61
+	+	6	30
+	+	6	0
+	+	18	0
+	+	9	6
+	+	54	12
+	+	27	1
+	+	20	0
+	+	26	0
+	+	33	0
+	+	27	0
+	+	37	1
+	+	44	0
+	+	40	0
+	+	38	0
+	+	45	0
+	+	38	1
+	+	40	0
+	+	38	0
+	+	39	0
+	+	28	24
+	+	39	12
+	+	38	0
+	+	44	0
+	+	39	11
+	+	33	11
+	+	39	11
+	+	33	11
+	+	39	11
+
+> ~/colegio/questoes7.tex
+	*	1502856762	0
+	"	21	0
+	^	119	0
+	.	108	3
+	+	105	21
+	+	105	22
+	+	105	21
+	+	105	26
+	+	105	25
+	+	105	26
+	+	105	25
+	+	105	24
+	+	105	42
+	+	105	33
+	+	105	34
+	+	105	13
+	+	105	32
+	+	105	45
+	+	126	26
+	+	126	20
+	+	126	19
+	+	126	34
+	+	126	33
+	+	126	37
+	+	126	38
+	+	126	37
+	+	126	21
+	+	123	16
+	+	126	16
+	+	130	21
+	+	130	18
+	+	130	15
+	+	82	15
+	+	86	0
+	+	85	0
+	+	105	0
+	+	126	0
+	+	123	0
+	+	126	0
+	+	130	0
+	+	148	0
+	+	147	0
+	+	146	0
+	+	149	0
+	+	142	1
+	+	77	0
+	+	76	0
+	+	77	0
+	+	108	0
+	+	120	0
+	+	105	0
+	+	89	1
+	+	139	1
+	+	82	21
+	+	82	22
+	+	91	11
+	+	93	26
+	+	94	26
+	+	95	26
+	+	73	6
+	+	121	29
+	+	123	0
+	+	126	0
+	+	125	21
+	+	124	23
+	+	123	21
+	+	130	0
+	+	129	24
+	+	140	0
+	+	130	22
+	+	137	0
+	+	132	17
+	+	133	18
+	+	134	17
+	+	130	24
+	+	141	0
+	+	106	0
+	+	119	0
+	+	108	3
+
+> ~/log.txt
+	*	1502429153	0
+	"	430	0
+
+> ~/mono/god.py
+	*	1502391838	0
+	"	12	47
+	^	34	17
+	.	34	16
+	+	1	21
+	+	1	26
+	+	1	79
+	+	46	26
+	+	1	0
+	+	46	14
+	+	46	4
+	+	46	0
+	+	46	10
+	+	46	0
+	+	46	40
+	+	46	72
+	+	46	1
+	+	45	16
+	+	46	0
+	+	10	26
+	+	34	16
+
+> ~/mono/fingerup/god.py
+	*	1502391389	0
+	"	28	23
+	^	49	24
+	.	49	22
+	+	25	0
+	+	35	2
+	+	53	0
+	+	54	0
+	+	56	0
+	+	35	18
+	+	19	4
+	+	35	0
+	+	43	24
+	+	48	20
+	+	56	0
+	+	49	16
+	+	48	14
+	+	10	0
+	+	10	10
+	+	43	0
+	+	36	5
+	+	39	18
+	+	14	0
+	+	42	36
+	+	43	0
+	+	44	21
+	+	46	21
+	+	48	14
+	+	44	35
+	+	46	34
+	+	48	24
+	+	42	50
+	+	49	22
+
+> ~/mono/color.py
+	*	1502327546	0
+	"	18	3
+	^	18	4
+	.	18	4
+	+	19	38
+	+	19	7
+	+	19	21
+	+	9	0
+	+	19	34
+	+	19	0
+	+	19	27
+	+	19	26
+	+	19	0
+	+	4	56
+	+	18	8
+	+	19	8
+	+	19	4
+	+	19	14
+	+	19	4
+	+	19	5
+	+	19	6
+	+	19	7
+	+	19	4
+	+	26	4
+	+	12	3
+	+	16	3
+	+	9	4
+	+	11	4
+	+	18	39
+	+	5	0
+	+	6	0
+	+	7	0
+	+	5	41
+	+	7	38
+	+	13	0
+	+	14	0
+	+	16	0
+	+	12	7
+	+	13	7
+	+	14	8
+	+	13	7
+	+	14	8
+	+	16	4
+	+	12	14
+	+	13	14
+	+	14	16
+	+	15	16
+	+	4	3
+	+	7	4
+	+	6	4
+	+	5	3
+	+	17	24
+	+	19	24
+	+	21	25
+	+	23	25
+	+	16	0
+	+	8	0
+	+	24	0
+	+	25	0
+	+	26	0
+	+	22	0
+	+	23	0
 	+	21	0
 	+	22	0
+	+	20	0
+	+	18	0
+	+	19	0
+	+	3	0
+	+	13	4
+	+	14	4
+	+	15	4
+	+	17	4
+	+	18	5
+	+	21	4
+	+	22	5
+	+	23	3
+	+	24	4
+	+	13	4
+	+	14	4
+	+	15	4
+	+	6	0
+	+	7	0
+	+	14	4
+	+	15	4
+	+	17	4
+	+	18	4
+
+> ~/color.py
+	*	1502327329	0
+	"	1	0
+
+> ~/mono/color2.py
+	*	1502300966	0
+	"	12	27
+	^	12	27
+	.	12	26
+	+	1	26
+	+	1	35
+	+	1	17
+	+	1	18
+	+	1	28
+	+	1	4
+	+	1	18
+	+	1	28
+	+	1	4
+	+	1	3
+	+	1	4
+	+	1	3
+	+	1	0
+	+	1	18
+	+	23	0
+	+	23	37
+	+	23	16
+	+	23	18
+	+	23	54
+	+	23	11
+	+	23	18
+	+	23	0
+	+	1	18
+	+	22	22
+	+	23	0
+	+	4	23
+	+	8	4
+	+	9	0
+	+	8	4
+	+	9	4
+	+	13	0
+	+	11	46
+	+	13	0
+	+	12	26
+
+> ~/.config/deluge/auth
+	*	1501800972	0
+	"	2	54
+	^	2	0
+	.	3	0
+	+	3	0
+	+	2	0
+	+	3	0
+
+> ~/.config/deluge/core.conf
+	*	1501800370	0
+	"	1	0
+
+> ~/.config/deluge/ui.conf
+	*	1501800327	0
+	"	2	0
+
+> ~/.vimrc
+	*	1501679299	0
+	"	289	17
+	^	289	18
+	.	305	41
+	+	305	41
+
+> ~/facul/velhagui.py
+	*	1501025723	0
+	"	36	34
+	^	36	35
+	.	36	34
+	+	46	109
+	+	46	0
+	+	46	65
+	+	42	11
+	+	46	8
+	+	46	26
+	+	46	45
+	+	46	52
+	+	46	0
+	+	42	11
+	+	43	55
+	+	44	17
+	+	46	53
+	+	45	0
+	+	46	0
+	+	45	0
+	+	43	45
+	+	45	51
+	+	43	52
+	+	42	0
+	+	41	35
+	+	40	47
+	+	38	33
+	+	26	8
+	+	32	0
+	+	26	51
+	+	40	52
+	+	26	51
+	+	24	0
+	+	40	8
+	+	26	38
+	+	31	59
+	+	31	0
+	+	26	19
+	+	31	29
+	+	26	30
+	+	29	29
+	+	31	0
+	+	26	0
+	+	29	0
+	+	26	30
+	+	29	0
+	+	29	8
+	+	26	30
+	+	29	40
+	+	29	0
+	+	26	16
+	+	29	0
+	+	32	23
+	+	32	51
+	+	34	32
+	+	28	25
+	+	29	0
+	+	31	0
+	+	32	0
+	+	31	55
+	+	27	10
+	+	33	16
+	+	40	0
+	+	39	0
+	+	18	0
+	+	16	33
+	+	19	19
+	+	16	63
+	+	16	18
+	+	16	8
+	+	16	41
+	+	17	32
+	+	16	68
+	+	17	0
+	+	16	79
+	+	17	20
+	+	2	12
+	+	16	0
+	+	28	25
+	+	28	0
+	+	31	47
+	+	45	48
+	+	45	44
+	+	30	31
+	+	16	79
+	+	16	22
+	+	45	0
+	+	31	35
+	+	45	56
+	+	42	11
+	+	43	0
+	+	35	19
+	+	36	18
+	+	35	27
+	+	36	18
+	+	35	19
+	+	36	34
+
+> ~/facul/velhamaster.py
+	*	1501021622	0
+	"	34	0
+	^	30	51
+	.	30	50
+	+	55	35
+	+	57	0
+	+	53	33
+	+	47	0
+	+	48	38
+	+	50	0
+	+	51	0
+	+	52	0
+	+	53	0
+	+	54	0
+	+	55	0
+	+	57	0
+	+	56	59
+	+	48	19
+	+	50	45
+	+	48	44
+	+	11	20
+	+	46	0
+	+	47	0
+	+	48	28
+	+	50	35
+	+	48	0
+	+	49	0
+	+	48	51
+	+	49	37
+	+	48	27
+	+	56	45
+	+	50	52
+	+	59	24
+	+	50	0
+	+	56	56
+	+	49	45
+	+	57	0
+	+	49	39
+	+	61	8
+	+	13	20
+	+	63	42
+	+	59	26
+	+	58	40
+	+	57	56
+	+	63	41
+	+	57	54
+	+	63	51
+	+	62	16
+	+	57	55
+	+	62	29
+	+	63	50
+	+	63	30
+	+	63	16
+	+	12	27
+	+	12	0
+	+	12	27
+	+	12	25
+	+	12	27
+	+	12	0
+	+	61	24
+	+	62	28
+	+	61	25
+	+	62	29
+	+	12	23
+	+	63	0
+	+	61	0
+	+	12	23
+	+	63	36
+	+	61	24
+	+	62	29
+	+	61	25
+	+	62	30
+	+	63	16
+	+	63	30
+	+	63	57
+	+	61	23
+	+	62	27
+	+	63	155
+	+	63	77
+	+	63	39
+	+	63	23
+	+	63	134
+	+	63	0
+	+	63	145
+	+	57	55
+	+	12	0
+	+	59	4
+	+	63	0
+	+	64	0
+	+	59	0
+	+	24	31
+	+	27	26
+	+	30	51
+	+	72	43
+	+	81	0
+	+	66	22
+	+	76	0
+	+	24	0
+	+	24	31
+	+	30	50

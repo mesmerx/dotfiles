@@ -1,0 +1,10 @@
+# The following lines were added by compinstall
+
+zstyle ':completion:*' glob unset
+zstyle ':completion:*' max-errors 10 not-numeric
+zstyle ':completion:*' prompt 'achados %e erros'
+zstyle :compinstall filename '/home/mesmer/.zshrc'
+
+autoload -Uz compinit
+compinit
+# End of lines added by compinstall
