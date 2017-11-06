@@ -14,8 +14,11 @@ set grepprg=grep\ -nH\ $*
 " 'plaintex' instead of 'tex', which results in vim-latex not being loaded.
 " The following changes the default filetype back to 'tex':
 let g:tex_flavor='latex'
-
+let python_highlight_all=1
+set splitbelow
+set splitright
 set nu
+set encoding=utf-8
 set relativenumber
 set hidden
 set wildmenu
@@ -68,75 +71,16 @@ autocmd FileType tex              let b:comment_leader = '% '
 autocmd FileType mail             let b:comment_leader = '> '
 autocmd FileType vim              let b:comment_leader = '" '
 noremap <silent> ,cc :<C-B>silent <C-E>s/^/<C-R>=escape(b:comment_leader,'\/')<CR>/<CR>:nohlsearch<CR>
-noremap <silent> ,cu :<C-B>silent <C-E>s/^\V<C-R>=escape(b:comment_leader,'\/')<CR>//e<CR>:nohlsearch<CR>
+noremap <silent> ,cd :<C-B>silent <C-E>s/^\V<C-R>=escape(b:comment_leader,'\/')<CR>//e<CR>:nohlsearch<CR>
 
 set wildchar=<Tab> wildmenu wildmode=full
 set wildcharm=<C-Z>
 nnoremap <F12> :buffers<CR>:buffer<Space>
 
 set rtp^=/usr/share/vim/vimfiles/
-nnoremap \z :setlocal foldexpr=(getline(v:lnum)=~@/)?0:(getline(v:lnum-1)=~@/)\\|\\|(getline(v:lnum+1)=~@/)?1:2 foldmethod=expr foldlevel=0 foldcolumn=2<CR>
 
 set rtp+=~/.vim/bundle/Vundle.vim
 
-"sourcebeautify code
-"
-
-au BufRead,BufNewFile *.json setf json
-
-"transpose
-function! MoveLineUp()
-  call MoveLineOrVisualUp(".", "")
-endfunction
-
-function! MoveLineDown()
-  call MoveLineOrVisualDown(".", "")
-endfunction
-
-function! MoveVisualUp()
-  call MoveLineOrVisualUp("'<", "'<,'>")
-  normal gv
-endfunction
-
-function! MoveVisualDown()
-  call MoveLineOrVisualDown("'>", "'<,'>")
-  normal gv
-endfunction
-
-function! MoveLineOrVisualUp(line_getter, range)
-  let l_num = line(a:line_getter)
-  if l_num - v:count1 - 1 < 0
-    let move_arg = "0"
-  else
-    let move_arg = a:line_getter." -".(v:count1 + 1)
-  endif
-  call MoveLineOrVisualUpOrDown(a:range."move ".move_arg)
-endfunction
-
-function! MoveLineOrVisualDown(line_getter, range)
-  let l_num = line(a:line_getter)
-  if l_num + v:count1 > line("$")
-    let move_arg = "$"
-  else
-    let move_arg = a:line_getter." +".v:count1
-  endif
-  call MoveLineOrVisualUpOrDown(a:range."move ".move_arg)
-endfunction
-
-function! MoveLineOrVisualUpOrDown(move_arg)
-  let col_num = virtcol(".")
-  execute "silent! ".a:move_arg
-  execute "normal! ".col_num."|"
-endfunction
-
-nnoremap <silent> <C-Up> :<C-u>call MoveLineUp()<CR>
-nnoremap <silent> <C-Down> :<C-u>call MoveLineDown()<CR>
-inoremap <silent> <C-Up> <C-o>:call MoveLineUp()<CR>
-inoremap <silent> <C-Down> <C-o>:call MoveLineDown()<CR>
-"vnoremap <silent> <C-Up> :<C-u>call MoveVisualUp()<CR>
-"vnoremap <silent> <C-Down> :<C-u>call MoveVisualDown()<CR>
-xnoremap <silent> <C-Up> :<C-u>call MoveVisualUp()<CR>
-xnoremap <silent> <C-Down> :<C-u>call MoveVisualDown()<CR>
 
 "airline
 
@@ -164,6 +108,8 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
+let g:SimpylFold_docstring_preview=1
+
 "" chama plugins
 call vundle#begin()
 
@@ -171,10 +117,16 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'virtualenv.vim'
 Plugin 'EditPlus'
 Plugin 'Tabular'
+Plugin 'vim-scripts/indentpython.vim'
 Plugin 'SuperTab'
-Plugin 'Syntastic'
 Plugin 'csv.vim'
+Plugin 'Syntastic'
+Plugin 'nvie/vim-flake8'
 Plugin 'python_fold_compact'
+Plugin 'tmhedberg/SimpylFold'
+Bundle 'Valloric/YouCompleteMe'
+Plugin 'jnurmine/Zenburn'
+Plugin 'altercation/vim-colors-solarized'
 Plugin 'OnSyntaxChange'
 Plugin 'SearchComplete'
 Plugin 'EasyMotion'
@@ -186,14 +138,12 @@ Plugin 'taglist.vim'
 Plugin 'mathematic.vim'
 Plugin 'Chiel92/vim-autoformat'
 Plugin 'kshenoy/vim-signature'
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
 Plugin 'tpope/vim-fugitive'
+Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 Plugin 'jistr/vim-nerdtree-tabs'
-Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
+Plugin 'kien/ctrlp.vim'
 Plugin 'lervag/vimtex'
-Plugin 'Shougo/neocomplete.vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -201,83 +151,25 @@ let g:syntastic_quiet_messages = { "regex": [
         \ '\mpossible unwanted space at "{"',
         \ '\mWrong length of dash may have been used.',
         \ '\mCould not open "questoes\\serie"']}
-" Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
-let g:UltiSnipsExpandTrigger="<tab>"
-let g:UltiSnipsJumpForwardTrigger="<c-b>"
-let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
-" If you want :UltiSnipsEdit to split your window.
-let g:UltiSnipsEditSplit="vertical"
-"Note: This option must be set in .vimrc(_vimrc).  NOT IN .gvimrc(_gvimrc)!
-" Disable AutoComplPop.
-let g:acp_enableAtStartup = 0
-" Use neocomplete.
-let g:neocomplete#enable_at_startup = 1
-" Use smartcase.
-let g:neocomplete#enable_smart_case = 1
-" Set minimum syntax keyword length.
-let g:neocomplete#sources#syntax#min_keyword_length = 3
+let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
 
-" Define dictionary.
-let g:neocomplete#sources#dictionary#dictionaries = {
-    \ 'default' : '',
-    \ 'vimshell' : $HOME.'/.vimshell_hist',
-    \ 'scheme' : $HOME.'/.gosh_completions'
-        \ }
+let g:ycm_python_binary_path = '/usr/bin/python3'
 
-" Define keyword.
-if !exists('g:neocomplete#keyword_patterns')
-    let g:neocomplete#keyword_patterns = {}
-endif
-let g:neocomplete#keyword_patterns['default'] = '\h\w*'
+let g:ycm_autoclose_preview_window_after_completion=1
+map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
 
-" Plugin key-mappings.
-inoremap <expr><C-g>     neocomplete#undo_completion()
-inoremap <expr><C-l>     neocomplete#complete_common_string()
+call togglebg#map("<F5>")
 
-" Recommended key-mappings.
-" <CR>: close popup and save indent.
-inoremap <silent> <CR> <C-r>=<SID>my_cr_function()<CR>
-function! s:my_cr_function()
-  return (pumvisible() ? "\<C-y>" : "" ) . "\<CR>"
-  " For no inserting <CR> key.
-  "return pumvisible() ? "\<C-y>" : "\<CR>"
-endfunction
-" <TAB>: completion.
-inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
-" <C-h>, <BS>: close popup and delete backword char.
-inoremap <expr><C-h> neocomplete#smart_close_popup()."\<C-h>"
-inoremap <expr><BS> neocomplete#smart_close_popup()."\<C-h>"
-" Close popup by <Space>.
-"inoremap <expr><Space> pumvisible() ? "\<C-y>" : "\<Space>"
-
-" AutoComplPop like behavior.
-"let g:neocomplete#enable_auto_select = 1
-
-" Shell like behavior(not recommended).
-"set completeopt+=longest
-"let g:neocomplete#enable_auto_select = 1
-"let g:neocomplete#disable_auto_complete = 1
-"inoremap <expr><TAB>  pumvisible() ? "\<Down>" : "\<C-x>\<C-u>"
-
-" Enable omni completion.
-autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
-autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#CompleteTags
-autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
-autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
-autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
-
-" Enable heavy omni completion.
-if !exists('g:neocomplete#sources#omni#input_patterns')
-  let g:neocomplete#sources#omni#input_patterns = {}
-endif
-"let g:neocomplete#sources#omni#input_patterns.php = '[^. \t]->\h\w*\|\h\w*::'
-"let g:neocomplete#sources#omni#input_patterns.c = '[^.[:digit:] *\t]\%(\.\|->\)'
-"let g:neocomplete#sources#omni#input_patterns.cpp = '[^.[:digit:] *\t]\%(\.\|->\)\|\h\w*::'
-
-" For perlomni.vim setting.
-" https://github.com/c9s/perlomni.vim
-let g:neocomplete#sources#omni#input_patterns.perl = '\h\w*->\h\w*\|\h\w*::'
+"python with virtualenv support
+py << EOF
+import os
+import sys
+if 'VIRTUAL_ENV' in os.environ:
+  project_base_dir = os.environ['VIRTUAL_ENV']
+  activate_this = os.path.join(project_base_dir, 'bin/activate_this.py')
+  execfile(activate_this, dict(__file__=activate_this))
+EOF
 
 noremap <F8> :set spell spelllang=pt-br,en<cr>
 noremap <F10> :set spell spelllang=<cr>
@@ -291,7 +183,7 @@ set statusline+=%*
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
+let g:syntastic_check_on_wq = 1
 
 " Specific checkers for tex
 let g:syntastic_tex_checkers = ['chktex', 'proselint']
@@ -303,3 +195,32 @@ let g:syntastic_enable_signs = 1
 " Error symbols
 " let g:syntastic_error_symbol = "✗"
 " let g:syntastic_warning_symbol ="∙∙"
+"
+
+" Enable folding with the spacebar
+nnoremap <space> za
+"split navigations
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+" Enable folding
+set foldmethod=indent
+set foldlevel=99
+
+au BufNewFile,BufRead *.py
+    \ set tabstop=4
+    \ set softtabstop=4
+    \ set shiftwidth=4
+    \ set textwidth=79
+    \ set expandtab
+    \ set autoindent
+    \ set fileformat=unix
+
+au BufNewFile,BufRead *.js, *.html, *.css
+    \ set tabstop=2
+    \ set softtabstop=2
+    \ set shiftwidth=2
+au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
+
