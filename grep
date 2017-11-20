@@ -1,0 +1,20 @@
+community/powerline 2.6-1 [installed]
+    Statusline plugin for vim, and provides statuslines and prompts for several other applications, including zsh, bash, tmux, IPython, Awesome, i3 and Qtile
+community/powerline-vim 2.6-1
+    vim plugin for powerline
+community/powerline2 2.6-1
+    Statusline plugin for vim, and provides statuslines and prompts for several other applications, including zsh, bash, tmux, IPython, Awesome, i3 and Qtile
+aur/nerd-fonts-complete 1.1.0-3 (47, 5.25)
+    collection of over 20 patched fonts (complete variant) for powerline, devicons, and vim-devicons: includes Droid Sans, Meslo, AnonymousPro, ProFont, Inconsolta, and many more
+aur/nerd-fonts-complete-mono-glyphs 1.0.0-1 <!> (8, 1.61)
+    collection of over 20 patched fonts (complete variant with single-width glyphs) for powerline, devicons, and vim-devicons: includes Droid Sans, Meslo, AnonymousPro, ProFont, Inconsolta, and many more
+aur/bullet-train-oh-my-zsh-theme-git a-2 (20, 0.94)
+    An oh-my-zsh shell theme based on the Powerline Vim plugin
+aur/vim-promptline-git 1416082879-1 (6, 0.50)
+    Generate a fast shell prompt with powerline symbols and airline colors
+aur/dina-powerline 1.0-2 (5, 0.00)
+    Modified versions of all Dina 13 font variants for use with vim-powerline.
+aur/emacs-powerline 2.4-1 (0, 0.00)
+    Emacs version of the Vim powerline.
+aur/rxvt-unicode-better-wheel-scrolling-unicode3 9.22-4 (0, 0.00)
+    Same like rxvt-unicode-better-wheel-scrolling + enabled frills+unicode3 to support (vim) powerline/airline (http://powerline.readthedocs.io/en/master/troubleshooting.html#urxvt-unicode3-and-frills)

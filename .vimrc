@@ -143,9 +143,7 @@ Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'honza/vim-snippets'
 Plugin 'kien/ctrlp.vim'
-Plugin 'brennier/quicktex'
 Plugin 'lervag/vimtex'
-Plugin 'SirVer/ultisnips'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -156,17 +154,10 @@ let g:syntastic_quiet_messages = { "regex": [
 
 let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
 
-let g:ycm_python_binary_path = '/usr/bin/python2'
+let g:ycm_python_binary_path = '/usr/bin/python3'
 
 let g:ycm_autoclose_preview_window_after_completion=1
 map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
-
-let g:UltiSnipsExpandTrigger="<ALT-tab>"
-let g:UltiSnipsJumpForwardTrigger="<c-b>"
-let g:UltiSnipsJumpBackwardTrigger="<c-z>"
-
-" If you want :UltiSnipsEdit to split your window.
-let g:UltiSnipsEditSplit="vertical"
 
 call togglebg#map("<F5>")
 
@@ -180,7 +171,7 @@ if 'VIRTUAL_ENV' in os.environ:
   execfile(activate_this, dict(__file__=activate_this))
 EOF
 
-noremap <F8> :set spell spelllang=pt_br,en<cr>
+noremap <F8> :set spell spelllang=pt-br,en<cr>
 noremap <F10> :set spell spelllang=<cr>
 
 let g:syntastic_quiet_messages={'level':'warnings'}
@@ -232,15 +223,4 @@ au BufNewFile,BufRead *.js, *.html, *.css
     \ set softtabstop=2
     \ set shiftwidth=2
 au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
-
-au filetype tex :imap ç \c{c}
-au filetype tex :imap ã \~{a}
-au filetype tex :imap õ \~{o}
-au filetype tex :imap á \'{a}
-au filetype tex :imap í \'{i}
-au filetype tex :imap ó \'{o}
-au filetype tex :imap ú \'{u}
-au filetype tex :imap é \'{e}
-au filetype tex :imap ô \^{o}
-au filetype tex :imap ê \^{e}
 
