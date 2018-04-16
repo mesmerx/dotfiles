@@ -131,49 +131,49 @@ class MyApp(object):
             ('xorg', self.xorc)
             ]
 
-            [ a[1] for a in lista]
+            [a[1]() for a in lista]
 
 
     def omz(self):
-        os.system("gnome-terminal -e 'pacaur -Sy oh-my-zsh-git' &> /dev/null")
+        os.system("gnome-terminal -e 'pacaur -Sy oh-my-zsh-git' &>> install.log")
     def omzp(self):
-        os.system("gnome-terminal -e 'pacaur -Sy oh-my-zsh-powerline-theme-git' &> /dev/null")
+        os.system("gnome-terminal -e 'pacaur -Sy oh-my-zsh-powerline-theme-git' &>> install.log")
     def zh(self):
-        os.system("gnome-terminal -e 'pacaur -Sy zsh-history-substring-search' &> /dev/null")
+        os.system("gnome-terminal -e 'pacaur -Sy zsh-history-substring-search' &>> install.log")
     def cnf(self):
-        os.system("gnome-terminal -e 'pacaur -Sy command-not-found' &> /dev/null")
+        os.system("gnome-terminal -e 'pacaur -Sy command-not-found' &>> install.log")
     def vimr(self):
-        os.system("gnome-terminal -e 'pacaur -Sy vim-runtime' &> /dev/null")
+        os.system("gnome-terminal -e 'pacaur -Sy vim-runtime' &>> install.log")
     def vim(self):
-        os.system("gnome-terminal -e 'pacaur -Sy vim' &> /dev/null")
+        os.system("gnome-terminal -e 'pacaur -Sy vim' &>> install.log")
     def vund(self):
-        os.system("gnome-terminal -e 'pacaur -Sy vundle-git' &> /dev/null")
+        os.system("gnome-terminal -e 'pacaur -Sy vundle-git' &>> install.log")
     def zsh(self):
-        os.system("gnome-terminal -e 'pacaur -Sy zsh' &> /dev/null")
+        os.system("gnome-terminal -e 'pacaur -Sy zsh' &>> install.log")
     def sway(self):
-        os.system("gnome-terminal -e 'pacaur -Sy sway' &> /dev/null")
+        os.system("gnome-terminal -e 'pacaur -Sy sway' &>> install.log")
     def qtile(self):
-        os.system("gnome-terminal -e 'pacaur -Sy qtile' &> /dev/null")
+        os.system("gnome-terminal -e 'pacaur -Sy qtile' &>> install.log")
     def i3(self):
-        os.system("gnome-terminal -e 'pacaur -Sy i3' &> /dev/null")
+        os.system("gnome-terminal -e 'pacaur -Sy i3' &>> install.log")
     def xmo(self):
-        os.system("gnome-terminal -e 'pacaur -Sy xmonad' &> /dev/null")
+        os.system("gnome-terminal -e 'pacaur -Sy xmonad' &>> install.log")
     def xor(self):
-        os.system("gnome-terminal -e 'pacaur -Sy xorg xorg-xinit' &> /dev/null")
+        os.system("gnome-terminal -e 'pacaur -Sy xorg xorg-xinit' &>> install.log")
     def xorc(self):
-        os.system("gnome-terminal -e 'cp xorg/.* ~/ -Rv' &> /dev/null")
+        os.system("gnome-terminal -e 'cp xorg/.* ~/ -Rv' &>> install.log")
     def zshc(self):
-        os.system("gnome-terminal -e 'cp zsh/.* ~/ -Rv' &> /dev/null")
+        os.system("gnome-terminal -e 'cp zsh/.* ~/ -Rv' &>> install.log")
     def swayc(self):
-        os.system("gnome-terminal -e 'cp sway/.* ~/ -Rvi' &> /dev/null")
+        os.system("gnome-terminal -e 'cp sway/.* ~/ -Rvi' &>> install.log")
     def qtilec(self):
-        os.system("gnome-terminal -e 'cp qtile/.* ~/ -Rvi' ' &> /dev/null")
+        os.system("gnome-terminal -e 'cp qtile/.* ~/ -Rvi' &>> install.log")
     def i3c(self):
-        os.system("gnome-terminal -e 'cp i3/.* ~/ -Rvi' ' &> /dev/null")
+        os.system("gnome-terminal -e 'cp i3/.* ~/ -Rv' &>> install.log")
     def vimc(self):
-        os.system("gnome-terminal -e 'cp vim/.* ~/ -Rvi' ' &> /dev/null")
+        os.system("gnome-terminal -e 'cp vim/.* ~/ -Rv' &>> install.log")
     def xmoc(self):
-        os.system("gnome-terminal -e 'cp xmonad/.* ~/ -Rvi' ' &> /dev/null")
+        os.system("gnome-terminal -e 'cp xmonad/.* ~/ -Rv' &>> install.log")
 
 if __name__ == '__main__':
     curses.wrapper(MyApp)
