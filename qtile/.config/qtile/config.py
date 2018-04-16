@@ -66,17 +66,17 @@ keys = [
     Key([mod,"control"], "b", lazy.hide_show_bar("bottom")),
 
     #comandos
-    Key([mod], "Return", lazy.spawn("terminator")),
+    Key([mod], "Return", lazy.spawn("terminology")),
     Key([mod], "f", lazy.spawn("firefox")),
-    Key([mod], "n", lazy.spawn("qutebrowser --backend webengine")),
-    
-    
+    Key([mod], "n", lazy.spawn("sh '/home/mesmer/Downloads/open_url_in_instance.sh'")),
+    Key([mod], "v", lazy.spawn("vimb")),
+    Key([mod], "y", lazy.spawn("gtk-youtube-viewer")), 
     Key([mod], "Print", lazy.spawn("scrot -e 'mv $f ~/pictures/screenshots/'")),
     Key([mod], "q", lazy.window.kill()),
     Key([mod, "control"], "r", lazy.restart()),
     Key([mod, "control"], "q", lazy.shutdown()),
     #lança o launcher
-    Key([mod], "d", lazy.spawn("rofi -show run -lines 2 -eh 1 -width 100 -padding 0 -opacity '95' -bw 0 -bc '$bg-color' -bg '$bg-color' -fg '$text-color' -hlbg '$bg-color' -hlfg '#9575cd' -font 'System San Francisco Display 10' -location 1 —auto-select")),
+    Key([mod], "d", lazy.spawn("rofi -show run -lines 2 -eh 1 -width 100 -padding 0 -opacity '95' -bw 0 -bc '$bg-color' -bg '$bg-color' -fg '$text-color' -hlbg '$bg-color' -hlfg '#9575cd' -font 'System San Francisco Display 10' -location 1 --auto-select")),
     
 ]
 
@@ -115,12 +115,12 @@ screens = [
                 widget.CurrentLayout(),
                 widget.Sep(),
                 widget.WindowName(),
-                widget.Sep(),
-                widget.Wlan(interface="wlp6s0"),
+                #widget.Sep(),
+                #widget.Wlan(interface="wlp6s0"),
                 widget.Sep(),
                 widget.Notify(),
-                widget.Sep(),
-                widget.Battery(format="battery: {char} {percent:2.0%} {hour:d}:{min:02d}"),
+                #widget.Sep(),
+                #widget.Battery(format="battery: {char} {percent:2.0%} {hour:d}:{min:02d}"),
 
                 widget.Sep(),
                 widget.Systray(),
@@ -132,17 +132,17 @@ screens = [
          bottom=bar.Bar(
             [
                 widget.GroupBox(),
-                widget.Sep(),
-                widget.CPUGraph(),
-                widget.Memory(update_interval=10),
-                widget.MemoryGraph(),
-                widget.Sep(),
-                widget.Backlight(backlight_name="intel_backlight",format="bright: {percent:2.0%}"),
+               # widget.Sep(),
+               # widget.CPUGraph(),
+               # widget.Memory(update_interval=10),
+               # widget.MemoryGraph(),
+                #widget.Sep(),
+                #widget.Backlight(backlight_name="intel_backlight",format="bright: {percent:2.0%}"),
                 widget.Sep(),
                 widget.Wallpaper(directory=os.path.expanduser("~/Pictures/wallpapers"),random_selection=True),
                 widget.Sep(),
-                widget.Pacman(),
-                widget.Volume(),
+                #widget.Pacman(),
+                #widget.Volume(),
                
             ],
             30,

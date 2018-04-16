@@ -1,0 +1,421 @@
+t www.youtube.com
+t webkit 1080p youtube
+t html5 webkit
+b
+b
+back
+t back vimb
+tab
+open 1080p webkit 
+open mpv youtube 1080p
+open https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=923751928481.apps.googleusercontent.com&redirect_uri=urn:ietf:wg:oauth:2.0:oob&response_type=code&scope=https://www.googleapis.com/auth/youtube.force-ssl
+open youtube-viewr
+open youtube-vvierwer recommendeds
+open youtube-viewr
+open youtube.com
+cmd youtube-viewer https://www.youtube.com/watch?v=Bcxun36kygg
+! https://www.youtube.com/watch?v=Bcxun36kygg
+open vimb open comand
+sh youtube-viewer https://www.youtube.com/watch?v=Bcxun36kygg
+open https://www.youtube.com/
+sh youtube-viewer %
+sh youtube-viewer https://www.youtube.com/watch?v=TWw0Nbpika4
+open https://www.youtube.com/
+sh! youtube-viwer https://www.youtube.com/watch?v=TWw0Nbpika4
+sh! youtube-viewer https://www.youtube.com/watch?v=TWw0Nbpika4
+tabopen youtube-viewer config
+open configuration youtube-viewer
+sh! youtube-viewer https://www.youtube.com/watch?v=TWw0Nbpika4
+sh! youtube-viewer https://www.youtube.com/watch?v=TWw0Nbpika4
+open vimb man
+open dusiudhsaoi
+cm yb ;y:sh! youtube-viewer CTRL-R
+open youtube.com
+cm bb ;y:sh! youtube-viewer CTRL-R
+cm <C-Y> ;y:sh! youtube-viewer CTRL-R
+tabopen cmap vimb
+cmap bb ;y:sh! youtube-viewer CTRL-R
+nmap bb ;y:sh! youtube-viewer CTRL-R
+open youtube.com
+tabopen youtube.com
+nmap bb ;y:sh! youtube-viewer CTRL-R
+nmap bb ;y :sh! youtube-viewer CTRL-R
+nmap bb ;y 
+nmap bb ;y ;y
+nmap bb ;Y
+nmap bb ;y
+nmap bb ;yy
+YY
+nmap bb ;y <enter>
+nmap bb ;y <CR>
+nmap bb ;Y <CR>
+nmap bb youtube-viewer ""
+open utube-viewer ""
+nmap bb :sh! youtube-viewer "" <CR>
+sh! youtube-viewer "" 
+nmap bb :sh! youtube-viewer "" <CR>
+open youtube.com
+sh! youtube-viewer "" 
+open youtube.com
+nmap bb :sh! youtube-viewer "" <CR>
+sh! youtube-viewer "" 
+open youtube.com
+nmap bb :sh! youtube-viewer "" 
+sh! echo "" > log.txt 
+tabopen vimb past yanked
+nmap bb :sh! youtube-viewer CTRL-R <cr>
+sh! youtube-viewer CTRL-R 
+open youtube.com
+open https://stackoverflow.com/questions/3997078/how-to-paste-yanked-text-into-vim-command-line
+p
+sh! youtube-viewer <c-r>
+open youtube.com
+sh! youtube-viewer <c-r>
+tabopen vimb paste
+open vimb man
+reg ""
+reg ""
+reg "
+reg 
+regh
+reg
+reg "
+reg ""
+reg""
+open youtube.com"
+open youtube.com :reg"
+open :reg"
+sh! youtube-viewer <C-V>
+nmap bb :sh! youtube-viewer <C-V>
+open youtube.com
+nmap bb :sh! youtube-viewer <C-V> <CR>
+sh! youtube-viewer 
+nmap bb :sh! youtube-viewer <C-v> 
+nmap bb :sh! youtube-viewer <C-V>
+nmap bb :sh! youtube-viewer <C-V><C-V>
+tabopen ctr-v nmap
+open vimb
+nmap bb :sh! youtube-viewer <C-R>
+nmap bb :sh! youtube-viewer CTRL−R {a-z”%:/;}
+sh! youtube-viewer <C-R> {a-z:/;}
+open youtube.com
+sh! youtube-viewer {a-z:/;}
+open youtube.com
+nmap bb :sh! youtube-viewer {a-z”%:/;}
+cmap bb :sh! youtube-viewer {a-z”%:/;}
+cmap bb :sh! youtube-viewer 
+nmap bb :sh! youtube-viewer 
+nmap bb :sh! youtube-viewer <C-R>
+nmap bb :sh! youtube-viewer <C-R><C-v><C-V>
+nmap bb :sh! youtube-viewer <C-R><C-v><C-V><C-V>"
+sh! youtube-viewer b
+nmap bb :sh! youtube-viewer 
+tabopen vimb
+nmap bb :sh! youtube-viewer
+open https://www.youtube.com/
+open dragonball super online
+open google.com
+nmap bb :sh! youtube-viewer
+open youtube.com
+sh! youtube-viewer https://www.youtube.com/watch?v=TWw0Nbpika4
+sh! youtube-viewer https://www.youtube.com/watch?v=TWw0Nbpika4
+sh! youtube-viewer https://www.youtube.com/watch?v=TWw0Nbpika4
+sh! youtube-viewer https://www.youtube.com/watch?v=TWw0Nbpika4
+open mplayer controls
+open composition matrices
+open youtube.com
+open SoT in base
+open alex farah 
+tabopen Matriz de mudança de Base composiçao
+open determine a transformaçao linear
+open https://www.passeidireto.com/arquivo/2287906/algebra-linear---lista-7
+open determine transforamaçao linear tal que 
+open youtube.com
+tabopen  determine se injetora transformaao
+tabopen alex phara uff
+tabopen verifique se ps segunter M2x3 sao LI ou LD
+open https://www.youtube.com/
+open caffe2 dataset
+tabopen  caffe2 test
+tabopen  caffe2 object dectect
+tabopen caffe2 cat dog 
+tabopen  caffe2 cat dog
+open caffe2 image dataset create
+open create datase caffe2 images
+open image
+open create dataset caffe2 dog
+tabopen TensorProtos  images
+open leveldb images
+tabopen pytorch object detection
+open youtube.com
+tabopen pytorch arch
+open pip3 install http://download.pytorch.org/whl/cu80/torch-0.2.0.post3-cp36-cp36m-manylinux1_x86_64.whl 
+open https://github.com/pytorch/pytorch#from-source
+tabopen youtube.com
+sh! youtube-viewer https://www.youtube.com/watch?v=l6ICXmstp8E
+open  No module named 'torch.nn'; 'torch' is not a package
+tabopen torch is not a package
+sh! youtube-viewer https://www.youtube.com/watch?v=l6ICXmstp8E
+open cannot import torch
+open http://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html
+open pytorch module
+open http://pytorch.org/
+open  github.com/pytorch
+open cannot import torch.nn
+wq
+tabopen cuda gcc-5 export
+tabopen youtube.com
+sh! youtube-viewer https://www.youtube.com/watch?v=gNVBvNv6kkU
+open mkswap arch
+open tmpfs arch
+open linux watch 2 commands
+open top watch
+open pytorch source
+open python-pytorch filles
+open torch tutorial 
+open  model pytorch 
+open pytorchimage clasify
+open pytrch  images
+open create dataset like cifar10
+open youtube.com
+open create dataset pytorch
+open RuntimeError: CUDNN_STATUS_ARCH_MISMATCH
+open pytorch cuda
+open youtube.com
+sh youtube-viewer https://www.youtube.com/watch?v=VbPCkeJD3i4
+open http://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html
+open https://medium.com/towards-data-science/transfer-learning-using-pytorch-4c3475f4495
+open pytorch info training
+open youtube.com
+open parallel pytorch
+sh youtube-viewer https://www.youtube.com/watch?v=BplWQWnFg2k
+open shutdown in hours linux
+open caffe2 train
+open caffe2 train
+open --train-data caffe2
+help
+h
+dl
+s
+open Parallelize() got an unexpected keyword argument 'shared_model'
+open how touse train python caffe2
+open pytorch tarinb
+s
+o cdnn_status_arch_mismatch
+open arch cudnn
+open caffe2 use cpu
+open nvidia cuda
+open cuda 1050
+tabopen i
+open 1050ti
+open google.com
+open kabum
+open GEFORCE GTX 1050 TI 4GT LP
+open lowprofile benchmark 1050 ti
+open facebook.com
+tabopen youtube.com
+open cuda_arch torch patch
+open youtube.com
+open 650 kabum
+open google.com
+open cuda version nvidia
+open quadro gpu core cuda
+open https://www.kabum.com.br/
+open boa dica
+tabopen toch dataparallel cpu
+open facebook.com
+tabopen pytorch graph
+open evaluetion pytorch
+open pth.tar pytorch
+s
+s vimb-download2
+open  predict pytorch
+tabopen ragnarok wine
+open talonRO
+tabopen wine overwatch
+tabopen alon ro
+open gmail.com
+tabopen libc++ arch aur
+open youtube.com
+tabopen vim word compeltion
+open youtube.com
+open gmail.com
+open youtube.com
+sh youtube-viewer https://www.youtube.com/watch?v=xd33vvrgePQ
+open https://www.youtube.com/
+sh! youtube-viewer https://www.youtube.com/watch?v=xd33vvrgePQ
+sh! youtube-viewer https://www.youtube.com/watch?v=upqEK0iaVO4
+sh! youtube-viewer https://www.youtube.com/watch?v=fgrxqdNbEi0&t=1220s
+open gmail.com
+open ragnarok wine
+open inconsistent tensor size, 
+open youtube.com
+tabopen tearing test
+open tearing nvidia
+open https://www.youtube.com/watch?v=5xkNy9gfKOg
+open tearing arch nvidia
+o https://www.youtube.com/watch?v=5xkNy9gfKOg
+sh! youtube-viewer https://www.youtube.com/watch?v=TYZg0flNekM
+open https://www.youtube.com/
+open https://www.youtube.com/
+open youtube-viewer sync
+open facebook.com
+tabopen https://talonro.com/download/
+tabopen psi
+tabopen googledrive
+tabopen e graph
+tabopen wolframalpha
+open exp python error range
+open double python
+open e^ python range error
+open exp L python
+open exp greater numbers
+open 64 bit exp python
+open calculate number python more than 
+open e^ 720
+open google.com.br
+open https://www.wolframalpha.com/
+open https://www.facebook.com/
+tabopen gnuplot ln scale
+tabopen https://www.facebook.com/
+tabopen log(-2)
+open google.com
+tabopen google.com
+open https://www.facebook.com/
+open gnuplot with points all
+open plot multi plots gnuplot points
+tabopen colapse wave equation
+open grandcoss build
+open ssdd pytorch
+tabopen https://www.facebook.com/
+open voc train 
+open yolo object detection
+open youtube.com
+tabopen tensorflow object detection mobile
+tabopen  change all files string
+s ~/tensorflow/xml_to_csv.py
+s ~/tensorflow/generate_tfrecord.py
+q
+s ~/tensorflow/
+tabopen http://archlinux:6006
+open http://archlinux:6006/#scalars
+open archlinux dont kibernate pc
+open https://pythonprogramming.net/testing-custom-object-detector-tensorflow-object-detection-api-tutorial/?completed=/training-custom-objects-tensorflow-object-detection-api-tutorial/
+open https://pythonprogramming.net/training-custom-objects-tensorflow-object-detection-api-tutorial/?completed=/creating-tfrecord-files-tensorflow-object-detection-api-tutorial/
+open youtube.com
+open https://pythonprogramming.net/training-custom-objects-tensorflow-object-detection-api-tutorial/?completed=/creating-tfrecord-files-tensorflow-object-detection-api-tutorial/
+open lavbelimg github
+open resources pip install
+open labelimg
+open resources labelimg
+open RuntimeError: the PyQt4.QtCore and PyQt5.QtCore modules both wrap the QObject class
+open https://pythonprogramming.net/custom-objects-tracking-tensorflow-object-detection-api-tutorial/?completed=/video-tensorflow-object-detection-api-tutorial/
+tabopen pbtxt items
+open http://archlinux:6006/#scalars
+open https://www.facebook.com/
+open https://www.facebook.com/messages/t/camila.nunes.904
+tabopen https://www.youtube.com/
+tabopen https://pythonprogramming.net/training-custom-objects-tensorflow-object-detection-api-tutorial/?completed=/creating-tfrecord-files-tensorflow-object-detection-api-tutorial/
+sh! youtube-viewer https://youtu.be/P4SuDt78Aww
+sh! youtube-viewer https://www.youtube.com/watch?v=bvTiE3CM6n8&t=432s
+sh! youtube-viewer https://www.youtube.com/watch?v=bvTiE3CM6n8&t=432s
+open http://archlinux:6006/#scalars
+open http://archlinux:6006/#scalars
+open vimb zoom
+open sse4.1 lin8x
+open arclinux ss4.1
+open tensorflow ss4.1
+open avx2 tensorflow
+open tensorflow build
+open computecpp arch
+open computecpp sycl
+open computecpp arch
+open https://aur.archlinux.org/packages/computecpp/
+open sycl libcompute
+open mpi arch
+open Illegal ambiguous match on configurable attribute "deps"
+open Illegal ambiguous match on configurable attribute "deps"
+open may be used uninitialized in this function [-Werror=maybe-uninitialized]
+open tensorflow boringsall
+open transilvania 2 opensubtitles
+open linux test microfone
+open test mic linux
+open arch arecord
+open test mic onlibe
+open http://archlinux:6006/#scalars
+open youtube.com
+sh! youtube-viewer https://www.youtube.com/watch?v=k-BhjC2lI1s
+sh! youtube-viewer https://www.youtube.com/watch?v=k-BhjC2lI1s
+open python-tensorflow-git
+sh! youtube-viewer https://www.youtube.com/watch?v=rQnAOdKRDRQ
+open rdma tensorflow
+open gdr tensorflow
+open rdma archlinux
+open c compiler arch
+open libibverbs arch
+open checking whether the C compiler works... no
+open mki arch
+open gdr archlinux
+open aur arch
+open gdr tensorflow
+open https://www.tensorflow.org/install/install_sources
+open https://aur.archlinux.org/packages/python-tensorflow-git/
+open this rule is missing dependency declarations for the following files included by 'external/grpc/src/core/lib/profiling/basic_timers.c':
+open https://www.tensorflow.org/install/install_sources
+open resize images in folder
+open  specs image linux
+open image linux resolution terminal
+open image train size tensorflow
+open http://archlinux:6006/
+open image data tensorboard
+open tensorboard image tab
+tabopen http://archlinux:6006/#scalars
+open custrom object tensorboard
+open http://archlinux:6006/#scalars
+open  pl imgshow
+open  plt dont work
+open masterchef online
+open http://archlinux:6006/#scalars
+open linux tex slides
+open beamer
+open youtube.com
+open slide show linux
+open whatsapp web
+open A temática ambiental e o processo educativo: o ensino de física a partir de temas controversos
+open libreoffice pt-br archlinux
+open http://archlinux:6006/#scalars
+open python for images in path
+open module is not callable python
+open  tensorflow too much finds
+open oi libras
+open read image video faster
+open https://www.youtube.com/
+open multiprocess python
+open tensorflow multiprocess
+open multiprocess all python code
+tabopen https://duckduckgo.com/html/?q=multiprocess%20all%20python%20code
+open fps cap read know
+open cap.read() resize
+open speed session tensorflow
+open youtube.com
+open  python remove frames
+open http://archlinux:6006/#scalars
+open http://archlinux:6006/#scalars
+open youtube.com
+tabopen gamil.com
+open gmail.com
+tabopen https://www.tensorflow.org/install/install_sources
+open gmail.com
+tabopen usr/lib/python2.7/json/encoder.py:207: DeprecationWarning: Interpreting naive datetime as local 2017-10-22 16:26:26.317466. Please add timezone info to timestamps.
+tabopen jupyter online
+open http://archlinux:6006/#scalars
+!q
+q!
+open  14 wine staging
+open darkflow 
+open darkflow git
+open    gcc: error: unrecognized command line option ‘-fno-plt’
+open https://github.com/thtrieu/darkflow
+open http://archlinux:6006/#scalars
+q
+q!

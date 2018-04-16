@@ -16,12 +16,11 @@ zstyle :compinstall filename '/home/mesmer/.zshrc'
 alias grep='grep --colour=auto'
 alias egrep='egrep --colour=auto'
 alias ls='ls --color=auto --human-readable --group-directories-first --classify'
-alias cp='cp -iv'
+alias cp='cp -v'
 alias rcp='rsync -v --progress'
 alias rmv='rsync -v --progress --remove-source-files'
-alias mv='mv -iv'
-alias rm='rm -iv'
-alias vim='vim --servername vim'
+alias mv='mv -v'
+alias rm='rm -v'
 alias rmdir='rmdir -v'
 alias ln='ln -v'
 alias chmod="chmod -c"
@@ -180,3 +179,6 @@ source /usr/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring
   bindkey '^[[B' history-substring-search-down
 
 export ANDROID_HOME=/opt/android-sdk
+export PATH=$PATH:/home/mesmer/.gem/ruby/2.5.0/bin
+
+export XKB_DEFAULT_LAYOUT=br; export XKB_DEFAULT_VARIANT=abnt2; export XKB_DEFAULT_MODEL=pc105

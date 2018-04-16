@@ -11,2294 +11,3281 @@
 # hlsearch on (H) or off (h):
 ~h
 # Último padrão de busca :
-~MSle0~/1080
+~MSle0~/valor_wm
 
 # Último padrão de busca  de substituição:
-~MSle0&\/patchdata
+~MSle0&\Qtcore
 
 # Última string de substituição:
-$
+$\Qt\Core
 
 # Histórico de linha de comando (mais recente primeiro):
 :w
-|2,0,1511130209,,"w"
+|2,0,1523867774,,"w"
 :q
-|2,0,1511130074,,"q"
-:W
-|2,0,1511129858,,"W"
-:Q
-|2,0,1511129894,,"Q"
-:qw
-|2,0,1511044152,,"qw"
-:e player.py
-|2,0,1511044140,,"e player.py"
-:SyntasticToggleMode
-|2,0,1510960453,,"SyntasticToggleMode"
-:a
-|2,0,1510769417,,"a"
-:%s/\\ /\\/g
-|2,0,1510769232,,"%s/\\\\ /\\\\/g"
-:4337
-|2,0,1510769071,,"4337"
-:%s/^\d\+ -//g
-|2,0,1510769004,,"%s/^\\d\\+ -//g"
-:71
-|2,0,1510768990,,"71"
-:%s/^\d\+  //g
-|2,0,1510768942,,"%s/^\\d\\+  //g"
-:%s/^\d\+ //g
-|2,0,1510768924,,"%s/^\\d\\+ //g"
-:%s/^\d\+//g
-|2,0,1510768912,,"%s/^\\d\\+//g"
-:%s/^\d\+$//g
-|2,0,1510768908,,"%s/^\\d\\+$//g"
-:%s/^\\d$//g
-|2,0,1510768845,,"%s/^\\\\d$//g"
-:%s/^\d$//g
-|2,0,1510768832,,"%s/^\\d$//g"
-:%s/w //g
-|2,0,1510768782,,"%s/w //g"
-:%s/^ \+//g
-|2,0,1510768772,,"%s/^ \\+//g"
-:%s/^ \+w //g
-|2,0,1510768763,,"%s/^ \\+w //g"
-:%s/^ +//g
-|2,0,1510768684,,"%s/^ +//g"
-:%s/[a-Z][A-Z]//g
-|2,0,1510768568,,"%s/[a-Z][A-Z]//g"
-:%s/*.[a-Z][A-Z]//g
-|2,0,1510768563,,"%s/*.[a-Z][A-Z]//g"
-:%s/.*[a-Z][A-Z]//g
-|2,0,1510768558,,"%s/.*[a-Z][A-Z]//g"
-:%s/*[a-Z][A-Z]//g
-|2,0,1510768552,,"%s/*[a-Z][A-Z]//g"
-:%s/    [0-9].//g
-|2,0,1510768489,,"%s/    [0-9].//g"
-:%s/[1-9]//g
-|2,0,1510768015,,"%s/[1-9]//g"
-:%s/*[1-9]//g
-|2,0,1510767982,,"%s/*[1-9]//g"
-:%s/*[2-9]//g
-|2,0,1510767942,,"%s/*[2-9]//g"
-:w vlc.py
-|2,0,1510766568,,"w vlc.py"
+|2,0,1523870181,,"q"
+:w!
+|2,0,1523866661,,"w!"
 :wq
-|2,0,1510763139,,"wq"
+|2,0,1523866653,,"wq"
+:qa
+|2,0,1523865996,,"qa"
+:buffer 1
+|2,0,1523864523,,"buffer 1"
+:buffer 4
+|2,0,1523864241,,"buffer 4"
+:buffer 
+|2,0,1523863836,,"buffer "
+:buffer 2
+|2,0,1523863816,,"buffer 2"
+:e core/tests.py
+|2,0,1523863687,,"e core/tests.py"
+:SyntasticToggleMode
+|2,0,1523863348,,"SyntasticToggleMode"
+:e core/import_zanox.py
+|2,0,1523864389,,"e core/import_zanox.py"
+:e core/views.py
+|2,0,1523862222,,"e core/views.py"
+:e core/vi
+|2,0,1523862203,,"e core/vi"
+:e core/vie
+|2,0,1523862196,,"e core/vie"
+:e negocio/views.py
+|2,0,1523862183,,"e negocio/views.py"
+:set cursorcolumn
+|2,0,1523847089,,"set cursorcolumn"
+:set cursorcolumnset cursorline
+|2,0,1523847076,,"set cursorcolumnset cursorline"
+:PluginInstall
+|2,0,1523846278,,"PluginInstall"
+:IndentLinesTogglei
+|2,0,1523846728,,"IndentLinesTogglei"
+:IndentLinesToggle
+|2,0,1523846694,,"IndentLinesToggle"
+:IndentGuidesToggle
+|2,0,1523846513,,"IndentGuidesToggle"
+:let g:indent_guides_guide_size = 1
+|2,0,1523846484,,"let g:indent_guides_guide_size = 1"
+:LeadingSpaceToggle
+|2,0,1523846067,,"LeadingSpaceToggle"
+:let g:indentLine_char = 'c'
+|2,0,1523845215,,"let g:indentLine_char = 'c'"
+:let g:indentLine_setColors = 0
+|2,0,1523845192,,"let g:indentLine_setColors = 0"
+:set list lcs=tab:\|\
+|2,0,1523845146,,"set list lcs=tab:\\|\\"
+:TlistToggle
+|2,0,1523844945,,"TlistToggle"
+:PluginUpdate
+|2,0,1523844528,,"PluginUpdate"
+:Q
+|2,0,1523844478,,"Q"
+:PluginSearch 'Yggdroot/indentLine'
+|2,0,1523844476,,"PluginSearch 'Yggdroot/indentLine'"
+:PluginSearch Plugin 'Yggdroot/indentLine'
+|2,0,1523844468,,"PluginSearch Plugin 'Yggdroot/indentLine'"
+:PluginSearch indentLine
+|2,0,1523844444,,"PluginSearch indentLine"
+:PluginSearch indent
+|2,0,1523844371,,"PluginSearch indent"
+:ww
+|2,0,1523837163,,"ww"
 :we
-|2,0,1510759811,,"we"
-:e test.py
-|2,0,1510758265,,"e test.py"
-:513
-|2,0,1510418033,,"513"
-:449
-|2,0,1510417837,,"449"
-:3
-|2,0,1510417832,,"3"
-:o mpv.py
-|2,0,1510417822,,"o mpv.py"
-:39
-|2,0,1510270968,,"39"
-:49
-|2,0,1510270450,,"49"
-:1
-|2,0,1510270380,,"1"
-:28
-|2,0,1510270260,,"28"
-:45
-|2,0,1510269293,,"45"
-:142
-|2,0,1510269282,,"142"
-:buffer 11
-|2,0,1510236197,,"buffer 11"
-:buffer 10
-|2,0,1510236193,,"buffer 10"
-:buffer 9
-|2,0,1510236191,,"buffer 9"
-:buffer 8
-|2,0,1510236182,,"buffer 8"
-:buffer 7
-|2,0,1510236175,,"buffer 7"
-:buffer 6
-|2,0,1510236173,,"buffer 6"
+|2,0,1523653323,,"we"
+:W
+|2,0,1523652875,,"W"
+:%s/\Qtcore/\Qt\Core/g
+|2,0,1522697233,,"%s/\\Qtcore/\\Qt\\Core/g"
+:%s/\:self\.\P/\r self\.\P
+|2,0,1522697056,,"%s/\\:self\\.\\P/\\r self\\.\\P"
+:%s/\Qtcore\.\Qt/if\ e\.keys\(\)\=\=\Qtcore\.\Qt/g
+|2,0,1522696936,,"%s/\\Qtcore\\.\\Qt/if\\ e\\.keys\\(\\)\\=\\=\\Qtcore\\.\\Qt/g"
+:%s/Qtcore\.Qt/if e\.keys\(\)\=\=Qtcore\.Qt/g
+|2,0,1522696892,,"%s/Qtcore\\.Qt/if e\\.keys\\(\\)\\=\\=Qtcore\\.Qt/g"
+:%s/Qtcore.Qt/if e\.keys\(\)\=\=Qtcore\.Qt/g
+|2,0,1522696880,,"%s/Qtcore.Qt/if e\\.keys\\(\\)\\=\\=Qtcore\\.Qt/g"
+:ToggleBG
+|2,0,1522690715,,"ToggleBG"
+:TOhtml
+|2,0,1522690703,,"TOhtml"
+:'<,'>
+|2,0,1522634917,,"'<,'>"
+:w3
+|2,0,1522633330,,"w3"
+:i
+|2,0,1522633291,,"i"
+::
+|2,0,1522633178,,":"
+:!python %
+|2,0,1522631029,,"!python %"
+:!%
+|2,0,1522631014,,"!%"
 
 # Histórico de expressões de busca (mais recente primeiro):
-?/1080
-|2,1,1511130229,47,"1080"
-?/dash
-|2,1,1511130037,47,"dash"
-? \<def\>
-|2,1,1511127023,,"\\<def\\>"
-?/240
-|2,1,1511125472,47,"240"
-?/144
-|2,1,1511125448,47,"144"
-?/acodec
-|2,1,1511129641,47,"acodec"
-?/vcodec
-|2,1,1511128702,47,"vcodec"
-?/1080p
-|2,1,1511127076,47,"1080p"
-?/video
-|2,1,1511126837,47,"video"
-?/hd108
-|2,1,1511126707,47,"hd108"
-?/hd720
-|2,1,1511126605,47,"hd720"
-?/720p
-|2,1,1511126599,47,"720p"
-?/abr
-|2,1,1511125875,47,"abr"
-?/kbps
-|2,1,1511125872,47,"kbps"
-?/92
-|2,1,1511125533,47,"92"
-?/132
-|2,1,1511125522,47,"132"
-?/303
-|2,1,1511125320,47,"303"
-?/192
-|2,1,1511053437,47,"192"
-?/audio
-|2,1,1511053357,47,"audio"
-?/720
-|2,1,1511053354,47,"720"
-?/139
-|2,1,1511052620,47,"139"
-?/299
-|2,1,1511052335,47,"299"
-?/forma
-|2,1,1511052268,47,"forma"
-?/find
-|2,1,1510959906,47,"find"
-?/find_li
-|2,1,1510959667,47,"find_li"
-?/dll
-|2,1,1510959585,47,"dll"
-?/libvlc.
-|2,1,1510959463,47,"libvlc."
-?/lib
-|2,1,1510959455,47,"lib"
-?/.so
-|2,1,1510959445,47,".so"
-?/position
-|2,1,1510953851,47,"position"
-?/mediaplayer
-|2,1,1510951819,47,"mediaplayer"
-?/play()
-|2,1,1510951189,47,"play()"
-?/ḉay()
-|2,1,1510951183,47,"ḉay()"
+?/recebime
+|2,1,1523867344,47,"recebime"
+?/recebi
+|2,1,1523867285,47,"recebi"
+?/charac
+|2,1,1523866609,47,"charac"
+?/utf
+|2,1,1523866604,47,"utf"
+?/create
+|2,1,1523863800,47,"create"
+?/valor_wm
+|2,1,1523862772,47,"valor_wm"
+?/e core/views.py
+|2,1,1523862216,47,"e core/views.py"
+?/_empresa
+|2,1,1523861564,47,"_empresa"
+?/commission
+|2,1,1523861470,47,"commission"
+?/comission
+|2,1,1523861466,47,"comission"
+?/_amount
+|2,1,1523861446,47,"_amount"
+?/_percentual_winmoney
+|2,1,1523861139,47,"_percentual_winmoney"
+?/comissao_win
+|2,1,1523860972,47,"comissao_win"
+?/comissa
+|2,1,1523860630,47,"comissa"
+?/comissao
+|2,1,1523860268,47,"comissao"
+??Tlist
+|2,1,1523844935,63,"Tlist"
+?/Tlist
+|2,1,1523844781,47,"Tlist"
+?/enter
+|2,1,1523844698,47,"enter"
 ??w
-|2,1,1510950334,63,"w"
-?/prinjt
-|2,1,1510949768,47,"prinjt"
-?/new
-|2,1,1510949668,47,"new"
-?/add_slave
-|2,1,1510769296,47,"add_slave"
-? \\ 
-|2,1,1510769232,,"\\\\ "
-? ^\d\+ -
-|2,1,1510769004,,"^\\d\\+ -"
-? ^\d\+  
-|2,1,1510768942,,"^\\d\\+  "
-? ^\d\+ 
-|2,1,1510768924,,"^\\d\\+ "
-? ^\d\+
-|2,1,1510768912,,"^\\d\\+"
-? ^\d\+$
-|2,1,1510768908,,"^\\d\\+$"
-? ^\\d$
-|2,1,1510768845,,"^\\\\d$"
-? ^\d$
-|2,1,1510768832,,"^\\d$"
-? w 
-|2,1,1510768782,,"w "
-? ^ \+
-|2,1,1510768772,,"^ \\+"
-? ^ \+w 
-|2,1,1510768763,,"^ \\+w "
-? ^ +
-|2,1,1510768684,,"^ +"
-? [a-Z][A-Z]
-|2,1,1510768568,,"[a-Z][A-Z]"
+|2,1,1523841601,63,"w"
+?/mod+h
+|2,1,1523840072,47,"mod+h"
+?/Escap
+|2,1,1523839962,47,"Escap"
+??q
+|2,1,1523839752,63,"q"
+?/+e
+|2,1,1523836679,47,"+e"
+??:
+|2,1,1523832023,63,":"
+? )),
+|2,1,1523655434,,")),"
+? ))),
+|2,1,1523655236,,"))),"
+?/ll
+|2,1,1523574308,47,"ll"
+? \Qtcore
+|2,1,1522697233,,"\\Qtcore"
+? \:self\.\P
+|2,1,1522697056,,"\\:self\\.\\P"
+? \Qtcore\.\Qt
+|2,1,1522696936,,"\\Qtcore\\.\\Qt"
+? Qtcore\.Qt
+|2,1,1522696892,,"Qtcore\\.Qt"
+? Qtcore.Qt
+|2,1,1522696880,,"Qtcore.Qt"
+? \s\+$
+|2,1,1522690704,,"\\s\\+$"
+?/spin
+|2,1,1522636961,47,"spin"
+?/split
+|2,1,1522170610,47,"split"
+? that
+|2,1,1522114298,,"that"
+? parent
+|2,1,1522114175,,"parent"
+? \"
+|2,1,1522114108,,"\\\""
+? \[0\].message
+|2,1,1522113469,,"\\[0\\].message"
+? [0].message
+|2,1,1522113458,,"[0].message"
+??i
+|2,1,1522113321,63,"i"
+? , data.*
+|2,1,1522034612,,", data.*"
+? , data.?
+|2,1,1522034516,,", data.?"
+? , data.+
+|2,1,1522034510,,", data.+"
+? , data.+?
+|2,1,1522034504,,", data.+?"
+? , data..
+|2,1,1522034493,,", data.."
+? , data.^
+|2,1,1522034386,,", data.^"
+? , data.$
+|2,1,1522034380,,", data.$"
+? , data$
+|2,1,1522034374,,", data$"
+? parent.emit('
+|2,1,1522034294,,"parent.emit('"
 
 # Histórico de expressões (mais recente primeiro):
 
 # Histórico de linha de entrada (mais recente primeiro):
-@y
-|2,3,1510004851,,"y"
 
 # Histórico de linha de debug (mais recente primeiro):
 
 # Registradores:
-""0	CHAR	0
-	771
-<https://r1---sn-oxunxg8pjvn-bpbz7.googlevideo.com/videoplayback?key=yt6&mn=sn-oxunxg8pjvn-bpbz7&mm=31&sparams=aitags%2Cclen%2Cdur%2Cei%2Cgir%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Ckeepalive%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpl%2Crequiressl%2Csource%2Cexpire&pl=22&mv=m&mt=1511050842&ms=au&ei=E88QWrG7PMSWwwTcwYTAAQ&signature=6E6F7EC8DCD775901392C52AE4A8EC7C9E05FF16.4AD49216FBD83866CF1FBECA15309CEB65F0063D&clen=1445171528&ip=189.123.8.217&keepalive=yes&lmt=1510151627800863&itag=248&requiressl=yes&id=o-AP2CklGceieDo4bVRt4W8KnejJ3RilbBHKVt6UmTpCmE&source=youtube&dur=4478.500&mime=video%2Fwebm&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278%2C298%2C299%2C302%2C303&initcwndbps=603750&ipbits=0&expire=1511072628&gir=yes&ratebypass=yes
-|3,1,0,0,1,0,1511130287,>770
-|<"https://r1---sn-oxunxg8pjvn-bpbz7.googlevideo.com/videoplayback?key=yt6&mn=sn-oxunxg8pjvn-bpbz7&mm=31&sparams=aitags%2Cclen%2Cdur%2Cei%2Cgir%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Ckeepalive%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpl%2Crequiressl%2Csource%2Cexpire&pl=22&mv=m&mt=1511050842&ms=au&ei=E88QWrG7PMSWwwTcwYTAAQ&signature=6E6F7EC8DCD775901392C52AE4A8EC7C9E05FF16.4AD49216FBD83866CF1FBECA15309CEB65F0063D&clen=1445171528&ip=189.123.8.217&keepalive=yes&lmt=1510151627800863&itag=248&re
-|<quiressl=yes&id=o-AP2CklGceieDo4bVRt4W8KnejJ3RilbBHKVt6UmTpCmE&source=youtube&dur=4478.500&mime=video%2Fwebm&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278%2C298%2C299%2C302%2C303&initcwndbps=603750&ipbits=0&expire=1511072628&gir=yes&ratebypass=yes"
-"1	LINE	0
-	                print(a)
-|3,0,1,1,1,0,1511129153,"                print(a)"
+"0	LINE	0
+	    user = Usuario.objects.create()
+|3,0,0,1,1,0,1523866935,"    user = Usuario.objects.create()"
+""1	CHAR	0
+	        migrations.CreateModel(
+	            name='Banner',
+	            fields=[
+	                ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
+	                ('nome', models.CharField(max_length=100)),
+	                ('imagem', models.ImageField(help_text=b'Tamanho: 1000 \xc3\x97 300 pixels', max_length=1000, upload_to=cms.models.get_banner_path)),
+	                ('link', models.URLField(max_length=1000, null=True, blank=True)),
+	                ('texto', models.CharField(max_length=200, null=True, blank=True)),
+	                ('visivel', models.BooleanField(default=False)),
+	                ('ordem', models.IntegerField(default=0, choices=[(0, b'0'), (1, b'1'), (2, b'2'), (3, b'3'), (4, b'4'), (5, b'5'), (6, b'6'), (7, b'7'), (8, b'8'), (9, b'9'), (10, b'10')])),
+	            ],
+	            options={
+	                'ordering': ['-visivel', 'ordem'],
+	            },
+	            bases=(models.Model,),
+	        ),
+	        migrations.CreateModel(
+	            name='Depoimento',
+	            fields=[
+	                ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
+	                ('foto', models.ImageField(help_text=b'Tamanho: 100 \xc3\x97 100 pixels', max_length=1000, upload_to=cms.models.get_depoimentos_path)),
+	                ('nome', models.CharField(max_length=100)),
+	                ('depoimento', models.TextField(max_length=200)),
+	                ('visivel', models.BooleanField(default=False)),
+	                ('ordem', models.IntegerField(default=0, choices=[(0, b'0'), (1, b'1'), (2, b'2'), (3, b'3'), (4, b'4'), (5, b'5'), (6, b'6'), (7, b'7'), (8, b'8'), (9, b'9'), (10, b'10')])),
+	            ],
+	            options={
+	                'ordering': ['ordem'],
+	            },
+	            bases=(models.Model,),
+	        ),
+	        migrations.CreateModel(
+	            name='Home',
+	            fields=[
+	                ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
+	                ('nome', models.CharField(help_text='Nome interno da home, Ex.: Campanha de natal/Dia das m\xe3es', max_length=100)),
+	                ('texto_apos_banner', models.CharField(help_text='Permite tags html', max_length=200, null=True, blank=True)),
+	                ('texto_acima_cupons', models.CharField(help_text='Permite tags html', max_length=200, null=True, blank=True)),
+	                ('banner_lateral_1', models.ImageField(help_text='Tamanho: 200 \xd7 500 pixels', max_length=1000, upload_to=cms.models.get_banner_lateral_path)),
+	                ('banner_lateral_2', models.ImageField(help_text='Tamanho: 200 \xd7 500 pixels', max_length=1000, upload_to=cms.models.get_banner_lateral_path)),
+	                ('banner_lateral_3', models.ImageField(help_text='Tamanho: 200 \xd7 500 pixels', max_length=1000, null=True, upload_to=cms.models.get_banner_lateral_path, blank=True)),
+	                ('texto_apos_cupons', models.CharField(help_text='Permite tags html', max_length=300, null=True, blank=True)),
+	                ('texto_apos_banner_lateral', models.CharField(help_text='Permite tags html', max_length=300, null=True, blank=True)),
+	                ('visivel', models.BooleanField(default=False, help_text='Todos as outras homes da mesma cidade ser\xe3o desmarcadas')),
+	                ('quantidade_empresas_capa', models.IntegerField(default=15)),
+	                ('banners', models.ManyToManyField(to='cms.Banner')),
+	                ('cidade', models.ForeignKey(blank=True, to='negocio.Cidade', help_text=b'Define uma home exclusiva para a cidade selecionada', null=True)),
+	                ('depoimentos', models.ManyToManyField(to='cms.Depoimento', null=True, blank=True)),
+	            ],
+	            options={
+|3,1,1,0,50,0,1523870160,"        migrations.CreateModel(","            name='Banner',","            fields=[","                ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),","                ('nome', models.CharField(max_length=100)),","                ('imagem', models.ImageField(help_text=b'Tamanho: 1000 \\xc3\\x97 300 pixels', max_length=1000, upload_to=cms.models.get_banner_path)),",>84
+|<"                ('link', models.URLField(max_length=1000, null=True, blank=True)),","                ('texto', models.CharField(max_length=200, null=True, blank=True)),","                ('visivel', models.BooleanField(default=False)),","                ('ordem', models.IntegerField(default=0, choices=[(0, b'0'), (1, b'1'), (2, b'2'), (3, b'3'), (4, b'4'), (5, b'5'), (6, b'6'), (7, b'7'), (8, b'8'), (9, b'9'), (10, b'10')])),","            ],","            options={",>52
+|<"                'ordering': ['-visivel', 'ordem'],","            },","            bases=(models.Model,),","        ),","        migrations.CreateModel(","            name='Depoimento',","            fields=[","                ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),","                ('foto', models.ImageField(help_text=b'Tamanho: 100 \\xc3\\x97 100 pixels', max_length=1000, upload_to=cms.models.get_depoimentos_path)),",>61
+|<"                ('nome', models.CharField(max_length=100)),","                ('depoimento', models.TextField(max_length=200)),","                ('visivel', models.BooleanField(default=False)),","                ('ordem', models.IntegerField(default=0, choices=[(0, b'0'), (1, b'1'), (2, b'2'), (3, b'3'), (4, b'4'), (5, b'5'), (6, b'6'), (7, b'7'), (8, b'8'), (9, b'9'), (10, b'10')])),","            ],","            options={","                'ordering': ['ordem'],","            },",>36
+|<"            bases=(models.Model,),","        ),","        migrations.CreateModel(","            name='Home',","            fields=[","                ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),","                ('nome', models.CharField(help_text='Nome interno da home, Ex.: Campanha de natal/Dia das m\\xe3es', max_length=100)),",>128
+|<"                ('texto_apos_banner', models.CharField(help_text='Permite tags html', max_length=200, null=True, blank=True)),","                ('texto_acima_cupons', models.CharField(help_text='Permite tags html', max_length=200, null=True, blank=True)),","                ('banner_lateral_1', models.ImageField(help_text='Tamanho: 200 \\xd7 500 pixels', max_length=1000, upload_to=cms.models.get_banner_lateral_path)),",>164
+|<"                ('banner_lateral_2', models.ImageField(help_text='Tamanho: 200 \\xd7 500 pixels', max_length=1000, upload_to=cms.models.get_banner_lateral_path)),","                ('banner_lateral_3', models.ImageField(help_text='Tamanho: 200 \\xd7 500 pixels', max_length=1000, null=True, upload_to=cms.models.get_banner_lateral_path, blank=True)),","                ('texto_apos_cupons', models.CharField(help_text='Permite tags html', max_length=300, null=True, blank=True)),",>136
+|<"                ('texto_apos_banner_lateral', models.CharField(help_text='Permite tags html', max_length=300, null=True, blank=True)),","                ('visivel', models.BooleanField(default=False, help_text='Todos as outras homes da mesma cidade ser\\xe3o desmarcadas')),","                ('quantidade_empresas_capa', models.IntegerField(default=15)),","                ('banners', models.ManyToManyField(to='cms.Banner')),",>158
+|<"                ('cidade', models.ForeignKey(blank=True, to='negocio.Cidade', help_text=b'Define uma home exclusiva para a cidade selecionada', null=True)),","                ('depoimentos', models.ManyToManyField(to='cms.Depoimento', null=True, blank=True)),","            ],","            options={"
 "2	LINE	0
-	"""
-|3,0,2,1,1,0,1511127028,"\"\"\""
+	from core.models import Options, Survey
+|3,0,2,1,1,0,1523867771,"from core.models import Options, Survey"
 "3	LINE	0
-	"""
-|3,0,3,1,1,0,1511127014,"\"\"\""
+	from django.test import TestCase
+|3,0,3,1,1,0,1523867763,"from django.test import TestCase"
 "4	LINE	0
-	    #    input("Press any key to stop play")
-|3,0,4,1,1,0,1511127013,"    #    input(\"Press any key to stop play\")"
+	   
+|3,0,4,1,1,0,1523867743,"   "
 "5	LINE	0
-	    #    )
-|3,0,5,1,1,0,1511127013,"    #    )"
-"6	LINE	0
-	    #                     indent=4)
-|3,0,6,1,1,0,1511127013,"    #                     indent=4)"
-"7	LINE	0
-	    #                     sort_keys=True, 
-|3,0,7,1,1,0,1511127013,"    #                     sort_keys=True, "
+	class TestSurveyMini(APITestCase):
+|3,0,5,1,1,0,1523867742,"class TestSurveyMini(APITestCase):"
+"6	CHAR	0
+	 def test_createsurveys(self):
+	         self.assertEqual(Compra.objects.get().count(), 1)
+	
+|3,0,6,0,3,0,1523867734," def test_createsurveys(self):","         self.assertEqual(Compra.objects.get().count(), 1)",""
+"7	CHAR	0
+	@classmethod
+	    def setUpTestData(cls):
+	        call_command('loaddata', 'dumpwinmoney.sql', verbosity=0)
+	
+|3,0,7,0,4,0,1523867727,"@classmethod","    def setUpTestData(cls):","        call_command('loaddata', 'dumpwinmoney.sql', verbosity=0)",""
 "8	LINE	0
-	    #                    download=False)['formats'],
-|3,0,8,1,1,0,1511127013,"    #                    download=False)['formats'],"
+	         self.assertEqual(Compra.objects.get().count(), 1)
+|3,0,8,1,1,0,1523867032,"         self.assertEqual(Compra.objects.get().count(), 1)"
 "9	LINE	0
-	    #        ydl.extract_info('https://www.youtube.com/watch?v=BaW_jenozKc',
-|3,0,9,1,1,0,1511127013,"    #        ydl.extract_info('https://www.youtube.com/watch?v=BaW_jenozKc',"
-"a	CHAR	0
-	kdp^x
-|3,0,10,0,1,0,1510018123,"kdp^x"
-"d@	CHAR	0
-	kdp^x
-|3,2,13,0,1,0,1509903815,"kdp^x"
-"q	CHAR	0
-	^xxkd
-|3,0,26,0,1,0,1502299687,"^xxkd"
+	        _create_compra(1,28.33,472.10,1,'2018-04-16 03:03:09',2)
+|3,0,9,1,1,0,1523867032,"        _create_compra(1,28.33,472.10,1,'2018-04-16 03:03:09',2)"
 "s	CHAR	0
-	vkrkrkrkrkrkrkrkrkrkrkrkrkrkrkrkrkrkrkrkrkrkrkrkrykdpuku
-|3,0,28,0,1,0,1509903762,"vkrkrkrkrkrkrkrkrkrkrkrkrkrkrkrkrkrkrkrkrkrkrkrkrykdpuku"
+	valor_wm
+|3,0,28,0,1,0,1523862203,"valor_wm"
 "y	CHAR	0
-	t}pu
-|3,0,34,0,1,0,1495111483,"t}pu"
+	ui.query:wi�krsite:w��,��.i�kr]nome:wuu:w:wi�kIi�kri�kr�kr�kr�kr
+|3,0,34,0,1,0,1519961506,"ui.query:wi�krsite:w��,��.i�kr]nome:wuu:w:wi�kIi�kri�kr�kr�kr�kr"
 "-	CHAR	0
-	I
-|3,0,36,0,1,0,1511125171,"I"
+	cupom_cliente
+|3,0,36,0,1,0,1523863582,"cupom_cliente"
 
 # Marcas nos arquivos:
-'0  117  175  ~/PyTube/tt.txt
-|4,48,117,175,1511130594,"~/PyTube/tt.txt"
-'1  46  32  ~/PyTube/getinfo.py
-|4,49,46,32,1511130594,"~/PyTube/getinfo.py"
-'2  665  20  ~/PyTube/tt.txt
-|4,50,665,20,1511130074,"~/PyTube/tt.txt"
-'3  665  20  ~/PyTube/tt.txt
-|4,51,665,20,1511130074,"~/PyTube/tt.txt"
-'4  46  23  ~/PyTube/getinfo.py
-|4,52,46,23,1511130068,"~/PyTube/getinfo.py"
-'5  436  25  ~/PyTube/tt.txt
-|4,53,436,25,1511129971,"~/PyTube/tt.txt"
-'6  436  25  ~/PyTube/tt.txt
-|4,54,436,25,1511129971,"~/PyTube/tt.txt"
-'7  436  25  ~/PyTube/tt.txt
-|4,55,436,25,1511129971,"~/PyTube/tt.txt"
-'8  436  25  ~/PyTube/tt.txt
-|4,56,436,25,1511129971,"~/PyTube/tt.txt"
-'9  297  25  ~/PyTube/tt.txt
-|4,57,297,25,1511129897,"~/PyTube/tt.txt"
+'0  15  0  ~/external/mesmer/comproadmin/winmoney/core/tests.py
+|4,48,15,0,1523870381,"~/external/mesmer/comproadmin/winmoney/core/tests.py"
+'1  26  4  ~/external/mesmer/comproadmin/winmoney/cms/migrations/0001_initial.py
+|4,49,26,4,1523870181,"~/external/mesmer/comproadmin/winmoney/cms/migrations/0001_initial.py"
+'2  1  0  ~/external/mesmer/comproadmin/winmoney/db.json
+|4,50,1,0,1523868212,"~/external/mesmer/comproadmin/winmoney/db.json"
+'3  1  0  ~/external/mesmer/comproadmin/winmoney/db.log
+|4,51,1,0,1523868152,"~/external/mesmer/comproadmin/winmoney/db.log"
+'4  13  0  ~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py
+|4,52,13,0,1523867486,"~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py"
+'5  1  0  ~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py:
+|4,53,1,0,1523867462,"~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py:"
+'6  1  0  /negocio/migrations/0007_auto_20160228_1007.py:
+|4,54,1,0,1523867449,"/negocio/migrations/0007_auto_20160228_1007.py:"
+'7  72  13  ~/external/mesmer/comproadmin/winmoney/negocio/views.py
+|4,55,72,13,1523867408,"~/external/mesmer/comproadmin/winmoney/negocio/views.py"
+'8  406  26  ~/external/mesmer/comproadmin/winmoney/negocio/models.py
+|4,56,406,26,1523867289,"~/external/mesmer/comproadmin/winmoney/negocio/models.py"
+'9  160  0  /etc/mysql/my.cnf
+|4,57,160,0,1523866667,"/etc/mysql/my.cnf"
 
 # Lista de saltos (mais recente primeiro):
--'  117  175  ~/PyTube/tt.txt
-|4,39,117,175,1511130594,"~/PyTube/tt.txt"
--'  46  32  ~/PyTube/getinfo.py
-|4,39,46,32,1511130594,"~/PyTube/getinfo.py"
--'  677  22  ~/PyTube/tt.txt
-|4,39,677,22,1511130564,"~/PyTube/tt.txt"
--'  673  34  ~/PyTube/tt.txt
-|4,39,673,34,1511130562,"~/PyTube/tt.txt"
--'  660  14  ~/PyTube/tt.txt
-|4,39,660,14,1511130562,"~/PyTube/tt.txt"
--'  533  22  ~/PyTube/tt.txt
-|4,39,533,22,1511130561,"~/PyTube/tt.txt"
--'  529  34  ~/PyTube/tt.txt
-|4,39,529,34,1511130561,"~/PyTube/tt.txt"
--'  509  22  ~/PyTube/tt.txt
-|4,39,509,22,1511130559,"~/PyTube/tt.txt"
--'  507  28  ~/PyTube/tt.txt
-|4,39,507,28,1511130559,"~/PyTube/tt.txt"
--'  505  40  ~/PyTube/tt.txt
-|4,39,505,40,1511130559,"~/PyTube/tt.txt"
--'  486  22  ~/PyTube/tt.txt
-|4,39,486,22,1511130556,"~/PyTube/tt.txt"
--'  484  28  ~/PyTube/tt.txt
-|4,39,484,28,1511130556,"~/PyTube/tt.txt"
--'  482  40  ~/PyTube/tt.txt
-|4,39,482,40,1511130551,"~/PyTube/tt.txt"
--'  438  22  ~/PyTube/tt.txt
-|4,39,438,22,1511130550,"~/PyTube/tt.txt"
--'  436  28  ~/PyTube/tt.txt
-|4,39,436,28,1511130550,"~/PyTube/tt.txt"
--'  434  40  ~/PyTube/tt.txt
-|4,39,434,40,1511130549,"~/PyTube/tt.txt"
--'  27  26  ~/PyTube/tt.txt
-|4,39,27,26,1511130548,"~/PyTube/tt.txt"
--'  449  20  ~/PyTube/tt.txt
-|4,39,449,20,1511130513,"~/PyTube/tt.txt"
--'  665  20  ~/PyTube/tt.txt
-|4,39,665,20,1511130229,"~/PyTube/tt.txt"
--'  665  20  ~/PyTube/tt.txt
-|4,39,665,20,1511130074,"~/PyTube/tt.txt"
--'  46  23  ~/PyTube/getinfo.py
-|4,39,46,23,1511130068,"~/PyTube/getinfo.py"
--'  46  23  ~/PyTube/getinfo.py
-|4,39,46,23,1511130068,"~/PyTube/getinfo.py"
--'  698  41  ~/PyTube/tt.txt
-|4,39,698,41,1511130051,"~/PyTube/tt.txt"
--'  698  41  ~/PyTube/tt.txt
-|4,39,698,41,1511130051,"~/PyTube/tt.txt"
--'  686  75  ~/PyTube/tt.txt
-|4,39,686,75,1511130050,"~/PyTube/tt.txt"
--'  675  28  ~/PyTube/tt.txt
-|4,39,675,28,1511130050,"~/PyTube/tt.txt"
--'  686  75  ~/PyTube/tt.txt
-|4,39,686,75,1511130050,"~/PyTube/tt.txt"
--'  675  28  ~/PyTube/tt.txt
-|4,39,675,28,1511130050,"~/PyTube/tt.txt"
--'  673  40  ~/PyTube/tt.txt
-|4,39,673,40,1511130048,"~/PyTube/tt.txt"
--'  542  75  ~/PyTube/tt.txt
-|4,39,542,75,1511130045,"~/PyTube/tt.txt"
--'  542  75  ~/PyTube/tt.txt
-|4,39,542,75,1511130045,"~/PyTube/tt.txt"
--'  531  28  ~/PyTube/tt.txt
-|4,39,531,28,1511130043,"~/PyTube/tt.txt"
--'  531  28  ~/PyTube/tt.txt
-|4,39,531,28,1511130043,"~/PyTube/tt.txt"
--'  529  40  ~/PyTube/tt.txt
-|4,39,529,40,1511130043,"~/PyTube/tt.txt"
--'  471  75  ~/PyTube/tt.txt
-|4,39,471,75,1511130041,"~/PyTube/tt.txt"
--'  471  75  ~/PyTube/tt.txt
-|4,39,471,75,1511130041,"~/PyTube/tt.txt"
--'  460  28  ~/PyTube/tt.txt
-|4,39,460,28,1511130039,"~/PyTube/tt.txt"
--'  458  39  ~/PyTube/tt.txt
-|4,39,458,39,1511130039,"~/PyTube/tt.txt"
--'  460  28  ~/PyTube/tt.txt
-|4,39,460,28,1511130039,"~/PyTube/tt.txt"
--'  458  39  ~/PyTube/tt.txt
-|4,39,458,39,1511130039,"~/PyTube/tt.txt"
--'  436  25  ~/PyTube/tt.txt
-|4,39,436,25,1511130037,"~/PyTube/tt.txt"
--'  436  25  ~/PyTube/tt.txt
-|4,39,436,25,1511129971,"~/PyTube/tt.txt"
--'  436  25  ~/PyTube/tt.txt
-|4,39,436,25,1511129971,"~/PyTube/tt.txt"
--'  297  25  ~/PyTube/tt.txt
-|4,39,297,25,1511129915,"~/PyTube/tt.txt"
--'  297  25  ~/PyTube/tt.txt
-|4,39,297,25,1511129915,"~/PyTube/tt.txt"
--'  297  25  ~/PyTube/tt.txt
-|4,39,297,25,1511129915,"~/PyTube/tt.txt"
--'  297  25  ~/PyTube/tt.txt
-|4,39,297,25,1511129915,"~/PyTube/tt.txt"
--'  297  25  ~/PyTube/tt.txt
-|4,39,297,25,1511129897,"~/PyTube/tt.txt"
--'  297  25  ~/PyTube/tt.txt
-|4,39,297,25,1511129897,"~/PyTube/tt.txt"
--'  258  75  ~/PyTube/tt.txt
-|4,39,258,75,1511129823,"~/PyTube/tt.txt"
--'  247  28  ~/PyTube/tt.txt
-|4,39,247,28,1511129823,"~/PyTube/tt.txt"
--'  258  75  ~/PyTube/tt.txt
-|4,39,258,75,1511129823,"~/PyTube/tt.txt"
--'  247  28  ~/PyTube/tt.txt
-|4,39,247,28,1511129823,"~/PyTube/tt.txt"
--'  258  75  ~/PyTube/tt.txt
-|4,39,258,75,1511129823,"~/PyTube/tt.txt"
--'  247  28  ~/PyTube/tt.txt
-|4,39,247,28,1511129823,"~/PyTube/tt.txt"
--'  258  75  ~/PyTube/tt.txt
-|4,39,258,75,1511129823,"~/PyTube/tt.txt"
--'  247  28  ~/PyTube/tt.txt
-|4,39,247,28,1511129823,"~/PyTube/tt.txt"
--'  258  75  ~/PyTube/tt.txt
-|4,39,258,75,1511129823,"~/PyTube/tt.txt"
--'  247  28  ~/PyTube/tt.txt
-|4,39,247,28,1511129823,"~/PyTube/tt.txt"
--'  258  75  ~/PyTube/tt.txt
-|4,39,258,75,1511129823,"~/PyTube/tt.txt"
--'  247  28  ~/PyTube/tt.txt
-|4,39,247,28,1511129823,"~/PyTube/tt.txt"
--'  245  38  ~/PyTube/tt.txt
-|4,39,245,38,1511129822,"~/PyTube/tt.txt"
--'  186  75  ~/PyTube/tt.txt
-|4,39,186,75,1511129822,"~/PyTube/tt.txt"
--'  175  28  ~/PyTube/tt.txt
-|4,39,175,28,1511129822,"~/PyTube/tt.txt"
--'  245  38  ~/PyTube/tt.txt
-|4,39,245,38,1511129822,"~/PyTube/tt.txt"
--'  186  75  ~/PyTube/tt.txt
-|4,39,186,75,1511129822,"~/PyTube/tt.txt"
--'  175  28  ~/PyTube/tt.txt
-|4,39,175,28,1511129822,"~/PyTube/tt.txt"
--'  245  38  ~/PyTube/tt.txt
-|4,39,245,38,1511129822,"~/PyTube/tt.txt"
--'  186  75  ~/PyTube/tt.txt
-|4,39,186,75,1511129822,"~/PyTube/tt.txt"
--'  175  28  ~/PyTube/tt.txt
-|4,39,175,28,1511129822,"~/PyTube/tt.txt"
--'  245  38  ~/PyTube/tt.txt
-|4,39,245,38,1511129822,"~/PyTube/tt.txt"
--'  186  75  ~/PyTube/tt.txt
-|4,39,186,75,1511129822,"~/PyTube/tt.txt"
--'  175  28  ~/PyTube/tt.txt
-|4,39,175,28,1511129822,"~/PyTube/tt.txt"
--'  245  38  ~/PyTube/tt.txt
-|4,39,245,38,1511129822,"~/PyTube/tt.txt"
--'  186  75  ~/PyTube/tt.txt
-|4,39,186,75,1511129822,"~/PyTube/tt.txt"
--'  175  28  ~/PyTube/tt.txt
-|4,39,175,28,1511129822,"~/PyTube/tt.txt"
--'  245  38  ~/PyTube/tt.txt
-|4,39,245,38,1511129822,"~/PyTube/tt.txt"
--'  186  75  ~/PyTube/tt.txt
-|4,39,186,75,1511129822,"~/PyTube/tt.txt"
--'  175  28  ~/PyTube/tt.txt
-|4,39,175,28,1511129822,"~/PyTube/tt.txt"
--'  173  38  ~/PyTube/tt.txt
-|4,39,173,38,1511129821,"~/PyTube/tt.txt"
--'  154  28  ~/PyTube/tt.txt
-|4,39,154,28,1511129821,"~/PyTube/tt.txt"
--'  173  38  ~/PyTube/tt.txt
-|4,39,173,38,1511129821,"~/PyTube/tt.txt"
--'  154  28  ~/PyTube/tt.txt
-|4,39,154,28,1511129821,"~/PyTube/tt.txt"
--'  173  38  ~/PyTube/tt.txt
-|4,39,173,38,1511129821,"~/PyTube/tt.txt"
--'  154  28  ~/PyTube/tt.txt
-|4,39,154,28,1511129821,"~/PyTube/tt.txt"
--'  173  38  ~/PyTube/tt.txt
-|4,39,173,38,1511129821,"~/PyTube/tt.txt"
--'  154  28  ~/PyTube/tt.txt
-|4,39,154,28,1511129821,"~/PyTube/tt.txt"
--'  173  38  ~/PyTube/tt.txt
-|4,39,173,38,1511129821,"~/PyTube/tt.txt"
--'  154  28  ~/PyTube/tt.txt
-|4,39,154,28,1511129821,"~/PyTube/tt.txt"
--'  173  38  ~/PyTube/tt.txt
-|4,39,173,38,1511129821,"~/PyTube/tt.txt"
--'  154  28  ~/PyTube/tt.txt
-|4,39,154,28,1511129821,"~/PyTube/tt.txt"
--'  152  41  ~/PyTube/tt.txt
-|4,39,152,41,1511129820,"~/PyTube/tt.txt"
--'  140  75  ~/PyTube/tt.txt
-|4,39,140,75,1511129820,"~/PyTube/tt.txt"
--'  152  41  ~/PyTube/tt.txt
-|4,39,152,41,1511129820,"~/PyTube/tt.txt"
--'  140  75  ~/PyTube/tt.txt
-|4,39,140,75,1511129820,"~/PyTube/tt.txt"
--'  152  41  ~/PyTube/tt.txt
-|4,39,152,41,1511129820,"~/PyTube/tt.txt"
--'  140  75  ~/PyTube/tt.txt
-|4,39,140,75,1511129820,"~/PyTube/tt.txt"
--'  152  41  ~/PyTube/tt.txt
-|4,39,152,41,1511129820,"~/PyTube/tt.txt"
--'  140  75  ~/PyTube/tt.txt
-|4,39,140,75,1511129820,"~/PyTube/tt.txt"
--'  152  41  ~/PyTube/tt.txt
-|4,39,152,41,1511129820,"~/PyTube/tt.txt"
+-'  15  0  ~/external/mesmer/comproadmin/winmoney/core/tests.py
+|4,39,15,0,1523870381,"~/external/mesmer/comproadmin/winmoney/core/tests.py"
+-'  26  4  ~/external/mesmer/comproadmin/winmoney/cms/migrations/0001_initial.py
+|4,39,26,4,1523870181,"~/external/mesmer/comproadmin/winmoney/cms/migrations/0001_initial.py"
+-'  1  0  ~/external/mesmer/comproadmin/winmoney/cms/migrations/0001_initial.py
+|4,39,1,0,1523869951,"~/external/mesmer/comproadmin/winmoney/cms/migrations/0001_initial.py"
+-'  1  0  ~/external/mesmer/comproadmin/winmoney/db.json
+|4,39,1,0,1523868212,"~/external/mesmer/comproadmin/winmoney/db.json"
+-'  1  0  ~/external/mesmer/comproadmin/winmoney/db.json
+|4,39,1,0,1523868212,"~/external/mesmer/comproadmin/winmoney/db.json"
+-'  1  0  ~/external/mesmer/comproadmin/winmoney/db.log
+|4,39,1,0,1523868152,"~/external/mesmer/comproadmin/winmoney/db.log"
+-'  1  0  ~/external/mesmer/comproadmin/winmoney/db.log
+|4,39,1,0,1523868152,"~/external/mesmer/comproadmin/winmoney/db.log"
+-'  1  0  ~/external/mesmer/comproadmin/winmoney/db.log
+|4,39,1,0,1523868152,"~/external/mesmer/comproadmin/winmoney/db.log"
+-'  1  0  ~/external/mesmer/comproadmin/winmoney/db.log
+|4,39,1,0,1523868152,"~/external/mesmer/comproadmin/winmoney/db.log"
+-'  17  4  ~/external/mesmer/comproadmin/winmoney/core/tests.py
+|4,39,17,4,1523867730,"~/external/mesmer/comproadmin/winmoney/core/tests.py"
+-'  13  54  ~/external/mesmer/comproadmin/winmoney/core/tests.py
+|4,39,13,54,1523867643,"~/external/mesmer/comproadmin/winmoney/core/tests.py"
+-'  13  0  ~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py
+|4,39,13,0,1523867486,"~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py"
+-'  13  0  ~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py
+|4,39,13,0,1523867486,"~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py"
+-'  13  0  ~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py
+|4,39,13,0,1523867486,"~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py"
+-'  13  0  ~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py
+|4,39,13,0,1523867486,"~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py"
+-'  13  0  ~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py
+|4,39,13,0,1523867486,"~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py"
+-'  13  0  ~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py
+|4,39,13,0,1523867486,"~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py"
+-'  13  0  ~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py
+|4,39,13,0,1523867486,"~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py"
+-'  13  0  ~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py
+|4,39,13,0,1523867486,"~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py"
+-'  1  0  ~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py
+|4,39,1,0,1523867465,"~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py"
+-'  1  0  ~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py
+|4,39,1,0,1523867465,"~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py"
+-'  1  0  ~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py
+|4,39,1,0,1523867465,"~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py"
+-'  1  0  ~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py
+|4,39,1,0,1523867465,"~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py"
+-'  1  0  ~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py
+|4,39,1,0,1523867465,"~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py"
+-'  1  0  ~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py
+|4,39,1,0,1523867465,"~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py"
+-'  1  0  ~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py
+|4,39,1,0,1523867465,"~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py"
+-'  1  0  ~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py
+|4,39,1,0,1523867465,"~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py"
+-'  1  0  ~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867462,"~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  1  0  ~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867462,"~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  1  0  ~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867462,"~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  1  0  ~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867462,"~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  1  0  ~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867462,"~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  1  0  ~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867462,"~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  1  0  ~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867462,"~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  1  0  ~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867462,"~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  1  0  ~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867462,"~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  1  0  ~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867462,"~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  1  0  ~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867462,"~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  1  0  ~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867462,"~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  1  0  ~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867462,"~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  1  0  ~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867462,"~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  1  0  ~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867462,"~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  1  0  ~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867462,"~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  1  0  /negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867449,"/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  1  0  /negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867449,"/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  1  0  /negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867449,"/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  1  0  /negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867449,"/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  1  0  /negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867449,"/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  1  0  /negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867449,"/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  1  0  /negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867449,"/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  1  0  /negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867449,"/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  1  0  /negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867449,"/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  1  0  /negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867449,"/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  1  0  /negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867449,"/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  1  0  /negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867449,"/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  1  0  /negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867449,"/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  1  0  /negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867449,"/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  1  0  /negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867449,"/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  1  0  /negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867449,"/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  1  0  /negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867449,"/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  1  0  /negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867449,"/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  1  0  /negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867449,"/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  1  0  /negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867449,"/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  1  0  /negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867449,"/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  1  0  /negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867449,"/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  1  0  /negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867449,"/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  1  0  /negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867449,"/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  1  0  /negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867449,"/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  1  0  /negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867449,"/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  1  0  /negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867449,"/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  1  0  /negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867449,"/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  1  0  /negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867449,"/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  1  0  /negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867449,"/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  1  0  /negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867449,"/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  1  0  /negocio/migrations/0007_auto_20160228_1007.py:
+|4,39,1,0,1523867449,"/negocio/migrations/0007_auto_20160228_1007.py:"
+-'  72  13  ~/external/mesmer/comproadmin/winmoney/negocio/views.py
+|4,39,72,13,1523867408,"~/external/mesmer/comproadmin/winmoney/negocio/views.py"
+-'  72  13  ~/external/mesmer/comproadmin/winmoney/negocio/views.py
+|4,39,72,13,1523867408,"~/external/mesmer/comproadmin/winmoney/negocio/views.py"
+-'  72  13  ~/external/mesmer/comproadmin/winmoney/negocio/views.py
+|4,39,72,13,1523867408,"~/external/mesmer/comproadmin/winmoney/negocio/views.py"
+-'  72  13  ~/external/mesmer/comproadmin/winmoney/negocio/views.py
+|4,39,72,13,1523867408,"~/external/mesmer/comproadmin/winmoney/negocio/views.py"
+-'  72  13  ~/external/mesmer/comproadmin/winmoney/negocio/views.py
+|4,39,72,13,1523867408,"~/external/mesmer/comproadmin/winmoney/negocio/views.py"
+-'  72  13  ~/external/mesmer/comproadmin/winmoney/negocio/views.py
+|4,39,72,13,1523867408,"~/external/mesmer/comproadmin/winmoney/negocio/views.py"
+-'  72  13  ~/external/mesmer/comproadmin/winmoney/negocio/views.py
+|4,39,72,13,1523867408,"~/external/mesmer/comproadmin/winmoney/negocio/views.py"
+-'  72  13  ~/external/mesmer/comproadmin/winmoney/negocio/views.py
+|4,39,72,13,1523867408,"~/external/mesmer/comproadmin/winmoney/negocio/views.py"
+-'  72  13  ~/external/mesmer/comproadmin/winmoney/negocio/views.py
+|4,39,72,13,1523867408,"~/external/mesmer/comproadmin/winmoney/negocio/views.py"
+-'  72  13  ~/external/mesmer/comproadmin/winmoney/negocio/views.py
+|4,39,72,13,1523867408,"~/external/mesmer/comproadmin/winmoney/negocio/views.py"
+-'  72  13  ~/external/mesmer/comproadmin/winmoney/negocio/views.py
+|4,39,72,13,1523867408,"~/external/mesmer/comproadmin/winmoney/negocio/views.py"
+-'  72  13  ~/external/mesmer/comproadmin/winmoney/negocio/views.py
+|4,39,72,13,1523867408,"~/external/mesmer/comproadmin/winmoney/negocio/views.py"
+-'  72  13  ~/external/mesmer/comproadmin/winmoney/negocio/views.py
+|4,39,72,13,1523867408,"~/external/mesmer/comproadmin/winmoney/negocio/views.py"
+-'  72  13  ~/external/mesmer/comproadmin/winmoney/negocio/views.py
+|4,39,72,13,1523867408,"~/external/mesmer/comproadmin/winmoney/negocio/views.py"
+-'  72  13  ~/external/mesmer/comproadmin/winmoney/negocio/views.py
+|4,39,72,13,1523867408,"~/external/mesmer/comproadmin/winmoney/negocio/views.py"
+-'  72  13  ~/external/mesmer/comproadmin/winmoney/negocio/views.py
+|4,39,72,13,1523867408,"~/external/mesmer/comproadmin/winmoney/negocio/views.py"
+-'  72  13  ~/external/mesmer/comproadmin/winmoney/negocio/views.py
+|4,39,72,13,1523867408,"~/external/mesmer/comproadmin/winmoney/negocio/views.py"
+-'  72  13  ~/external/mesmer/comproadmin/winmoney/negocio/views.py
+|4,39,72,13,1523867408,"~/external/mesmer/comproadmin/winmoney/negocio/views.py"
+-'  72  13  ~/external/mesmer/comproadmin/winmoney/negocio/views.py
+|4,39,72,13,1523867408,"~/external/mesmer/comproadmin/winmoney/negocio/views.py"
+-'  72  13  ~/external/mesmer/comproadmin/winmoney/negocio/views.py
+|4,39,72,13,1523867408,"~/external/mesmer/comproadmin/winmoney/negocio/views.py"
+-'  72  13  ~/external/mesmer/comproadmin/winmoney/negocio/views.py
+|4,39,72,13,1523867408,"~/external/mesmer/comproadmin/winmoney/negocio/views.py"
+-'  72  13  ~/external/mesmer/comproadmin/winmoney/negocio/views.py
+|4,39,72,13,1523867408,"~/external/mesmer/comproadmin/winmoney/negocio/views.py"
+-'  72  13  ~/external/mesmer/comproadmin/winmoney/negocio/views.py
+|4,39,72,13,1523867408,"~/external/mesmer/comproadmin/winmoney/negocio/views.py"
+-'  72  13  ~/external/mesmer/comproadmin/winmoney/negocio/views.py
+|4,39,72,13,1523867408,"~/external/mesmer/comproadmin/winmoney/negocio/views.py"
+-'  72  13  ~/external/mesmer/comproadmin/winmoney/negocio/views.py
+|4,39,72,13,1523867408,"~/external/mesmer/comproadmin/winmoney/negocio/views.py"
 
 # Histórico de marcas nos arquivos (mais recente primeiro):
 
-> ~/PyTube/tt.txt
-	*	1511130593	0
-	"	117	175
-	.	53	20
-	+	53	20
-
-> ~/PyTube/getinfo.py
-	*	1511130577	0
-	"	46	32
-	^	45	68
-	.	45	44
-	+	13	0
-	+	13	15
-	+	13	0
-	+	15	25
-	+	17	17
-	+	16	23
-	+	18	23
-	+	17	23
-	+	32	0
-	+	22	22
-	+	22	41
-	+	22	40
-	+	22	20
-	+	22	42
-	+	32	0
-	+	22	44
-	+	14	0
-	+	22	22
-	+	23	0
-	+	22	22
-	+	24	0
-	+	22	22
-	+	25	0
-	+	22	22
+> ~/external/mesmer/comproadmin/winmoney/cms/migrations/0001_initial.py
+	*	1523870181	0
+	"	26	4
+	.	26	0
 	+	26	0
-	+	22	22
-	+	27	0
-	+	22	22
-	+	28	0
-	+	22	22
-	+	29	0
-	+	22	22
-	+	30	0
-	+	22	22
-	+	31	21
-	+	53	31
-	+	31	22
-	+	32	0
-	+	53	26
-	+	33	28
-	+	36	20
-	+	35	32
-	+	36	35
-	+	35	34
-	+	39	33
-	+	40	34
-	+	53	73
-	+	55	19
-	+	54	17
-	+	55	34
-	+	56	0
-	+	49	0
-	+	14	28
-	+	14	27
-	+	14	0
-	+	49	0
-	+	42	30
-	+	45	16
-	+	43	46
-	+	45	54
-	+	49	23
-	+	64	0
-	+	53	2
-	+	56	2
-	+	60	14
-	+	45	66
-	+	42	46
-	+	43	8
-	+	43	40
-	+	45	16
-	+	45	63
-	+	47	46
-	+	48	31
-	+	49	0
-	+	60	16
-	+	44	30
-	+	60	16
-	+	45	45
-	+	46	29
-	+	45	44
 
-> ~/PyTube/player.py
-	*	1511050690	0
-	"	7	0
-	^	6	774
-	.	7	0
-	+	7	654
-	+	6	660
-	+	6	774
-	+	7	0
-
-> ~/PyTube/vlc.py
-	*	1510962191	0
-	"	170	36
-	^	178	25
-	.	116	0
-	+	114	57
-	+	114	66
-	+	114	4
-	+	114	15
-	+	117	0
-	+	118	0
-	+	117	0
-	+	179	0
-	+	112	0
-	+	179	9
-	+	179	42
-	+	179	0
-	+	179	9
-	+	179	0
-	+	179	6
-	+	179	23
-	+	179	0
-	+	179	29
-	+	179	0
-	+	179	31
-	+	179	0
-	+	179	27
-	+	179	0
-	+	178	0
-	+	178	24
-	+	114	15
-	+	114	4
-	+	113	0
-	+	179	0
-	+	114	4
-	+	115	0
-	+	116	0
-
-> ~/PyTube/test3.py
-	*	1510961631	0
-	"	165	26
-	^	188	27
-	.	176	0
-	+	170	24
-	+	131	61
-	+	170	57
-	+	170	0
-	+	168	0
-	+	170	0
-	+	169	0
-	+	168	76
-	+	164	31
-	+	164	57
-	+	164	39
-	+	164	8
-	+	164	29
-	+	164	22
-	+	167	24
-	+	167	23
-	+	164	23
-	+	167	16
-	+	170	0
-	+	8	10
-	+	131	61
-	+	164	0
-	+	168	73
-	+	164	47
-	+	168	60
-	+	164	0
-	+	168	0
-	+	164	48
-	+	164	47
-	+	164	0
-	+	168	0
-	+	170	17
-	+	171	0
-	+	159	0
-	+	167	0
-	+	167	68
-	+	171	68
-	+	171	8
-	+	167	61
-	+	171	61
-	+	167	67
-	+	171	0
-	+	163	0
-	+	167	0
-	+	21	12
-	+	130	0
-	+	131	17
-	+	163	12
-	+	167	12
-	+	176	3
-	+	17	47
-	+	188	26
-	+	176	0
-	c	176	22
-
-> ~/pytube/test3.py
-	*	1510953823	0
-	"	166	47
-	^	165	25
-	.	165	24
-	+	191	26
-	+	192	25
-	+	192	15
-	+	192	0
-	+	192	36
-	+	192	17
-	+	186	4
-	+	187	4
-	+	192	3
-	+	188	4
-	+	189	4
-	+	190	4
-	+	191	4
-	+	193	0
-	+	124	45
-	+	135	26
-	+	124	49
-	+	126	0
-	+	129	30
-	+	124	43
-	+	124	27
-	+	123	26
-	+	121	30
-	+	121	18
-	+	124	0
-	+	121	18
-	+	121	41
-	+	121	31
-	+	124	8
-	+	127	8
-	+	141	8
-	+	137	8
-	+	129	8
-	+	135	8
-	+	137	8
-	+	121	18
-	+	124	8
-	+	126	8
-	+	127	8
-	+	129	8
-	+	123	56
-	+	129	0
-	+	134	7
-	+	123	24
-	+	127	47
-	+	129	31
-	+	127	23
-	+	129	23
-	+	123	23
-	+	129	0
-	+	144	2
-	+	155	2
-	+	129	30
-	+	144	7
-	+	155	7
-	+	124	48
-	+	145	11
-	+	148	10
-	+	144	8
-	+	145	8
-	+	146	11
-	+	123	0
-	+	148	0
-	+	155	0
-	+	151	8
-	+	152	8
-	+	155	8
-	+	151	8
-	+	152	8
-	+	155	8
-	+	129	0
-	+	155	0
-	+	154	30
-	+	190	27
-	+	115	50
-	+	20	24
-	+	125	46
-	+	124	52
-	+	128	46
-	+	155	24
-	+	147	28
-	+	150	28
-	+	153	28
-	+	129	49
-	+	130	0
-	+	131	0
-	+	135	8
-	+	137	8
-	+	131	61
-	+	132	44
-	+	155	0
-	+	132	37
-	+	112	0
-	+	114	31
-	+	113	24
-	+	131	61
-	+	165	24
-
-> ~/PyTube/.gitignore
-	*	1510953430	0
-	"	1	4
-	^	1	5
-	.	1	4
-	+	1	4
-
-> ~/pytube/test2.txt
-	*	1510769973	0
-	"	373	22
-	^	432	0
-	.	431	155
-	+	431	155
-
-> ~/pytube/vlc.py
-	*	1510769417	0
-	"	6640	25
-	.	4337	0
-	+	98	0
-	+	96	52
-	+	2	0
-	+	2	1
-	+	2	0
-	+	140	0
-	+	2	0
-	+	71	0
-	+	4337	52
-	+	4337	0
-
-> ~/Downloads/vlc.html
-	*	1510767421	0
-	"	128	161
-
-> ~/Downloads/git.videolan.org.html
-	*	1510766568	0
-	"	2	0
-
-> ~/pytube/main.py
-	*	1510763399	0
-	"	63	25
-	^	89	14
-	.	89	13
-	+	29	12
-	+	30	12
-	+	31	7
-	+	32	11
-	+	33	15
-	+	34	19
-	+	35	19
-	+	36	0
-	+	18	15
-	+	41	20
-	+	37	0
-	+	38	0
-	+	37	20
-	+	33	20
-	+	45	25
-	+	47	7
-	+	45	26
-	+	47	11
-	+	58	13
-	+	58	0
-	+	58	29
-	+	58	30
-	+	84	8
-	+	18	32
-	+	24	19
-	+	26	23
-	+	84	0
-	+	85	0
-	+	84	6
-	+	85	41
-	+	86	16
-	+	85	32
-	+	47	45
-	+	58	47
-	+	58	48
-	+	48	36
-	+	49	28
-	+	47	27
-	+	48	30
-	+	47	30
-	+	58	0
-	+	46	0
-	+	48	33
-	+	51	13
-	+	55	12
-	+	58	0
-	+	54	0
-	+	51	25
-	+	55	27
-	+	56	37
-	+	52	36
-	+	57	26
-	+	48	34
-	+	87	23
-	+	88	0
-	+	31	62
-	+	32	0
-	+	78	9
-	+	58	0
-	+	3	0
-	+	59	0
-	+	58	0
-	+	59	0
-	+	62	0
-	+	13	13
-	+	18	0
-	+	62	0
-	+	59	19
-	+	63	27
-	+	59	20
-	+	66	20
-	+	66	3
-	+	67	0
-	+	13	4
-	+	13	7
-	+	13	8
-	+	13	14
-	+	13	7
-	+	14	8
-	+	13	7
-	+	14	12
-	+	15	12
-	+	16	12
-	+	64	0
-	+	66	4
-	+	71	24
-	+	70	9
-	+	66	9
-	+	62	9
-	+	72	25
-	+	75	18
-	+	76	7
-	+	77	7
-	+	76	12
-	+	77	12
-	+	78	7
-	+	78	0
-	+	89	13
-
-> ~/pytube/test.py
-	*	1510762609	0
-	"	29	11
-	^	38	35
-	.	38	34
-	+	1	0
-	+	8	32
-	+	3	0
-	+	6	3
-	+	8	0
-	+	9	0
-	+	25	0
-	+	25	11
-	+	35	0
-	+	25	20
-	+	27	57
-	+	25	16
-	+	35	0
-	+	30	0
-	+	35	66
-	+	25	0
-	+	27	38
-	+	28	11
-	+	35	24
-	+	35	0
-	+	47	0
-	+	35	0
-	+	47	0
-	+	36	7
-	+	36	12
-	+	7	10
-	+	36	30
-	+	35	10
-	+	44	4
-	+	36	30
-	+	44	37
-	+	42	71
-	+	43	20
-	+	46	0
-	+	35	10
-	+	35	73
-	+	36	52
-	+	41	0
-	+	42	0
-	+	43	0
-	+	44	0
-	+	45	0
-	+	46	0
-	+	43	0
-	+	42	0
-	+	41	0
-	+	44	0
-	+	45	0
-	+	46	0
-	+	36	70
-	+	41	0
-	+	42	0
-	+	47	0
-	+	43	0
-	+	44	0
-	+	45	0
-	+	46	0
-	+	35	7
-	+	36	52
-	+	37	0
-	+	35	12
-	+	37	39
-	+	40	25
-	+	35	73
-	+	37	45
-	+	38	19
-	+	37	43
-	+	38	26
-	+	40	12
-	+	39	37
-	+	38	34
-
-> ~/Downloads/1510789096
-	*	1510760948	0
-	"	2	82
-
-> ~/pytube/test.txt
-	*	1510760000	0
-	"	25	26
-
-> ~/.vimrc
-	*	1510444879	0
-	"	135	17
-	^	159	48
-	.	159	47
-	+	92	0
-	+	97	0
-	+	129	0
-	+	133	0
-	+	135	0
-	+	124	1
-	+	125	0
-	+	146	25
-	+	236	1
-	+	149	0
-	+	148	0
-	+	149	0
-	+	163	0
-	+	169	34
-	+	169	35
-	+	164	34
-	+	149	0
-	+	236	21
-	+	236	50
-	+	236	0
-	+	236	12
-	+	236	25
-	+	236	0
-	+	245	0
-	+	236	25
-	+	236	34
-	+	237	0
-	+	238	0
-	+	237	31
-	+	238	33
-	+	239	0
-	+	243	0
-	+	239	29
-	+	243	25
-	+	236	20
-	+	237	20
-	+	238	20
-	+	239	20
-	+	243	20
-	+	236	30
-	+	237	30
-	+	239	30
-	+	243	22
-	+	183	36
-	+	239	30
-	+	240	30
-	+	240	0
-	+	242	28
-	+	240	28
-	+	242	28
-	+	244	0
-	+	241	22
-	+	159	47
-
-> ~/test.py
-	*	1510436106	0
-	"	16	0
-	.	1	0
-	+	1	17
-	+	1	0
-	+	16	11
-	+	1	0
-	+	8	38
-	+	14	40
-	+	8	0
-	+	12	0
-	+	10	0
-	+	8	0
-	+	15	0
-	+	16	0
-	+	8	0
-	+	7	8
-	+	5	23
-	+	5	19
-	+	7	4
-	+	6	11
-	+	8	0
-	+	7	23
-	+	18	8
-	+	5	20
-	+	8	13
-	+	2	0
-	+	1	9
-	+	8	13
-	+	8	16
-	+	8	0
-	+	6	0
-	+	8	21
-	+	9	34
-	+	9	33
-	+	10	21
-	+	12	27
-	+	10	12
-	+	11	12
-	+	4	7
-	+	17	4
-	+	2	11
-	+	13	41
-	+	16	0
-	+	9	59
-	+	10	0
-	+	8	0
-	+	1	0
-
-> ~/pytube/mpv.py
-	*	1510418513	0
-	"	509	24
-	.	513	0
-	+	449	38
-	+	450	21
-	+	513	57
-	+	513	75
-	+	515	42
-	+	516	27
-	+	515	37
-	+	513	70
-	+	513	40
-	+	513	22
-	+	517	0
-	+	513	0
-	+	517	16
-	+	513	0
-	+	515	0
-	+	513	57
-	+	516	31
-	+	513	35
-	+	513	0
-
-> /etc/locale.gen
-	*	1510269505	0
-	"	384	0
-	^	384	0
-	.	384	0
-	+	382	14
-	+	383	0
-	+	384	0
-
-> ~/.local/share/Steam/steamapps/common/dota 2 beta/game/dota/cfg/machine_convars.vcfg
-	*	1510236215	0
-	"	130	0
-
-> ~/.local/share/Steam/steamapps/common/dota 2 beta/game/dota/cfg/machine.vcfg
-	*	1510236193	0
+> ~/external/mesmer/comproadmin/winmoney/db.json
+	*	1523868210	0
 	"	1	0
 
-> ~/.local/share/Steam/steamapps/common/dota 2 beta/game/dota/cfg/launch.vcfg
-	*	1510236191	0
+> ~/external/mesmer/comproadmin/winmoney/db.log
+	*	1523868150	0
 	"	1	0
 
-> ~/.local/share/Steam/steamapps/common/dota 2 beta/game/dota/cfg/latest_conduct_scorecard.84541762.txt
-	*	1510236186	0
+> ~/external/mesmer/comproadmin/winmoney/__Tag_List__
+	*	1523868150	0
 	"	1	0
-
-> ~/.local/share/Steam/steamapps/common/dota 2 beta/game/dota/cfg/lan_server.cfg
-	*	1510236180	0
-	"	1	0
-
-> ~/.local/share/Steam/steamapps/common/dota 2 beta/game/dota/cfg/dota_minimap.cfg
-	*	1510236173	0
-	"	1	0
-
-> ~/.local/share/Steam/steamapps/common/dota 2 beta/game/dota/cfg/configschema.vcfg
-	*	1510236170	0
-	"	1	0
-
-> ~/.local/share/Steam/steamapps/common/dota 2 beta/game/dota/cfg/configdefaults.pc.vcfg
-	*	1510236169	0
-	"	1	0
-
-> ~/.local/share/Steam/steamapps/common/dota 2 beta/game/dota/cfg/configdefaults.osx.vcfg
-	*	1510236167	0
-	"	1	0
-
-> ~/.local/share/Steam/steamapps/common/dota 2 beta/game/dota/cfg/configdefaults.linux.vcfg
-	*	1510236165	0
-	"	1	0
-
-> ~/.local/share/Steam/steamapps/common/dota 2 beta/game/dota/cfg/configdefaults.360.vcfg
-	*	1510236160	0
-	"	1	0
-
-> ~/.local/share/Steam/steamapps/common/dota 2 beta/game/dota/cfg/video_01.txt
-	*	1510236126	0
-	"	9	10
-
-> ~/.local/share/qutebrowser/userscripts/yb
-	*	1510162017	0
-	"	3	12
-	^	3	13
-	.	3	12
-	+	3	12
-
-> ~/.config/qutebrowser/qutebrowser.conf
-	*	1510159832	0
-	"	1293	0
-
-> ~/facul/trab.tex
-	*	1510017428	0
-	"	11	15
-	^	12	3031
-	.	12	3030
-	+	1	27
-	+	30	12
-	+	30	0
-	+	1	15
-	+	30	0
-	+	1	1
-	+	1	14
-	+	1	0
-	+	1	17
-	+	1	30
-	+	1	16
-	+	1	27
-	+	1	50
-	+	1	49
-	+	1	18
-	+	1	10
-	+	1	195
-	+	1	29
-	+	1	14
-	+	1	16
-	+	1	51
-	+	1	16
-	+	1	49
-	+	1	20
-	+	1	1
-	+	1	47
-	+	1	1
-	+	30	1
-	+	30	26
-	+	1	0
-	+	1	7
-	+	1	0
-	+	30	43
-	+	30	0
-	+	1	0
-	+	30	0
-	+	1	13
-	+	30	0
-	+	1	0
-	+	30	32
-	+	30	0
-	+	30	24
-	+	30	0
-	+	30	10
-	+	30	13
-	+	30	60
-	+	1	47
-	+	29	13
-	+	30	0
-	+	7	0
-	+	11	0
-	+	3	31
-	+	4	0
-	+	3	29
-	+	6	0
-	+	3	55
-	+	3	54
-	+	4	30
-	+	5	9
-	+	12	3030
-
-> ~/facul/NERD_tree_1
-	*	1510012263	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/.vim/bundle/Vundle.vim/doc/vundle.txt
-	*	1510005089	0
-	"	1	69
-
-> ~/Default.ini
-	*	1510004645	0
-	"	1	0
-
-> ~/TalonRO/Harmony.ini
-	*	1509905194	0
-	"	1	0
-
-> ~/TalonRO/Setup.ini
-	*	1509905182	0
-	"	1	0
-
-> ~/talonro.txt
-	*	1509903950	0
-	"	4	0
-	^	1	0
-	.	4	0
-	+	1	0
-	+	2	0
-	+	1	25
-	+	2	1
-	+	3	0
-	+	2	0
-	+	3	0
-	+	5	0
-	+	3	0
-	+	5	0
-	+	5	1
-	+	5	0
-	+	8	0
-	+	5	0
-	+	6	0
-	+	1	0
-	+	2	0
-	+	3	0
-	+	4	0
-
-> ~/torchdeeplibras/predict.py
-	*	1509506646	0
-	"	28	24
-	^	28	24
-	.	28	23
-	+	28	23
-
-> ~/deeplearnlibras/object_detection_tutorial.py
-	*	1509506409	0
-	"	12	14
-	^	12	20
-	.	12	19
-	+	12	19
-
-> ~/deeplearnlibras/object_detection_tutorial.
-	*	1509500008	0
-	"	1	0
-
-> ~/torchdeeplibras/train.py
-	*	1509498446	0
-	"	123	0
-
-> ~/plotgrafgmauff/.gitattributes
-	*	1509495697	0
-	"	3	8
-	^	3	9
-	.	3	0
-	+	1	28
-	+	1	0
-	+	3	32
-	+	1	0
-	+	3	0
-
-> ~/py.py
-	*	1509076741	0
-	"	304	28
-	^	304	29
-	.	304	28
-	+	259	10
-	+	252	4
-	+	258	4
-	+	256	0
-	+	254	25
-	+	257	19
-	+	258	14
-	+	259	21
-	+	252	8
-	+	260	16
-	+	261	13
-	+	260	15
-	+	328	0
-	+	329	0
-	+	296	5
-	+	301	0
-	+	296	0
-	+	296	8
-	+	298	0
-	+	298	23
-	+	301	0
-	+	302	7
-	+	302	17
-	+	302	42
-	+	302	32
-	+	302	19
-	+	296	10
-	+	302	38
-	+	307	42
-	+	302	43
-	+	302	18
-	+	302	17
-	+	302	7
-	+	302	14
-	+	302	18
-	+	302	22
-	+	302	24
-	+	302	27
-	+	321	7
-	+	302	7
-	+	302	15
-	+	322	0
-	+	302	53
-	+	302	41
-	+	302	58
-	+	302	19
-	+	302	64
-	+	302	19
-	+	302	18
-	+	259	0
-	+	302	7
-	+	259	0
-	+	174	0
-	+	302	22
-	+	302	19
-	+	302	0
-	+	302	7
-	+	302	0
-	+	302	24
-	+	302	7
-	+	302	58
-	+	302	7
-	+	302	47
-	+	302	7
-	+	307	38
-	+	305	7
-	+	303	31
-	+	301	12
-	+	303	11
-	+	302	46
-	+	258	37
-	+	174	0
-	+	303	14
-	+	303	35
-	+	303	51
-	+	303	19
-	+	303	31
-	+	303	20
-	+	303	8
-	+	307	33
-	+	305	0
-	+	306	0
-	+	307	0
-	+	308	0
-	+	306	12
-	+	321	6
-	+	301	12
-	+	305	17
-	+	308	14
-	+	303	8
-	+	305	8
-	+	306	8
-	+	307	8
-	+	303	43
-	+	304	28
-
-> ~/tensorflow/training/ssd_mobilenet_v1_pets.config
-	*	1509065625	0
-	"	138	4
-	^	143	16
-	.	143	15
-	+	188	17
-	+	188	25
-	+	188	20
-	+	188	33
-	+	188	20
-	+	188	26
-	+	188	25
-	+	188	32
-	+	188	15
-	+	188	17
-	+	188	0
-	+	188	16
-	+	188	0
-	+	1	28
-	+	187	15
-	+	188	0
-	+	189	0
-	+	1	0
-	+	158	25
-	+	9	17
-	+	143	14
-	+	9	17
-	+	143	15
-
-> ~/tensorflow/object_detection_tutorial.py
-	*	1509065622	0
-	"	17	33
-	^	32	55
-	.	33	0
-	+	37	74
-	+	37	97
-	+	37	14
-	+	37	69
-	+	32	91
-	+	37	16
-	+	37	0
-	+	36	19
-	+	35	0
-	+	37	0
-	+	36	18
-	+	38	11
-	+	39	12
-	+	37	0
-	+	34	0
-	+	33	0
-	+	32	91
-	+	33	0
-	+	37	0
-	+	47	0
-	+	46	0
-	+	35	0
-	+	36	0
-	+	37	0
-	+	38	0
-	+	39	0
-	+	38	0
-	+	67	0
-	+	66	0
-	+	67	0
-	+	68	0
-	+	66	0
-	+	67	0
-	+	68	0
-	+	27	0
-	+	28	0
-	+	29	45
-	+	29	0
-	+	29	45
-	+	30	0
-	+	18	0
-	+	19	0
-	+	20	0
-	+	21	0
-	+	22	0
-	+	37	17
-	+	65	57
-	+	61	0
-	+	63	0
-	+	64	0
-	+	65	0
-	+	61	61
-	+	65	18
-	+	64	19
-	+	5	10
-	+	59	12
-	+	60	0
-	+	59	0
-	+	38	0
-	+	38	50
-	+	38	51
-	+	38	52
-	+	59	12
-	+	38	0
-	+	38	50
-	+	59	0
-	+	46	0
-	+	58	0
-	+	37	0
-	+	44	0
-	+	45	0
-	+	56	0
-	+	46	99
-	+	32	91
-	+	38	46
-	+	46	54
-	+	38	0
-	+	55	0
-	+	38	0
-	+	32	182
-	+	32	91
-	+	32	0
-	+	32	24
-	+	33	0
-	+	32	67
-	+	33	0
-	+	32	99
-	+	32	98
-	+	33	0
-	+	32	24
-	+	69	0
-	+	69	3
-	+	69	0
-	+	70	0
-	+	69	0
-	+	32	0
-	+	31	0
-	+	32	0
-	+	31	0
-	+	33	0
-	u	39	26
-
-> ~/tensorflow/object_detection_tutorial.
-	*	1509065433	0
-	"	1	0
-
-> ~/Downloads/imposto-de-renda.f
-	*	1509051403	0
-	"	5	0
-	^	5	15
-	.	5	14
-	+	5	14
-
-> ~/tensorflow/images/oi10714.xml
-	*	1508726795	0
-	"	1	0
-
-> ~/tensorflow/images/IMG_20170918_094336.xml
-	*	1508726730	0
-	"	5	0
-
-> ~/tensorflow/labelImg/labelImg.py
-	*	1508723156	0
-	"	216	12
-	^	25	30
-	.	27	0
-	+	27	0
-	+	27	17
-	+	27	0
-	+	27	9
-	+	27	0
-	+	12	4
-	+	25	29
-	+	27	0
-
-> ~/Downloads/open_url_in_instance.sh
-	*	1508706222	0
-	"	17	45
-	^	17	46
-	.	17	45
-	+	17	45
-
-> ~/.config/qtile/config.py
-	*	1508706187	0
-	"	71	35
-	^	71	36
-	.	71	35
-	+	72	0
-	+	73	54
-	+	72	35
-	+	73	49
-	+	74	0
-	+	71	35
-
-> ~/.sage/init.sage
-	*	1508689731	0
-	"	1	39
-	^	1	40
-	.	1	39
-	+	1	39
-
-> ~/tensorflow/training/object-detection.pbtxt
-	*	1508196762	0
-	"	4	0
-	^	3	11
 	.	5	0
+	+	259	0
+	+	252	0
+	+	245	0
+	+	238	0
+	+	231	0
+	+	224	0
+	+	217	0
+	+	210	0
+	+	162	0
+	+	158	0
+	+	103	0
+	+	8	0
 	+	5	0
-	+	1	0
-	+	4	1
-	+	5	6
-	+	5	10
-	+	3	10
-	+	5	0
 
-> ~/tensorflow/xml_to_csv.py
-	*	1508196642	0
-	"	30	0
-	^	37	48
-	.	27	0
-	+	40	50
-	+	34	11
-	+	36	0
-	+	41	0
-	+	36	38
-	+	37	0
-	+	36	31
-	+	24	21
-	+	24	50
-	+	24	77
-	+	26	48
-	+	27	47
-	+	24	0
-	+	24	28
-	+	24	56
-	+	26	28
-	+	24	18
-	+	24	28
-	+	24	56
-	+	26	28
-	+	27	27
-	+	24	26
-	+	24	27
-	+	25	0
-	+	26	26
-	+	27	25
-	+	23	29
-	+	21	43
-	+	22	0
-	+	35	20
-	+	8	25
-	+	5	0
-	+	3	0
-	+	2	0
-	+	37	0
-	+	27	0
-
-> ~/tensorflow/generate_tfrecord.py
-	*	1508196610	0
-	"	26	16
-	^	31	17
-	.	32	15
-	+	32	22
-	+	87	47
-	+	26	53
-	+	87	42
-	+	31	30
-	+	86	49
-	+	31	0
-	+	32	15
-	+	31	23
-	+	86	44
-	+	31	0
-	+	32	15
-
-> ~/tensorflow/object_detection_tutorial.ipynb
-	*	1508068160	0
-	"	328	38
-	^	242	108
-	.	328	0
-	+	119	45
-	+	127	63
-	+	129	19
-	+	242	107
-	+	328	0
-
-> ~/tensorflow/training/graph.pbtxt
-	*	1508024935	0
-	"	47	0
-
-> ~/tensorflow/labelImg/resources.py
-	*	1508023454	0
-	"	8	9
-	^	8	10
-	.	8	9
-	+	9	0
-	+	8	9
-
-> ~/tensorflow/labelImg/resources.
-	*	1508023355	0
-	"	1	0
-
-> ~/tensorflow/NERD_tree_1
-	*	1508022663	0
+> ~/external/mesmer/comproadmin/winmoney/core/tests.py
+	*	1523867782	0
 	"	15	0
-	.	1	0
-	+	1	0
+	.	15	0
+	+	23	67
+	+	23	0
+	+	23	31
+	+	23	11
+	+	23	26
+	+	23	28
+	+	23	12
+	+	23	0
+	+	23	17
+	+	23	0
+	+	23	69
+	+	23	59
+	+	23	4
+	+	23	0
+	+	23	34
+	+	23	0
+	+	23	26
+	+	23	0
+	+	23	3
+	+	13	47
+	+	13	0
+	+	17	58
+	+	16	2
+	+	17	49
+	+	17	0
+	+	23	0
+	+	19	65
+	+	20	4
+	+	23	0
+	+	15	0
 
-> ~/pimenta/resultadofinal1000-1.dat
-	*	1507679996	0
-	"	1	0
-
-> ~/pimenta/resultadofinal-2.dat
-	*	1507679995	0
-	"	1	0
-
-> ~/pimenta/resultadofinal1000-2.dat
-	*	1507679984	0
-	"	1	0
-
-> ~/pimenta/soma.py
-	*	1507679823	0
-	"	46	15
-	^	46	16
-	.	46	15
-	+	37	30
-	+	40	0
-	+	37	29
-	+	40	18
-	+	37	16
-	+	5	31
-	+	32	20
-	+	37	29
-	+	40	0
-	+	28	0
-	+	27	26
-	+	37	32
-	+	32	30
-	+	37	14
-	+	33	22
-	+	32	21
-	+	37	81
-	+	39	28
-	+	32	30
-	+	25	31
-	+	26	34
-	+	32	20
-	+	26	16
-	+	32	31
-	+	33	23
-	+	33	0
-	+	32	57
-	+	33	21
-	+	32	48
-	+	39	46
-	+	40	0
-	+	42	0
-	+	41	67
-	+	33	0
-	+	42	30
-	+	43	0
-	+	48	30
-	+	48	43
-	+	48	18
-	+	42	9
-	+	48	0
-	+	48	23
-	+	48	22
-	+	48	21
-	+	48	0
-	+	42	9
-	+	48	11
-	+	48	0
-	+	24	16
-	+	28	33
-	+	29	34
-	+	46	22
-	+	47	0
-	+	49	0
-	+	52	0
-	+	48	0
-	+	49	0
-	+	50	0
-	+	46	23
-	+	66	0
-	+	65	0
-	+	52	18
-	+	54	0
-	+	52	0
-	+	25	0
-	+	44	0
-	+	53	0
-	+	52	0
-	+	53	0
-	+	54	0
-	+	55	28
-	+	64	0
-	+	48	46
-	+	52	11
-	+	59	9
-	+	52	13
-	+	61	10
-	+	60	6
-	+	61	0
-	+	62	0
-	+	63	0
-	+	62	0
-	+	63	0
-	+	52	15
-	+	28	27
-	+	29	30
-	+	24	18
-	+	52	16
-	+	55	30
-	+	59	14
-	+	60	14
-	+	61	14
-	+	62	14
-	+	63	14
-	+	48	51
-	+	57	15
-	+	46	15
-
-> /usr/share/vim/vim80/doc/help.txt
-	*	1507673795	0
-	"	1	0
-
-> ~/torchtest/predict.py
-	*	1507509887	0
-	"	58	35
-	^	28	29
-	.	42	0
-	+	58	43
-	+	29	12
-	+	38	41
-	+	38	0
-	+	29	0
-	+	46	0
-	+	50	53
-	+	28	22
-	+	41	133
-	+	28	34
-	+	41	133
-	+	41	160
-	+	28	34
-	+	41	177
-	+	41	133
-	+	40	28
-	+	41	106
-	+	43	0
-	+	40	17
-	+	41	72
-	+	41	109
-	+	40	16
-	+	41	72
-	+	42	0
-	+	40	0
-	+	42	29
-	+	41	58
-	+	28	28
-	+	42	0
-
-> ~/pytorch_image_classifier/train.py
-	*	1507507822	0
-	"	158	8
-	^	145	81
-	.	52	0
-	+	123	0
-	+	145	0
-	+	73	21
-	+	104	37
-	+	73	63
-	+	54	28
-	+	37	19
-	+	145	26
-	+	145	57
-	+	145	0
-	+	155	72
-	+	155	71
-	+	37	23
-	+	34	7
-	+	35	7
-	+	145	80
-	+	52	0
-
-> ~/torchtest/train.py
-	*	1507505245	0
-	"	161	35
-	^	77	34
-	.	77	13
-	+	530	0
-	+	415	8
-	+	87	54
-	+	87	0
-	+	85	12
-	+	89	8
-	+	93	37
-	+	192	8
-	+	237	8
-	+	87	0
-	+	85	12
-	+	87	52
-	+	89	8
-	+	93	37
-	+	192	8
-	+	237	8
-	+	84	0
-	+	81	2
-	+	91	2
-	+	93	3
-	+	91	0
-	+	99	41
-	+	81	0
-	+	82	0
-	+	83	0
-	+	84	0
-	+	85	0
-	+	86	0
-	+	87	0
-	+	88	0
-	+	89	0
-	+	90	0
-	+	176	0
-	+	272	49
-	+	272	48
-	+	173	18
-	+	177	0
-	+	270	71
-	+	272	29
-	+	272	0
-	+	273	55
-	+	270	41
-	+	173	30
-	+	273	91
-	+	174	0
-	+	173	10
-	+	273	55
-	+	274	0
-	+	190	0
-	+	270	35
-	+	76	28
-	+	77	13
-
-> ~/pytorch_image_classifier/NERD_tree_1
-	*	1507502949	0
-	"	19	0
-	.	1	0
-	+	1	0
-
-> ~/pytorch_image_classifier/global_config.py
-	*	1507502511	0
-	"	25	33
-	^	25	33
-	.	25	32
-	+	24	15
-	+	25	32
-
-> ~/pytorch_image_classifier/models/fine_tune_model.py
-	*	1507502397	0
-	"	31	28
-
-> ~/torchtest/data_loader/data_loader.py
-	*	1507347823	0
-	"	37	41
-
-> ~/torchtest/global_config.py
-	*	1507322846	0
-	"	25	36
-	^	24	15
-	.	24	14
-	+	25	35
-	+	24	14
-
-> ~/pytorch_image_classifier/cp
-	*	1507322635	0
-	"	1	0
-
-> ~/torchtest/transfer_learning_tutorial.py
-	*	1507299648	0
-	"	306	12
-	^	193	37
-	.	193	36
-	+	100	14
-	+	335	0
-	+	336	0
-	+	285	0
-	+	126	0
-	+	306	0
-	+	169	35
-	+	190	0
-	+	194	51
-	+	169	0
-	+	194	22
-	+	192	20
-	+	163	14
-	+	194	164
-	+	194	53
-	+	194	205
-	+	194	62
-	+	164	0
-	+	167	18
-	+	193	20
-	+	194	62
-	+	194	208
-	+	194	74
-	+	194	212
-	+	194	74
-	+	194	170
-	+	194	77
-	+	193	36
-	n	126	3
-
-> ~/torchtest/modeltorch.py
-	*	1507215012	0
-	"	164	2
-	^	164	3
-	.	164	2
-	+	1	59
-	+	1	0
-	+	1	60
-	+	1	0
-	+	1	59
-	+	1	23
-	+	1	0
-	+	1	19
-	+	1	26
-	+	1	0
-	+	16	30
-	+	17	50
-	+	44	33
-	+	45	50
-	+	45	28
-	+	63	51
-	+	135	51
-	+	135	71
-	+	135	16
-	+	64	0
-	+	157	21
-	+	171	75
-	+	172	75
-	+	172	24
-	+	161	2
-	+	164	2
-
-> ~/caffe2model/pytorch/setup.py
-	*	1506996843	0
-	"	612	6
-
-> ~/caffe2model/pytorch/torch/lib/THC/CMakeLists.txt
-	*	1506996789	0
-	"	18	5
-	^	18	6
-	.	18	4
-	+	18	4
-
-> ~/caffe2model/torch.py
-	*	1506996284	0
-	"	1	6
-	^	1	7
-	.	1	7
-	+	2	0
-	+	1	7
-
-> ~/caffe2model/create_lmdb.py
-	*	1506992075	0
-	"	195	0
-	.	196	0
-	+	1	43
-	+	1	0
-	+	1	93
-	+	1	12
-	+	1	44
-	+	1	4
-	+	1	0
-	+	1	71
-	+	1	13
-	+	1	71
-	+	1	13
-	+	1	29
-	+	13	30
-	+	66	44
-	+	27	56
-	+	37	0
-	+	27	66
-	+	26	0
-	+	67	0
-	+	81	22
-	+	108	17
-	+	81	0
-	+	139	61
-	+	115	0
-	+	139	0
-	+	194	64
-	+	196	0
-
-> ~/caffe2model/caffe2.py
-	*	1506990073	0
-	"	123	78
-	^	109	0
-	.	109	0
-	+	1	0
-	+	16	0
-	+	67	0
-	+	68	0
-	+	67	0
-	+	79	45
-	+	79	21
-	+	79	0
-	+	104	0
-	+	108	0
-	+	109	0
-
-> ~/.config/youtube-viewer/youtube-viewer.conf
-	*	1506911897	0
-	"	55	32
-	^	55	33
-	.	55	32
-	+	51	39
-	+	55	32
-
-> ~/.config/vimb/command
-	*	1506911868	0
+> ~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py
+	*	1523867486	0
 	"	13	0
 
-> ~/NERD_tree_1
-	*	1506906016	0
-	"	8	0
-	.	1	0
-	+	1	0
-
-> ~/caffe2/PKGBUILD
-	*	1506883644	0
-	"	96	12
-	.	96	0
-	+	55	0
-	+	95	0
-	+	96	0
-
-> ~/caffe2-cpu/PKGBUILD
-	*	1506882674	0
-	"	94	12
-	.	94	0
-	+	53	0
-	+	93	0
-	+	94	0
-
-> ~/caffe2/Makefile
-	*	1506882013	0
-	"	4	36
-	^	4	37
-	.	4	37
-	+	4	74
-	+	6	0
-	+	5	0
-	+	4	37
-	+	5	0
-	+	4	37
-
-> /opt/cuda/include/host_config.h
-	*	1506881857	0
-	"	117	14
-	^	117	15
-	.	119	0
-	+	117	0
-	+	118	78
-	+	119	0
-
-> ~/caffe2-git/python-peachpy-git/caffe2/confu-git/PKGBUILD
-	*	1506879014	0
-	"	70	31
-	^	70	32
-	.	70	32
-	+	37	0
-	+	33	0
-	+	53	0
-	+	76	0
-	+	72	41
-	+	69	0
-	+	72	29
-	+	70	32
-
-> ~/caffe2-git/python-peachpy-git/caffe2/log.txt
-	*	1506877228	0
-	"	93	11
-
-> ~/caffe2-git/python-peachpy-git/caffe2/cmake/Whitelist.cmake
-	*	1506877117	0
+> ~/external/mesmer/comproadmin/winmoney/negocio/migrations/0007_auto_20160228_1007.py:
+	*	1523867461	0
 	"	1	0
 
-> ~/caffe2-git/python-peachpy-git/caffe2/Makefile
-	*	1506877098	0
-	"	4	120
-	^	4	44
-	.	4	43
+> /negocio/migrations/0007_auto_20160228_1007.py:
+	*	1523867447	0
+	"	1	0
+
+> ~/external/mesmer/comproadmin/winmoney/negocio/views.py
+	*	1523867406	0
+	"	72	13
+	^	116	9
+	.	116	8
+	+	117	53
+	+	117	0
+	+	116	8
+
+> ~/external/mesmer/comproadmin/winmoney/negocio/models.py
+	*	1523867289	0
+	"	406	26
+	.	148	0
+	+	148	32
+	+	148	0
+	m	300	26
+
+> /etc/mysql/my.cnf
+	*	1523866665	0
+	"	160	0
+	^	160	0
+	.	159	31
+	+	159	31
+
+> ~/.my.cnf
+	*	1523866596	0
+	"	1	0
+
+> /etc/my.cnf
+	*	1523866517	0
+	"	1	0
+
+> ~/external/mesmer/comproadmin/winmoney/core/views.py
+	*	1523865910	0
+	"	513	13
+	^	542	22
+	.	522	55
+	+	579	0
+	+	636	0
+	+	600	0
+	+	281	30
+	+	281	6
+	+	278	49
+	+	281	85
+	+	281	4
+	+	281	71
+	+	281	47
+	+	281	68
+	+	281	39
+	+	145	0
+	+	35	36
+	+	281	56
+	+	281	92
+	+	281	8
+	+	281	67
+	+	281	0
+	+	281	5
+	+	281	11
+	+	281	7
+	+	281	45
+	+	281	15
+	+	281	0
+	+	281	23
+	+	281	3
+	+	281	7
+	+	281	93
+	+	281	141
+	+	281	27
+	+	281	135
+	+	281	27
+	+	281	0
+	+	281	81
+	+	281	91
+	+	309	7
+	+	281	103
+	+	281	6
+	+	35	0
+	+	281	14
+	+	35	43
+	+	281	0
+	+	281	93
+	+	281	78
+	+	281	93
+	+	281	84
+	+	281	4
+	+	281	85
+	+	281	49
+	+	281	132
+	+	281	0
+	+	281	27
+	+	309	4
+	+	281	61
+	+	281	142
+	+	281	10
+	+	281	66
+	+	281	139
+	+	281	0
+	+	281	157
+	+	281	10
+	+	281	0
+	+	296	19
+	+	281	4
+	+	281	27
+	+	281	8
+	+	281	41
+	+	281	31
+	+	281	0
+	+	281	54
+	+	281	65
+	+	281	43
+	+	281	8
+	+	281	47
+	+	281	2
+	+	281	0
+	+	283	0
+	+	281	0
+	+	283	0
+	+	281	0
+	+	290	0
+	+	525	46
+	+	525	0
+	+	504	4
+	+	515	0
+	+	504	4
+	+	520	0
+	+	521	68
+	+	522	70
+	+	524	0
+	+	521	12
+	+	522	12
+	+	506	26
+	+	507	27
+	+	509	32
+	+	510	24
+	+	521	55
+	+	522	55
+
+> ~/external/mesmer/comproadmin/winmoney/core/import_zanox.py
+	*	1523864419	0
+	"	138	32
+	^	52	58
+	.	52	57
+	+	78	15
+	+	79	0
+	+	166	52
+	+	165	19
+	+	167	31
+	+	169	0
+	+	166	28
+	+	165	35
+	+	168	0
+	+	167	29
+	+	170	23
+	+	52	57
+	a	164	63
+
+> ~/external/mesmer/comproadmin/winmoney/negocio/admin.py
+	*	1523862789	0
+	"	32	57
+	^	87	28
+	.	87	27
+	+	74	0
+	+	75	12
+	+	76	27
+	+	77	25
+	+	87	23
+	+	88	66
+	+	89	0
+	+	81	0
+	+	84	0
+	+	81	0
+	+	82	19
+	+	81	24
+	+	82	21
+	+	76	39
+	+	84	41
+	+	101	51
+	+	101	0
+	+	84	49
+	+	6	34
+	+	70	25
+	+	94	37
+	+	94	0
+	+	7	24
+	+	70	23
+	+	87	24
+	+	95	26
+	+	87	27
+
+> ~/external/mesmer/comproadmin/winmoney/negocio/models.py:
+	*	1523860614	0
+	"	1	0
+
+> ~/external/mesmer/comproadmin/winmoney/core/admin.py
+	*	1523860583	0
+	"	109	6
+
+> /core/admin.py
+	*	1523860258	0
+	"	1	0
+
+> ~/pymodclock/relogio.py
+	*	1523850575	0
+	"	20	25
+	^	59	65
+	.	23	0
+	+	10	0
+	+	11	0
+	+	12	0
+	+	27	0
+	+	40	7
+	+	39	0
+	+	39	20
+	+	39	0
+	+	40	0
+	+	12	0
+	+	22	0
+	+	12	0
+	+	40	0
+	+	58	0
+	+	59	64
+	+	23	0
+
+> ~/.vimrc
+	*	1523850545	0
+	"	213	0
+	^	207	28
+	.	207	25
+	+	143	0
+	+	142	0
+	+	154	0
+	+	205	27
+	+	203	0
+	+	211	0
+	+	206	0
+	+	206	32
+	+	106	30
+	+	182	30
+	+	106	0
+	+	58	28
+	+	208	0
+	+	206	26
+	+	207	0
+	+	206	25
+	+	205	27
+	+	204	39
+	+	143	0
+	+	211	0
+	+	210	0
+	+	209	36
+	+	143	0
+	+	142	0
+	+	207	25
+
+> ~/relogio.py
+	*	1523845053	0
+	"	1	0
+	^	68	30
+	.	7	0
+	+	54	10
+	+	72	60
+	+	54	28
+	+	72	52
+	+	71	52
+	+	72	54
+	+	71	51
+	+	72	0
+	+	54	10
+	+	57	16
+	+	58	17
+	+	72	55
+	+	71	55
+	+	72	62
+	+	71	54
+	+	72	55
+	+	58	0
+	+	56	17
+	+	54	11
+	+	17	31
+	+	25	44
+	+	17	0
+	+	25	37
+	+	31	26
+	+	31	23
+	+	17	12
+	+	18	12
+	+	21	27
+	+	22	27
+	+	37	28
+	+	25	12
+	+	37	29
+	+	37	40
+	+	37	21
+	+	37	0
+	+	26	53
+	+	45	6
+	+	37	0
+	+	36	16
+	+	37	0
+	+	36	20
+	+	45	0
+	+	36	0
+	+	45	29
+	+	45	0
+	+	46	0
+	+	44	0
+	+	73	0
+	+	41	2
+	+	41	0
+	+	36	0
+	+	33	0
+	+	36	0
+	+	41	25
+	+	41	24
+	+	33	23
+	+	45	22
+	+	33	20
+	+	46	13
+	+	49	25
+	+	66	0
+	+	49	0
+	+	60	12
+	+	50	0
+	+	62	11
+	+	60	24
+	+	49	0
+	+	60	29
+	+	61	0
+	+	63	16
+	+	71	0
+	+	63	17
+	+	64	0
+	+	65	15
+	+	71	0
+	+	35	20
+	+	19	21
+	+	33	39
+	+	33	40
+	+	19	21
+	+	33	39
+	+	56	18
+	+	58	50
+	+	54	0
+	+	34	40
+	+	52	31
+	+	67	20
+	+	68	25
+	+	69	0
+	+	68	19
+	+	69	17
+	+	68	26
+	+	70	26
+	+	72	60
+	+	67	17
+	+	68	29
+	+	4	0
+	+	7	0
 	+	3	0
-	+	4	43
+	+	7	0
 
-> ~/caffe2-git/python-peachpy-git/caffe2/CMakeLists.txt
-	*	1506877078	0
-	"	24	0
-	.	25	0
-	+	25	0
+> ~/__Tag_List__
+	*	1523844988	0
+	"	11	4
+	.	5	0
+	+	481	0
+	+	469	0
+	+	456	0
+	+	443	0
+	+	438	0
+	+	429	0
+	+	408	0
+	+	402	0
+	+	394	0
+	+	386	0
+	+	378	0
+	+	370	0
+	+	362	0
+	+	354	0
+	+	345	0
+	+	336	0
+	+	327	0
+	+	318	0
+	+	309	0
+	+	300	0
+	+	269	0
+	+	238	0
+	+	207	0
+	+	176	0
+	+	145	0
+	+	117	0
+	+	89	0
+	+	61	0
+	+	33	0
+	+	5	0
 
-> ~/caffe2-git/python-peachpy-git/caffe2/NERD_tree_1
-	*	1506877056	0
-	"	6	0
+> ~/NERD_tree_1
+	*	1523844771	0
+	"	4	0
 	.	1	0
 	+	1	0
 
-> ~/caffe2-git/python-peachpy-git/PKGBUILD
-	*	1506875782	0
-	"	29	14
-	^	29	15
-	.	29	14
-	+	29	14
+> /etc/X11/xorg.conf.d/00-keyboard.conf
+	*	1523844074	0
+	"	1	0
 
-> ~/caffe2-git/python-peachpy-git/src/python-peachpy-git/caffe2/PeachPy/requirements.txt
-	*	1506873930	0
+> ~/.config/i3/config
+	*	1523844067	0
+	"	228	57
+	^	246	61
+	.	246	59
+	+	252	135
+	+	252	108
+	+	252	63
+	+	252	123
+	+	252	103
+	+	252	113
+	+	252	114
+	+	252	66
+	+	252	63
+	+	219	0
+	+	198	0
+	+	183	0
+	+	219	0
+	+	252	63
+	+	252	66
+	+	252	63
+	+	252	66
+	+	252	137
+	+	252	63
+	+	252	134
+	+	252	63
+	+	232	22
+	+	252	63
+	+	233	0
+	+	232	22
+	+	252	63
+	+	252	0
+	+	252	63
+	+	252	0
+	+	252	63
+	+	252	0
+	+	252	63
+	+	252	0
+	+	252	63
+	+	252	120
+	+	252	42
+	+	252	63
+	+	252	0
+	+	237	0
+	+	240	0
+	+	239	0
+	+	238	0
+	+	237	0
+	+	240	62
+	+	233	59
+	+	234	65
+	+	235	0
+	+	237	95
+	+	238	0
+	+	237	0
+	+	236	86
+	+	240	69
+	+	241	0
+	+	242	0
+	+	243	0
+	+	241	82
+	+	243	62
+	+	239	19
+	+	242	58
+	+	238	64
+	+	242	75
+	+	244	57
+	+	227	58
+	+	245	68
+	+	250	67
+	+	240	72
+	+	241	0
+	+	241	84
+	+	242	77
+	+	243	64
+	+	245	70
+	+	244	86
+	+	244	0
+	+	243	0
+	+	242	0
+	+	245	0
+	+	250	0
+	+	251	0
+	+	246	0
+	+	247	0
+	+	248	0
+	+	246	40
+	+	247	40
+	+	248	42
+	+	246	58
+	+	247	43
+	+	246	54
+	+	247	58
+	+	248	69
+	+	249	55
+	+	248	74
+	+	246	59
+
+> ~/.config/sway/config
+	*	1523832270	0
+	"	183	0
+	^	30	33
+	.	30	32
+	+	29	0
+	+	31	0
+	+	30	32
+
+> ~/pymodclock/README.md
+	*	1523659847	0
+	"	2	76
+	^	2	77
+	.	2	76
+	+	2	76
+
+> /usr/share/vim/vim80/doc/help.txt
+	*	1523655211	0
+	"	1	1
+	^	10	48
+
+> ~/formula.tex
+	*	1523585352	0
+	"	7	25
+	^	5	5
+	.	5	4
+	+	1	16
+	+	1	20
+	+	1	17
+	+	10	13
+	+	7	15
+	+	7	0
+	+	7	4
+	+	10	18
+	+	7	0
+	+	10	0
+	+	7	4
+	+	8	0
+	+	8	1
+	+	8	3
+	+	7	4
+	+	8	1
+	+	8	10
+	+	8	12
+	+	8	1
+	+	8	11
+	+	8	10
+	+	8	20
+	+	8	18
+	+	7	6
+	+	4	0
+	+	7	1
+	+	8	1
+	+	3	18
+	+	10	12
+	+	10	0
+	+	7	14
+	+	8	2
+	+	7	11
+	+	8	1
+	+	7	12
+	+	6	5
+	+	6	7
+	+	9	0
+	+	6	10
+	+	7	14
+	+	9	0
+	+	7	14
+	+	9	0
+	+	7	28
+	+	6	0
+	+	5	4
+
+> ~/latextopng.sh
+	*	1523583530	0
+	"	8	71
+	^	8	72
+	.	8	72
+	+	1	9
+	+	1	11
+	+	8	72
+
+> ~/latex.tex
+	*	1523543259	0
+	"	1	85
+	^	1	86
+	.	1	85
+	+	1	85
+
+> /mnt/part1/grub-boot/grub/grub.cfg
+	*	1523327739	0
+	"	10	0
+	^	10	1
+	.	10	0
+	+	10	0
+
+> ~/prog.py
+	*	1523321151	0
+	"	28	41
+	.	28	0
+	+	2	4
+	+	1	16
+	+	2	7
+	+	1	16
+	+	9	80
+	+	9	64
+	+	5	79
+	+	6	110
+	+	10	10
+	+	9	66
+	+	10	21
+	+	14	0
+	+	8	13
+	+	15	26
+	+	20	0
+	+	1	2
+	+	20	25
+	+	39	0
+	+	15	31
+	+	30	25
+	+	27	23
+	+	38	0
+	+	19	0
+	+	46	18
+	+	41	32
+	+	47	27
+	+	31	66
+	+	35	61
+	+	41	32
+	+	35	72
+	+	6	36
+	+	6	54
+	+	7	18
+	+	6	54
+	+	5	52
+	+	6	54
+	+	5	52
+	+	6	54
+	+	7	10
+	+	50	18
+	+	50	26
+	+	53	17
+	+	14	25
+	+	31	66
+	+	34	31
+	+	35	0
+	+	34	27
+	+	15	17
+	+	2	80
+	+	3	83
+	+	3	6
+	+	3	80
+	+	4	60
+	+	8	67
+	+	10	75
+	+	10	66
+	+	14	0
+	+	14	55
+	+	15	0
+	+	17	27
+	+	21	28
+	+	22	75
+	+	22	83
+	+	24	17
+	+	26	6
+	+	25	53
+	+	30	55
+	+	32	81
+	+	33	77
+	+	37	42
+	+	42	57
+	+	44	22
+	+	45	6
+	+	44	16
+	+	47	38
+	+	52	6
+	+	8	0
+	+	14	0
+	+	11	0
+	+	15	0
+	+	12	0
+	+	13	52
+	+	8	0
+	+	12	28
+	+	20	20
+	+	27	0
+	+	26	0
+	+	30	0
+	+	28	0
+
+> ~/pikaur/src/pikaur-0.9.3/Makefile
+	*	1522893708	0
+	"	1	25
+	^	1	26
+	.	1	25
+	+	1	25
+
+> ~/dice.py
+	*	1522702882	0
+	"	36	20
+	^	67	21
+	.	67	20
+	+	29	30
+	+	32	30
+	+	118	19
+	+	125	31
+	+	22	22
+	+	25	22
+	+	28	22
+	+	31	0
+	+	125	0
+	+	31	27
+	+	28	27
+	+	31	22
+	+	19	41
+	+	31	22
+	+	18	10
+	+	19	17
+	+	28	27
+	+	31	27
+	+	28	27
+	+	22	25
+	+	25	25
+	+	28	25
+	+	31	25
+	+	21	38
+	+	22	0
+	+	20	0
+	+	19	0
+	+	20	0
+	+	22	0
+	+	18	8
+	+	19	15
+	+	95	20
+	+	95	33
+	+	8	0
+	+	9	12
+	+	19	0
+	+	34	29
+	+	95	22
+	+	33	0
+	+	30	0
+	+	26	0
+	+	33	0
+	+	95	0
+	+	95	28
+	+	99	28
+	+	95	19
+	+	99	12
+	+	99	25
+	+	95	0
+	+	99	0
+	+	95	0
+	+	94	16
+	+	95	25
+	+	95	0
+	+	97	23
+	+	97	0
+	+	95	23
+	+	97	23
+	+	125	22
+	+	95	25
+	+	97	23
+	+	95	25
+	+	97	23
+	+	95	23
+	+	97	0
+	+	66	9
+	+	89	25
+	+	95	34
+	+	98	18
+	+	97	27
+	+	94	19
+	+	95	0
+	+	89	23
+	+	94	23
+	+	97	28
+	+	94	28
+	+	97	30
+	+	95	41
+	+	118	0
+	+	118	7
+	+	97	0
+	+	95	42
+	+	97	0
+	+	118	0
+	+	20	43
+	+	74	4
+	+	111	0
+	+	88	4
+	+	67	8
+	+	75	12
+	+	106	26
+	+	108	27
+	+	109	36
+	+	104	0
+	+	110	0
+	+	107	0
+	+	67	19
+	+	106	26
+	+	104	27
+	+	67	20
+
+> ~/dice.py.html
+	*	1522690704	0
 	"	2	0
 	^	2	0
-	.	1	7
+	.	1	90
+	+	1	90
+
+> ~/rpg.py
+	*	1522634211	0
+	"	1	0
+
+> ~/RPGUI/dice.js
+	*	1522630610	0
+	"	298	0
+
+> ~/RPGUI/index.html
+	*	1522193815	0
+	"	116	4
+	.	120	0
+	+	35	1
+	+	35	6
+	+	35	23
+	+	35	51
+	+	35	1
+	+	35	6
+	+	35	9
+	+	35	8
+	+	35	12
+	+	35	30
+	+	35	11
+	+	35	12
+	+	35	60
+	+	35	12
+	+	35	11
+	+	35	14
+	+	35	68
+	+	35	14
+	+	35	18
+	+	35	41
+	+	35	95
+	+	35	113
+	+	35	12
+	+	35	55
+	+	35	39
+	+	35	55
+	+	35	38
+	+	35	39
+	+	35	54
+	+	35	55
+	+	35	54
+	+	35	11
+	+	35	57
+	+	35	11
+	+	35	22
+	+	35	70
+	+	35	23
+	+	35	19
+	+	35	11
+	+	35	23
+	+	35	89
+	+	35	5
+	+	35	4
+	+	35	3
+	+	35	1
+	+	35	84
+	+	35	1
+	+	3	0
+	+	35	86
+	+	35	1
+	+	35	8
+	+	35	29
+	+	35	20
+	+	35	24
+	+	35	20
+	+	35	22
+	+	35	2
+	+	35	73
+	+	35	38
+	+	35	28
+	+	35	50
+	+	35	9
+	+	35	10
+	+	35	73
+	+	35	9
+	+	35	43
+	+	35	1
+	+	35	17
+	+	35	23
+	+	35	14
+	+	35	1
+	+	15	11
+	+	35	7
+	+	15	11
+	+	35	0
+	+	35	1
+	+	12	0
+	+	16	0
+	+	12	0
+	+	8	17
+	+	9	17
+	+	10	17
+	+	166	6
+	+	13	0
+	+	6	0
+	+	38	0
+	+	114	4
+	+	120	0
+
+> ~/RPGUI/__Tag_List__
+	*	1522180258	0
+	"	1	8
+	.	1	0
+	+	5	0
+	+	4	0
+	+	3	0
+	+	2	0
+	+	1	0
+
+> ~/RPGUI/package.json
+	*	1522170493	0
+	"	4	0
+	^	4	1
+	.	4	0
+	+	4	0
+
+> ~/RandPokeBot/newapitest.js
+	*	1522120977	0
+	"	2	15
+	^	2	15
+	.	2	0
+	+	5	17
+	+	1	28
+	+	8	0
+	+	10	30
+	+	2	0
+
+> ~/RandPokeBot/newapi.js
+	*	1522115178	0
+	"	33	22
+	^	53	30
+	.	61	0
+	+	14	71
+	+	50	0
+	+	10	16
+	+	50	15
+	+	46	42
+	+	46	144
+	+	46	11
+	+	46	72
+	+	3	43
+	+	46	3
+	+	46	24
+	+	46	17
+	+	46	26
+	+	46	47
+	+	46	29
+	+	46	3
+	+	46	65
+	+	46	28
+	+	46	101
+	+	46	31
+	+	46	3
+	+	46	88
+	+	46	85
+	+	46	64
+	+	46	3
+	+	46	18
+	+	46	96
+	+	46	18
+	+	46	20
+	+	46	3
+	+	47	0
+	+	50	4
+	+	67	0
+	+	89	4
+	+	67	35
+	+	88	13
+	+	11	25
+	+	60	30
+	+	61	72
+	+	60	31
+	+	60	0
+	+	61	22
+	+	60	77
+	+	61	27
+	+	60	70
+	+	67	18
+	+	70	64
+	+	71	58
+	+	69	57
+	+	70	61
+	+	71	55
+	+	72	58
+	+	73	0
+	+	76	0
+	+	84	18
+	+	43	0
+	+	46	0
+	+	13	28
+	+	22	0
+	+	14	0
+	+	54	20
+	+	51	8
+	+	69	0
+	+	61	0
+	+	54	0
+	+	61	22
+	+	53	29
+	+	61	0
+
+> ~/RandPokeBot/__Tag_List__
+	*	1522114311	0
+	"	3	4
+	.	4	0
+	+	44	0
+	+	40	0
+	+	36	0
+	+	32	0
+	+	28	0
+	+	24	0
+	+	20	0
+	+	16	0
+	+	12	0
+	+	8	0
+	+	4	0
+
+> ~/RandPokeBot/bot.js
+	*	1522034858	0
+	"	21	45
+	^	34	81
+	.	33	80
+	+	44	1
+	+	50	0
+	+	12	0
+	+	10	27
+	+	44	4
+	+	10	0
+	+	1	0
+	+	17	62
+	+	39	0
+	+	49	0
+	+	17	48
+	+	12	0
+	+	39	0
+	+	48	0
+	+	12	0
+	+	1	0
+	+	49	0
+	+	20	0
+	+	11	23
+	+	44	5
+	+	47	0
+	+	45	14
+	+	11	25
+	+	45	18
+	+	11	27
+	+	20	49
+	+	38	26
+	+	20	0
+	+	11	23
+	+	38	22
+	+	45	14
+	+	20	0
+	+	19	28
+	+	38	32
+	+	20	38
+	+	38	32
+	+	20	42
+	+	42	0
+	+	38	0
+	+	20	48
+	+	22	0
+	+	24	0
+	+	19	58
+	+	20	34
+	+	22	56
+	+	24	54
+	+	20	54
+	+	22	59
+	+	24	57
+	+	12	0
+	+	24	66
+	+	35	70
+	+	36	70
+	+	36	0
+	+	22	45
+	+	21	70
+	+	23	67
+	+	31	0
+	+	32	0
+	+	24	70
+	+	25	43
+	+	24	41
+	+	25	41
+	+	23	48
+	+	24	41
+	+	25	80
+	+	26	0
+	+	27	0
+	+	26	48
+	+	23	48
+	+	21	43
+	+	26	88
+	+	27	55
+	+	28	92
+	+	29	102
+	+	33	0
+	+	34	0
+	+	22	0
+	+	31	45
+	+	23	0
+	+	31	76
+	+	32	76
+	+	33	74
+	+	30	0
+	+	32	51
+	+	33	49
+	+	34	80
+	+	22	47
+	+	23	74
+	+	29	87
+	+	32	82
+	+	33	80
+
+> ~/RandPokeBot/bot2.js
+	*	1522034723	0
+	"	18	38
+	^	6	17
+	.	6	0
+	+	2	0
+	+	1	17
+	+	2	0
+	+	5	17
+	+	1	9
+	+	5	31
+	+	2	0
+	+	6	38
+	+	2	0
+	+	5	31
+	+	6	38
+	+	5	49
+	+	6	38
+	+	6	53
+	+	5	31
+	+	6	38
+	+	24	0
+	+	1	4
+	+	4	9
+	+	5	3
+	+	6	11
+	+	5	0
+	+	6	21
+	+	25	39
+	+	24	38
+	+	25	85
+	+	27	4
+	+	26	0
+	+	24	11
+	+	26	4
+	+	24	15
+	+	25	24
+	+	24	13
+	+	6	25
+	+	26	5
+	+	6	29
+	+	24	20
+	+	25	25
+	+	25	68
+	+	25	0
+	+	25	85
+	+	25	0
+	+	25	35
+	+	25	30
+	+	25	39
+	+	25	19
+	+	25	39
+	+	25	22
+	+	6	0
+	+	24	0
+	+	6	12
+	+	6	14
+	+	24	0
+	+	25	0
+	+	27	0
+	+	6	1
+	+	6	0
+	+	6	1
+	+	6	0
+	+	23	0
+	+	7	0
+	+	6	0
+	+	8	43
+	+	9	48
+	+	6	0
+
+> ~/RandPokeBot/pokerand.js
+	*	1522032682	0
+	"	624	15
+
+> ~/RandPokeBot/main.js
+	*	1522028143	0
+	"	3	0
+
+> ~/RandPokeBot/pokerand.js.old
+	*	1522026293	0
+	"	31	8
+
+> ~/RandPokeBot/README.md
+	*	1522024971	0
+	"	1	170
+	^	1	171
+	.	1	171
+	+	2	0
+	+	1	171
+
+> ~/external/mesmer/comproadmin/winmoney/core/templates/loja.html
+	*	1521798767	0
+	"	66	0
+	^	43	0
+	.	91	0
+	+	70	2
+	+	71	2
+	+	72	6
+	+	73	6
+	+	74	6
+	+	75	6
+	+	76	6
+	+	70	1
+	+	86	9
+	+	50	8
+	+	70	0
+	+	86	8
+	+	90	11
+	+	91	0
+
+> ~/RPGUI/core.py
+	*	1521505638	0
+	"	27	41
+	^	40	43
+	.	40	42
+	+	36	8
+	+	40	0
+	+	10	8
+	+	10	0
+	+	11	20
+	+	10	20
+	+	11	12
+	+	19	0
+	+	11	0
+	+	15	17
+	+	16	0
+	+	19	0
+	+	10	20
+	+	15	13
+	+	10	22
+	+	15	24
+	+	34	46
+	+	43	29
+	+	42	28
+	+	43	32
+	+	44	27
+	+	33	56
+	+	19	22
+	+	19	0
+	+	19	70
+	+	19	15
+	+	19	25
+	+	19	70
+	+	19	31
+	+	19	0
+	+	18	0
+	+	19	0
+	+	19	33
+	+	19	36
+	+	19	33
+	+	19	8
+	+	19	36
+	+	19	8
+	+	25	15
+	+	13	24
+	+	19	0
+	+	31	0
+	+	33	53
+	+	5	12
+	+	11	0
+	+	12	0
+	+	44	32
+	+	33	50
+	+	42	22
+	+	43	29
+	+	25	93
+	+	25	7
+	+	25	16
+	+	25	53
+	+	25	30
+	+	25	7
+	+	25	8
+	+	25	35
+	+	27	12
+	+	25	18
+	+	27	42
+	+	30	59
+	+	29	4
+	+	30	32
+	+	25	28
+	+	24	18
+	+	26	27
+	+	24	18
+	+	26	27
+	+	24	18
+	+	43	36
+	+	19	26
+	+	20	8
+	+	21	53
+	+	23	42
+	+	34	46
+	+	24	0
+	+	22	24
+	+	23	46
+	+	27	38
+	+	23	52
+	+	27	40
+	+	34	46
+	+	27	38
+	+	34	43
+	+	27	40
+	+	34	46
+	+	27	0
+	+	40	45
+	+	27	40
+	+	34	46
+	+	27	40
+	+	40	42
+
+> ~/RPGUI/requeriments.txt
+	*	1521501236	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
+
+> ~/desafio-django/surveys/core/views.py
+	*	1521499692	0
+	"	24	6
+	^	97	26
+	.	117	0
+	+	93	44
+	+	94	25
+	+	111	9
+	+	94	27
+	+	111	0
+	+	113	27
+	+	120	34
+	+	124	0
+	+	124	74
+	+	124	42
+	+	124	41
+	+	124	71
+	+	124	38
+	+	120	3
+	+	124	0
+	+	124	28
+	+	124	0
+	+	121	0
+	+	120	41
+	+	19	14
+	+	17	26
+	+	17	61
+	+	17	0
+	+	17	13
+	+	10	34
+	+	17	0
+	+	51	35
+	+	17	0
+	+	19	46
+	+	11	20
+	+	101	26
+	+	102	0
+	+	101	0
+	+	101	21
+	+	101	12
+	+	101	39
+	+	11	5
+	+	9	0
+	+	16	0
+	+	9	0
+	+	16	0
+	+	16	7
+	+	17	0
+	+	16	0
+	+	101	0
+	+	100	0
+	+	109	0
+	+	110	0
+	+	109	27
+	+	118	0
+	+	120	0
+	+	118	28
+	+	120	0
+	+	119	27
+	+	52	0
+	+	51	28
+	+	80	28
+	+	108	0
+	+	117	8
+	+	117	7
+	+	117	8
+	+	108	7
+	+	95	3
+	+	6	63
+	+	95	3
+	+	94	0
+	+	95	3
+	+	95	56
+	+	95	3
+	+	99	0
+	+	94	0
+	+	94	34
+	+	14	0
+	+	6	0
+	+	17	0
+	+	98	42
+	+	98	0
+	+	94	40
+	+	94	15
+	+	94	0
+	+	94	62
+	+	94	11
+	+	98	49
+	+	94	28
+	+	94	35
+	+	94	26
+	+	94	0
+	+	15	47
+	+	96	0
+	+	98	0
+	+	97	66
+	+	98	0
+	+	97	0
+	+	108	0
+	+	117	0
+
+> ~/desafio-django/surveys/core/admin.py
+	*	1521499659	0
+	"	61	4
+	.	8	0
+	+	5	32
+	+	5	49
+	+	5	47
+	+	5	0
+	+	2	34
+	+	3	0
+	+	6	0
+	+	6	19
+	+	6	0
+	+	5	0
+	+	44	33
+	+	6	0
+	+	19	0
+	+	22	3
+	+	23	0
+	+	22	7
+	+	43	11
+	+	69	35
+	+	11	0
+	+	14	0
+	+	56	18
+	+	68	32
+	+	67	41
+	+	69	42
+	+	43	51
+	+	68	0
+	+	44	0
+	+	43	32
+	+	43	24
+	+	43	38
+	+	43	23
+	+	43	7
+	+	44	17
+	+	43	31
+	+	44	36
+	+	56	18
+	+	44	0
+	+	43	0
+	+	23	0
+	+	24	31
+	+	68	30
+	+	69	35
+	+	81	4
+	+	84	0
+	+	82	0
+	+	81	39
+	+	82	37
+	+	81	40
+	+	82	32
+	+	81	28
+	+	37	23
+	+	82	26
+	+	81	37
+	+	84	4
+	+	84	3
+	+	72	4
+	+	71	13
+	+	62	22
+	+	61	12
+	+	62	18
+	+	63	0
+	+	63	17
+	+	84	0
+	+	85	0
+	+	64	0
+	+	67	0
+	+	76	34
+	+	76	4
+	+	76	7
+	+	76	17
+	+	76	31
+	+	67	44
+	+	76	8
+	+	76	14
+	+	76	0
+	+	3	30
+	+	67	50
+	+	77	51
+	+	76	8
+	+	67	59
+	+	77	62
+	+	77	0
+	+	84	0
+	+	84	17
+	+	81	45
+	+	84	0
+	+	85	0
+	+	73	4
+	+	74	39
+	+	73	14
+	+	8	0
+	+	11	42
+	+	11	34
+	+	11	35
+	+	14	68
+	+	11	0
+	+	14	0
+	+	8	0
+	+	8	3
+	+	8	0
+
+> ~/data2018-03-15(2).csv
+	*	1521169152	0
+	"	1	0
+
+> ~/data2018-03-16.csv
+	*	1521167271	0
+	"	1	0
+
+> ~/external/mesmer/comproadmin/winmoney/negocio/exportdata.py
+	*	1521167137	0
+	"	26	28
+	^	26	29
+	.	26	28
+	+	31	0
+	+	31	45
+	+	2	0
+	+	1	35
+	+	24	37
+	+	25	43
+	+	13	20
+	+	12	23
+	+	31	14
+	+	31	15
+	+	24	0
+	+	12	0
+	+	31	0
+	+	31	27
+	+	31	33
+	+	31	0
+	+	31	11
+	+	32	0
+	+	14	26
+	+	8	82
+	+	2	24
+	+	8	50
+	+	27	54
+	+	3	40
+	+	27	93
+	+	27	33
+	+	27	10
+	+	27	28
+	+	27	10
+	+	27	22
+	+	27	50
+	+	27	29
+	+	27	10
+	+	27	52
+	+	27	14
+	+	27	10
+	+	27	80
+	+	27	22
+	+	27	96
+	+	27	51
+	+	27	25
+	+	27	80
+	+	27	16
+	+	27	15
+	+	27	40
+	+	27	73
+	+	27	14
+	+	27	37
+	+	27	26
+	+	27	22
+	+	27	0
+	+	27	44
+	+	27	79
+	+	27	47
+	+	27	70
+	+	27	52
+	+	27	49
+	+	27	22
+	+	27	10
+	+	27	37
+	+	27	87
+	+	27	10
+	+	27	12
+	+	27	39
+	+	18	0
+	+	28	0
+	+	18	7
+	+	20	8
+	+	19	12
+	+	21	12
+	+	17	15
+	+	18	10
+	+	17	67
+	+	18	17
+	+	19	37
+	+	21	40
+	+	26	28
+	p	26	23
+
+> ~/data2018-03-15(1).csv
+	*	1521167108	0
+	"	1	0
+
+> ~/data2018-03-15.csv
+	*	1521166343	0
+	"	1	0
+
+> ~/mymodel(2).csv
+	*	1521166334	0
+	"	1	0
+
+> ~/mymodel(1).csv
+	*	1521166311	0
+	"	1	0
+
+> ~/external/mesmer/comproadmin/winmoney/admin.py
+	*	1521165522	0
+	"	70	0
+
+> ~/desafio-django/surveys/core/permissions.py
+	*	1521070483	0
+	"	8	13
+	^	8	14
+	.	8	13
+	+	5	54
+	+	8	8
+	+	5	0
+	+	4	41
+	+	8	13
+
+> ~/desafio-django/surveys/surveys/settings.py
+	*	1521068273	0
+	"	76	22
+	.	76	0
+	+	1	0
+	+	3	0
+	+	4	0
+	+	5	0
+	+	6	0
+	+	8	0
+	+	55	0
+	+	53	0
+	+	61	0
+	+	76	0
+	+	85	0
+	+	78	0
+	+	86	23
+	+	87	45
+	+	6	39
+	+	7	0
+	+	17	7
+	+	15	4
+	+	17	8
+	+	47	0
+	+	44	1
+	+	45	35
+	+	16	3
+	+	75	0
+	+	75	12
+	+	58	0
+	+	75	18
+	+	75	0
+	+	76	0
+
+> ~/desafio-django/surveys/__Tag_List__
+	*	1521067658	0
+	"	15	4
+	.	20	0
+	+	765	0
+	+	764	0
+	+	763	0
+	+	743	0
+	+	723	0
+	+	699	0
+	+	659	0
+	+	619	0
+	+	579	0
+	+	542	0
+	+	539	0
+	+	536	0
+	+	518	0
+	+	486	0
+	+	454	0
+	+	422	0
+	+	390	0
+	+	358	0
+	+	326	0
+	+	294	0
+	+	262	0
+	+	230	0
+	+	198	0
+	+	166	0
+	+	134	0
+	+	85	0
+	+	72	0
+	+	60	0
+	+	48	0
+	+	39	0
+	+	38	0
+	+	20	0
+
+> ~/desafio-django/surveys/core/static/js/base.js
+	*	1520895660	0
+	"	45	0
+	^	43	18
+	.	43	18
+	+	41	0
+	+	41	19
+	+	41	18
+	+	31	32
+	+	41	26
+	+	47	37
+	+	47	20
+	+	47	4
+	+	41	34
+	+	41	0
+	+	31	1
+	+	32	35
+	+	39	33
+	+	35	17
+	+	39	32
+	+	35	0
+	+	47	4
+	+	47	8
+	+	47	0
+	+	47	2
+	+	31	1
+	+	47	21
+	+	31	4
+	+	47	2
+	+	49	0
+	+	31	1
+	+	32	0
+	+	48	0
+	+	42	0
+	+	43	18
+
+> ~/desafio-django/surveys/core/static/css/js_dialog.css
+	*	1520792710	0
+	"	1	0
+	.	2	0
+	+	2	0
+
+> ~/desafio-django/surveys/core/templates/surveys.html
+	*	1520791866	0
+	"	61	44
+	^	49	48
+	.	61	0
+	+	20	21
+	+	20	0
+	+	20	3
+	+	20	0
+	+	20	46
+	+	20	29
+	+	20	38
+	+	20	50
+	+	61	101
+	+	20	46
+	+	20	32
+	+	20	44
+	+	20	57
+	+	20	31
+	+	20	46
+	+	20	4
+	+	20	0
+	+	20	4
+	+	15	0
+	+	10	64
+	+	10	0
+	+	15	26
+	+	10	26
+	+	15	54
+	+	20	0
+	+	15	1
+	+	16	0
+	+	15	62
+	+	20	0
+	+	57	0
+	+	39	80
+	+	15	0
+	+	20	0
+	+	3	0
+	+	20	0
+	+	64	14
+	+	64	7
+	+	10	21
+	+	20	9
+	+	15	0
+	+	20	0
+	+	57	0
+	+	39	0
+	+	39	87
+	+	57	0
+	+	39	21
+	+	20	73
+	+	20	31
+	+	20	65
+	+	20	43
+	+	20	0
+	+	20	61
+	+	20	0
+	+	40	0
+	+	20	0
+	+	5	0
+	+	53	117
+	+	53	0
+	+	53	110
+	+	61	66
+	+	17	0
+	+	17	58
+	+	19	8
+	+	19	9
+	+	17	70
+	+	19	8
+	+	17	58
+	+	17	0
+	+	19	0
+	+	14	0
+	+	17	0
+	+	14	65
+	+	17	0
+	+	17	8
+	+	17	0
+	+	17	59
+	+	17	78
+	+	17	77
+	+	11	0
+	+	12	69
+	+	17	0
+	+	17	71
+	+	31	5
+	+	12	69
+	+	13	81
+	+	17	0
+	+	18	71
+	+	30	5
+	+	31	0
+	+	61	71
+	+	23	0
+	+	61	72
+	+	28	0
+	+	26	53
+	+	25	34
+	+	29	0
+	+	61	44
+	+	61	0
+
+> ~/desafio-django/surveys/core/tasks.py
+	*	1520789640	0
+	"	8	27
+	^	8	27
+	.	8	26
+	+	1	100
+	+	1	26
+	+	1	25
+	+	1	4
+	+	1	30
+	+	1	0
 	+	1	7
+	+	1	33
+	+	1	0
+	+	1	13
+	+	1	0
+	+	1	36
+	+	1	7
+	+	1	12
+	+	1	39
+	+	1	17
+	+	1	39
+	+	1	0
+	+	1	4
+	+	1	23
+	+	1	7
+	+	1	24
+	+	1	11
+	+	1	72
+	+	1	0
+	+	1	13
+	+	1	15
+	+	1	40
+	+	1	9
+	+	1	28
+	+	1	11
+	+	1	0
+	+	9	0
+	+	6	0
+	+	5	0
+	+	7	64
+	+	6	15
+	+	7	53
+	+	8	18
+	+	3	11
+	+	6	26
+	+	8	26
+
+> ~/desafio-django/surveys/core/static/css/styles.css
+	*	1520788802	0
+	"	69	0
+	^	69	0
+	.	70	0
+	+	69	0
+	+	1	0
+	+	69	0
+	+	1	0
+	+	69	0
+	+	6	6
+	+	25	10
+	+	48	0
+	+	38	13
+	+	16	11
+	+	23	0
+	+	22	7
+	+	38	3
+	+	22	0
+	+	16	9
+	+	25	13
+	+	27	0
+	+	26	18
+	+	66	23
+	+	66	0
+	+	67	0
+	+	16	12
+	+	17	0
+	+	19	0
+	+	21	0
+	+	22	0
+	+	34	10
+	+	35	0
+	+	37	0
+	+	36	0
+	+	14	0
+	+	48	0
+	+	69	0
+	+	63	0
+	+	48	0
+	+	48	28
+	+	48	0
+	+	55	0
+	+	48	0
+	+	55	20
+	+	39	11
+	+	39	0
+	+	28	28
+	+	39	0
+	+	45	0
+	+	40	0
+	+	41	0
+	+	28	29
+	+	29	0
+	+	11	17
+	+	12	0
+	+	13	0
+	+	28	24
+	+	69	4
+	+	70	0
+
+> ~/desafio-django/surveys/requirements.txt
+	*	1520787650	0
+	"	3	29
+	^	3	30
+	.	3	29
+	+	3	29
+
+> ~/desafio-django/surveys/core/templates/admin/input_filter.html
+	*	1520779872	0
+	"	5	3
+	^	1	5
+	.	1	0
+	+	1	4
+	+	1	0
+
+> ~/desafio-django/surveys/core/urls.py
+	*	1520735010	0
+	"	40	19
+	^	3	63
+	.	3	62
+	+	1	0
+	+	1	21
+	+	1	31
+	+	1	25
+	+	1	29
+	+	1	55
+	+	1	50
+	+	1	24
+	+	1	28
+	+	1	42
+	+	1	0
+	+	1	35
+	+	1	21
+	+	1	14
+	+	1	0
+	+	1	20
+	+	1	64
+	+	1	69
+	+	1	0
+	+	1	52
+	+	1	0
+	+	1	4
+	+	1	17
+	+	1	0
+	+	16	0
+	+	3	19
+	+	16	31
+	+	3	28
+	+	16	56
+	+	20	0
+	+	17	0
+	+	16	56
+	+	17	50
+	+	11	0
+	+	16	0
+	+	11	0
+	+	11	21
+	+	3	39
+	+	11	30
+	+	11	0
+	+	15	0
+	+	11	51
+	+	15	44
+	+	11	0
+	+	15	55
+	+	15	0
+	+	11	18
+	+	11	0
+	+	9	56
+	+	3	48
+	+	10	55
+	+	16	13
+	+	17	13
+	+	15	13
+	+	11	13
+	+	10	13
+	+	9	13
+	+	18	0
+	+	17	54
+	+	18	34
+	+	16	34
+	+	17	42
+	+	3	40
+	+	18	10
+	+	19	10
+	+	10	0
+	+	6	0
+	+	7	31
+	+	12	0
+	+	13	43
+	+	21	0
+	+	22	34
+	+	32	0
+	+	33	27
+	+	47	0
+	+	44	0
+	+	3	62
+
+> ~/desafio-django/surveys/core/static/base.js
+	*	1520728895	0
+	"	1	0
+
+> ~/desafio-django/surveys/core/tests.py
+	*	1520728880	0
+	"	136	31
+	^	214	39
+	.	214	38
+	+	277	64
+	+	279	73
+	+	290	58
+	+	289	66
+	+	290	3
+	+	257	14
+	+	289	36
+	+	284	18
+	+	291	0
+	+	292	13
+	+	305	0
+	+	306	45
+	+	307	65
+	+	308	14
+	+	306	47
+	+	311	22
+	+	294	3
+	+	303	14
+	+	305	0
+	+	303	3
+	+	315	44
+	+	319	56
+	+	316	0
+	+	315	0
+	+	316	55
+	+	319	54
+	+	319	56
+	+	322	0
+	+	303	31
+	+	315	40
+	+	319	72
+	+	336	52
+	+	336	0
+	+	326	0
+	+	297	5
+	+	299	30
+	+	300	18
+	+	326	71
+	+	336	0
+	+	336	70
+	+	336	62
+	+	336	60
+	+	336	12
+	+	319	0
+	+	336	70
+	+	320	4
+	+	298	16
+	+	300	18
+	+	320	4
+	+	327	0
+	+	336	13
+	+	336	12
+	+	307	27
+	+	327	0
+	+	336	19
+	+	336	6
+	+	336	19
+	+	336	6
+	+	336	0
+	+	336	6
+	+	327	56
+	+	329	58
+	+	335	60
+	+	336	6
+	+	337	0
+	+	336	6
+	+	307	0
+	+	336	33
+	+	338	0
+	+	340	0
+	+	339	59
+	+	346	0
+	+	347	52
+	+	342	74
+	+	348	72
+	+	349	50
+	+	350	0
+	+	348	64
+	+	347	36
+	+	349	51
+	+	329	3
+	+	330	31
+	+	331	33
+	+	332	31
+	+	329	11
+	+	353	56
+	+	353	48
+	+	353	0
+	+	354	0
+	+	13	0
+	+	14	16
+	+	71	19
+	+	85	34
+	+	86	34
+	+	133	17
+	+	151	0
+	+	145	7
+	+	197	0
+	+	213	0
+	+	214	38
+
+> ~/desafio-django/surveys/README.md
+	*	1520721649	0
+	"	41	14
+	^	41	15
+	.	45	26
+	+	66	0
+	+	65	360
+	+	66	0
+	+	23	68
+	+	25	35
+	+	23	111
+	+	36	2
+	+	37	6
+	+	38	6
+	+	39	6
+	+	40	6
+	+	41	6
+	+	44	6
+	+	45	6
+	+	46	6
+	+	36	36
+	+	34	37
+	+	36	13
+	+	37	13
+	+	38	13
+	+	39	13
+	+	40	13
+	+	37	34
+	+	39	53
+	+	42	0
+	+	43	0
+	+	42	24
+	+	43	27
+	+	42	50
+	+	42	78
+	+	37	34
+	+	38	36
+	+	40	36
+	+	43	63
+	+	41	53
+	+	42	107
+	+	43	90
+	+	44	13
+	+	45	13
+	+	46	13
+	+	43	11
+	+	41	11
+	+	45	60
+	+	46	39
+	+	49	446
+	+	49	221
+	+	50	0
+	+	50	19
+	+	50	0
+	+	53	189
+	+	61	0
+	+	57	19
+	+	61	0
+	+	58	0
+	+	59	0
+	+	60	0
+	+	60	47
+	+	58	20
+	+	59	47
+	+	60	46
+	+	61	0
+	+	65	159
+	+	23	89
+	+	30	25
+	+	31	41
+	+	32	0
+	+	31	1
+	+	41	21
+	+	42	21
+	+	43	12
+	+	42	12
+	+	41	22
+	+	42	22
+	+	43	40
+	+	42	44
+	+	41	39
+	+	38	15
+	+	39	15
+	+	40	23
+	+	39	23
+	+	38	25
+	+	39	25
+	+	40	27
+	+	39	27
+	+	38	27
+	+	39	27
+	+	40	27
+	+	45	16
+	+	46	26
+	+	45	26
+
+> ~/desafio-django/surveys/surveys/urls.py
+	*	1520711232	0
+	"	6	19
+	^	6	17
+	.	6	9
+	+	3	0
+	+	4	25
+	+	1	37
+	+	1	0
+	+	6	9
+
+> ~/desafio-django/surveys/.gitignore
+	*	1520702916	0
+	"	4	0
+	^	4	0
+	.	3	4
+	+	3	4
+
+> ~/desafio-django/.gitignore
+	*	1520648636	0
+	"	1	0
+
+> ~/desafio-django/surveys/core/templatetags/custom_tags.py
+	*	1520648445	0
+	"	10	21
+	^	10	22
+	.	10	21
+	+	8	0
+	+	8	83
+	+	10	21
+
+> ~/desafio-django/surveys/templatetags/custom_tags.py
+	*	1520647633	0
+	"	10	25
+	^	10	26
+	.	10	25
+	+	14	34
+	+	4	37
+	+	14	0
+	+	1	0
+	+	2	0
+	+	3	0
+	+	4	0
+	+	6	0
+	+	14	0
+	+	14	18
+	+	13	20
+	+	14	0
+	+	6	0
+	+	7	0
+	+	9	0
+	+	6	0
+	+	11	20
+	+	7	19
+	+	8	72
+	+	11	51
+	+	8	15
+	+	3	0
+	+	8	73
+	+	11	61
+	+	8	0
+	+	9	51
+	+	7	26
+	+	9	0
+	+	11	8
+	+	10	25
+
+> ~/desafio-django/surveys/core/serial.py
+	*	1520642886	0
+	"	8	38
+	^	8	39
+	.	8	38
+	+	1	0
+	+	1	31
+	+	1	0
+	+	1	18
+	+	1	17
+	+	1	15
+	+	1	0
+	+	1	45
+	+	1	0
+	+	1	21
+	+	1	0
+	+	1	6
+	+	1	25
+	+	1	0
+	+	1	12
+	+	1	47
+	+	1	33
+	+	1	0
+	+	1	12
+	+	1	0
+	+	1	37
+	+	1	0
+	+	1	38
+	+	20	22
+	+	20	11
+	+	20	8
+	+	20	0
+	+	20	18
+	+	20	81
+	+	20	18
+	+	20	0
+	+	20	21
+	+	20	0
+	+	20	34
+	+	20	22
+	+	20	38
+	+	20	93
+	+	20	0
+	+	20	21
+	+	20	10
+	+	20	21
+	+	20	0
+	+	20	24
+	+	20	23
+	+	20	18
+	+	20	19
+	+	20	46
+	+	20	18
+	+	20	0
+	+	20	47
+	+	20	23
+	+	20	26
+	+	20	0
+	+	20	28
+	+	20	0
+	+	20	16
+	+	20	0
+	+	20	30
+	+	20	0
+	+	20	27
+	+	20	17
+	+	20	0
+	+	19	22
+	+	20	0
+	+	6	14
+	+	7	0
+	+	8	0
+	+	11	15
+	+	11	42
+	+	8	38
+
+> ~/desafio-django/surveys/core/models.py
+	*	1520642622	0
+	"	22	29
+	^	22	30
+	.	22	29
+	+	1	22
+	+	1	0
+	+	1	22
+	+	1	0
+	+	1	49
+	+	1	5
+	+	1	58
+	+	1	0
+	+	1	35
+	+	1	0
+	+	1	18
+	+	1	27
+	+	1	14
+	+	1	0
+	+	1	20
+	+	1	25
+	+	1	8
+	+	1	33
+	+	1	12
+	+	1	0
+	+	4	11
+	+	6	4
+	+	6	49
+	+	5	0
+	+	7	0
+	+	8	30
+	+	6	4
+	+	11	12
+	+	12	31
+	+	12	64
+	+	14	51
+	+	13	0
+	+	14	53
+	+	16	9
+	+	17	8
+	+	20	0
+	+	19	11
+	+	21	17
+	+	22	19
+	+	23	13
+	+	24	13
+	+	24	15
+	+	17	0
+	+	15	0
+	+	16	41
+	+	6	47
+	+	21	0
+	+	21	33
+	+	21	53
+	+	21	64
+	+	22	0
+	+	21	64
+	+	24	0
+	+	27	7
+	+	24	15
+	+	19	26
+	+	22	29
+
+> ~/desafio-django/surveys/core/serializers.py
+	*	1520638737	0
+	"	35	23
+	^	35	24
+	.	35	23
+	+	13	38
+	+	44	15
+	+	29	13
+	+	32	22
+	+	33	38
+	+	14	0
+	+	33	41
+	+	43	14
+	+	44	0
+	+	43	0
+	+	12	21
+	+	39	71
+	+	40	74
+	+	30	77
+	+	34	0
+	+	14	0
+	+	29	4
+	+	40	22
+	+	30	0
+	+	11	0
+	+	10	0
+	+	13	46
+	+	7	32
+	+	5	22
+	+	16	25
+	+	21	7
+	+	22	0
+	+	16	8
+	+	36	12
+	+	35	0
+	+	36	7
+	+	37	0
+	+	35	56
+	+	36	0
+	+	13	0
+	+	16	22
+	+	19	18
+	+	35	23
+
+> ~/desafio/lib/python3.6/site-packages/rest_framework/fields.py
+	*	1520624622	0
+	"	441	48
+
+> ~/desafio-django/surveys/core/templates/resumo2.html
+	*	1520618536	0
+	"	1	0
+
+> core/template/core/index.html
+	*	1520542072	0
+	"	1	0
+
+> ~/marcosblog/rootsite/__Tag_List__
+	*	1520542070	0
+	"	1	0
+	.	3	0
+	+	3	0
+
+> ~/marcosblog/rootsite/core/views.py
+	*	1520541454	0
+	"	4	39
+	^	4	37
+	.	4	37
+	+	4	66
+	+	4	48
+	+	3	0
+	+	4	49
+	+	4	69
+	+	4	48
+	+	4	37
+
+> ~/marcosblog/rootsite/core/urls.py
+	*	1520541448	0
+	"	5	31
+	^	5	32
+	.	5	25
+	+	2	19
+	+	6	0
+	+	3	0
+	+	5	25
+
+> ~/marcosblog/rootsite/rootsite/urls.py
+	*	1520541317	0
+	"	20	26
+	^	17	36
+	.	17	35
+	+	21	0
+	+	20	35
+	+	20	33
+	+	17	27
+	+	20	25
+	+	21	0
+	+	17	35
+
+> ~/marcosblog/rootsite/rootsite/settings.py
+	*	1520541142	0
+	"	34	10
+	^	34	11
+	.	34	10
+	+	109	0
+	+	120	0
+	+	122	0
+	+	28	28
+	+	35	0
+	+	34	10
+
+> ~/winmoney/settings.py
+	*	1520541119	0
+	"	212	0
+
+> ~/winmoney/apps.py
+	*	1520541086	0
+	"	1	0
+
+> ~/marcosblog/rootsite/core/apps.py
+	*	1520541059	0
+	"	4	0
+
+> ~/marcosblog/rootsite/core/template/core/index.html
+	*	1520540843	0
+	"	3	8
+	.	4	0
+	+	4	10
+	+	1	0
+	+	4	0
+	+	3	0
+	+	2	26
+	+	4	0
+
+> ~/marcosblog/rootsite/manage.py
+	*	1520540527	0
+	"	1	0
+
+> ~/marcosblog/rootsite/rootsite/wsgi.py
+	*	1520539908	0
+	"	1	0
