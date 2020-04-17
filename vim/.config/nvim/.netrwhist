@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/home/mesmer/.config/vifm'
+let g:netrw_dirhist_3='/home/mesmer/.config/vifm/colors'
+let g:netrw_dirhist_2='/home/mesmer/.config/vifm'
+let g:netrw_dirhist_1='/home/mesmer/.config/sway'
+let g:netrw_dirhist_0='/home/mesmer/assine-landing/src/components/ErrorPage'
+let g:netrw_dirhist_9='/home/mesmer'
+let g:netrw_dirhist_8='/home/mesmer/tvod-service/src/controller'
+let g:netrw_dirhist_7='/home/mesmer/testttt/node_modules'
+let g:netrw_dirhist_6='/home/mesmer/tvod-service/tests/unit/store'
+let g:netrw_dirhist_5='/home/mesmer/.nvm/versions/node/v8.16.1/lib/node_modules/@telecineplay/tc-monitoring'

@@ -1,3 +1,12 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
-let g:netrw_dirhist_1='/home/mesmer/facul'
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/home/mesmer/telegram-ajuda/camunda-modeler-plugin-resize-tasks-master/client'
+let g:netrw_dirhist_1='/home/mesmer/telegram-ajuda/camunda-modeler-plugin-resize-datastorereference/client'
+let g:netrw_dirhist_0='/home/mesmer/telegram-ajuda/camunda-modeler-plugin-resize-tasks-master'
+let g:netrw_dirhist_9='/home/mesmer/telegram-ajuda/camunda-modeler-plugin-resize-datastorereference'
+let g:netrw_dirhist_8='/home/mesmer/telegram-ajuda/camunda-modeler-plugin-resize-tasks-master'
+let g:netrw_dirhist_7='/home/mesmer/telegram-ajuda/camunda-modeler-plugin-resize-datastorereference'
+let g:netrw_dirhist_6='/home/mesmer/telegram-ajuda/camunda-modeler-plugin-resize-tasks-master'
+let g:netrw_dirhist_5='/home/mesmer/telegram-ajuda/camunda-modeler-plugin-resize-datastorereference'
+let g:netrw_dirhist_4='/home/mesmer/telegram-ajuda'
+let g:netrw_dirhist_3='/home/mesmer/telegram-ajuda/camunda-modeler-plugin-resize-tasks-master'

@@ -1,0 +1,62 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+<F8>	/home/mesmer/.vimrc	/^nmap <F8> :TagbarToggle<CR>$/;"	m	language:Vim
+<LocalLeader>=	/home/mesmer/.vimrc	/^nnoremap <buffer> <silent> <LocalLeader>= :ALEFix<CR>$/;"	m	language:Vim
+add_external_files	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^    def add_external_files(self, files):$/;"	m	language:Python	class:EMRControl
+add_modules_flow	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^    def add_modules_flow(self, modules):$/;"	m	language:Python	class:EMRControl
+add_pre_flow	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^    def add_pre_flow(self):$/;"	m	language:Python	class:EMRControl
+add_python_flow	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^    def add_python_flow(self, s3file, variables):$/;"	m	language:Python	class:EMRControl
+add_step_job	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^    def add_step_job(self, steps, jobId=None):$/;"	m	language:Python	class:EMRControl
+AthenaQuery	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^class AthenaQuery:$/;"	c	language:Python
+AtomicTry	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^def AtomicTry($/;"	f	language:Python
+b:ale_fixers	/home/mesmer/.vimrc	/^let b:ale_fixers = [$/;"	v	language:Vim
+b:ale_linters	/home/mesmer/.vimrc	/^let b:ale_linters = ['flake8','autopep8','mypy','pydocstyle']$/;"	v	language:Vim
+change_sameindex	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^    def change_sameindex(self, re, status, error=False):$/;"	m	language:Python	class:JobController
+create_execution_command	/home/mesmer/emr-artifacts/emr//modulos//pre-modules//bq.py	/^def create_execution_command(self):$/;"	f	language:Python
+create_log	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^    def create_log(self, logname):$/;"	m	language:Python	class:CustomLogger
+create_stream	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^    def create_stream(self, logname, streamname):$/;"	m	language:Python	class:CustomLogger
+CustomLogger	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^class CustomLogger:$/;"	c	language:Python
+DecimalEncoder	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^class DecimalEncoder(json.JSONEncoder):$/;"	c	language:Python
+default	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^    def default(self, o):$/;"	m	language:Python	class:DecimalEncoder
+describe_stream	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^    def describe_stream(self):$/;"	m	language:Python	class:CustomLogger
+EMRControl	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^class EMRControl:$/;"	c	language:Python
+error	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^    def error(self, msg):$/;"	m	language:Python	class:CustomLogger
+fail	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^    def fail(self, msg):$/;"	m	language:Python	class:CustomLogger
+g:ale_fix_on_save	/home/mesmer/.vimrc	/^let g:ale_fix_on_save = 1$/;"	v	language:Vim
+g:tagbar_autoclose	/home/mesmer/.vimrc	/^let g:tagbar_autoclose = 1$/;"	v	language:Vim
+g:tagbar_autofocus	/home/mesmer/.vimrc	/^let g:tagbar_autofocus = 1$/;"	v	language:Vim
+g:tagbar_left	/home/mesmer/.vimrc	/^let g:tagbar_left = 1$/;"	v	language:Vim
+get_jobs	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^    def get_jobs(self, date=datetime.datetime.now().hour, _id=None):$/;"	m	language:Python	class:JobController
+get_job_by_name	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^    def get_job_by_name(self, list_=None):$/;"	m	language:Python	class:EMRControl
+get_last_job	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^    def get_last_job(self, rep):$/;"	m	language:Python	class:JobController
+get_list	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^    def get_list(self, list_=[]):$/;"	m	language:Python	class:EMRControl
+google_big_query	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^    def google_big_query($/;"	m	language:Python	class:EMRControl
+info	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^    def info(self, msg):$/;"	m	language:Python	class:CustomLogger
+JobController	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^class JobController:$/;"	c	language:Python
+job_log	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^    def job_log(self, id_, msg, value):$/;"	m	language:Python	class:JobController
+job_log_starter	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^    def job_log_starter(self, id_):$/;"	m	language:Python	class:JobController
+job_starter	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^    def job_starter(self, re=None):$/;"	m	language:Python	class:JobController
+job_start_dynamo	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^    def job_start_dynamo(self, re):$/;"	m	language:Python	class:JobController
+job_status_changer	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^    def job_status_changer(self, re, error=False):$/;"	m	language:Python	class:JobController
+kargs	/home/mesmer/emr-artifacts/emr//modulos//pre-modules//bq.py	/^kargs = {k: v for k, v in [item.split('=') for item in sys.argv if '=' in item]}$/;"	v	language:Python
+kill_flow	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^    def kill_flow(self, jobId=None):$/;"	m	language:Python	class:EMRControl
+load_partion	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^    def load_partion(self, table):$/;"	m	language:Python	class:AthenaQuery
+log	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^log = CustomLogger()$/;"	v	language:Python
+main	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^def main():$/;"	f	language:Python
+move_files	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^    def move_files(self, source, source_region, output, output_region):$/;"	m	language:Python	class:EMRControl
+new_format	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^    def new_format(self, type_):$/;"	m	language:Python	class:CustomLogger
+now	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^now = datetime.datetime.now()$/;"	v	language:Python
+print_log	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^    def print_log(self, msg):$/;"	m	language:Python	class:CustomLogger
+put_log	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^    def put_log(self, msg):$/;"	m	language:Python	class:CustomLogger
+python_highlight_all	/home/mesmer/.vimrc	/^let python_highlight_all=1$/;"	v	language:Vim
+run_commands	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^    def run_commands(self, commands):$/;"	m	language:Python	class:EMRControl
+run_query	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^    def run_query(self, query):$/;"	m	language:Python	class:AthenaQuery
+set_watchlog	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^    def set_watchlog(self, logname, streamname):$/;"	m	language:Python	class:CustomLogger
+start_job	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^    def start_job(self):$/;"	m	language:Python	class:EMRControl
+update_dynamo	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^    def update_dynamo(self, hour, index):$/;"	m	language:Python	class:EMRControl
+warning	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^    def warning(self, msg):$/;"	m	language:Python	class:CustomLogger
+watchlog_msg	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^    def watchlog_msg(self, type_, msg):$/;"	m	language:Python	class:CustomLogger
+__init__	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^    def __init__($/;"	m	language:Python	class:CustomLogger
+__init__	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^    def __init__(self):$/;"	m	language:Python	class:DecimalEncoder
+__init__	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^    def __init__(self):$/;"	m	language:Python	class:JobController
+__init__	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^    def __init__(self, name, log, type_='m4.large', instancecount=3, keep=False, termination=False):$/;"	m	language:Python	class:EMRControl
+__init__	/home/mesmer/emr-artifacts/emr/scripts/job_controller.py	/^    def __init__(self, region='us-east-2'):$/;"	m	language:Python	class:AthenaQuery
